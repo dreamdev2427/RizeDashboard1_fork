@@ -1614,7 +1614,9 @@ footer {
   color: #fff;
   overflow: hidden;
 }
-
+.right-col.right-col-placing{
+  padding-right: 100px;
+}
 .left-col,
 .right-col {
   width: 45%;
@@ -1677,9 +1679,9 @@ footer {
   border-radius: 8px;
   color: #fff;
   padding: 10px 10px 7px 10px;
-  padding-right: 27px;
+  padding-right: 42px;
   background: transparent;
-  width: 70%;
+  width: 85%;
   margin-right: 15px;
 }
 
@@ -1694,7 +1696,7 @@ footer {
   color: #000;
   cursor: pointer;
   padding: 10px 0px;
-  box-shadow: 0px 0px 20px -7px #2fed00;
+  /* box-shadow: 0px 0px 20px -7px #2fed00; */
 }
 
 .right-col p {
@@ -1785,6 +1787,7 @@ footer {
   .shift-right {
     margin: 0px;
   }
+  
 }
 
 .left-col-options {
@@ -2027,7 +2030,7 @@ textarea#message::placeholder {
   }
 }
 
-.form-control:focus {
+.form-control:focus,  {
   background-color: transparent !important;
   color: white !important;
   border-color: #235e14;
@@ -2176,6 +2179,62 @@ a:hover {
     margin-top: 50px;
   }
 }
+@media only screen and (max-width: 475px) {
+.how-it-works-title{
+  padding-top: 0% !important;
+}
+.blog--service{
+  font-size: 50px !important;
+}
+.wallet-body-stoke-text1 {
+  font-size: 10px !important;
+}
+.wallet-body-stoke-text2.pl-3{
+  font-size: 5px !important;
+}
+.pl-3{
+  padding-left: 0px !important;
+}
+.rize-discount-subheading{
+  font-size: 20px !important;
+}
+p.text-white.rize-p.mb-0{
+  font-size: 10px !important;
+}
+.rize-p {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  /* word-spacing: 1px; */
+  /* line-height: 20px; */
+  /* text-align: justify; */
+}
+#resp{
+  font-size: 7px !important;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .how-it-works-title{
+    padding-top: 0% !important;
+  }
+  .blog--service{
+    font-size: 50px !important;
+  }
+  .wallet-body-stoke-text1 {
+    font-size: 10px !important;
+  }
+  .wallet-body-stoke-text2.pl-3{
+    font-size: 5px !important;
+  }
+  .wallet-body-sub{
+    padding: 4px !important;
+  }
+  .col-md-2.mt-2.mt-md-0.pr-3.pr-sm-0{
+    width:98% !important;
+  }
+  
+  }
+  
 
 
 
@@ -2448,7 +2507,7 @@ a:hover {
 #input2:focus,
 #input3:focus,
 #input4:focus,
-#message:focus {
+#message:focus{
   background: transparent;
   font-family: "rize";
   background-color: #ffffff;
@@ -2468,7 +2527,7 @@ a:hover {
 #input2::placeholder,
 #input3::placeholder,
 #input4::placeholder,
-#message::placeholder {
+#message::placeholder{
   font-family: "rize";
   font-style: normal;
   font-weight: 700;
@@ -2476,6 +2535,15 @@ a:hover {
   line-height: 21px;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+#footer-input-email::placeholder {
+font-family: "rize";
+  color: #fff;
+  padding: 10px 10px 7px 10px;
+  padding-right: 42px;
+  background: transparent;
+  width: 70%;
+  margin-right: 15px;
 }
 
 .msg {
