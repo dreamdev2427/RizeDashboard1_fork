@@ -1678,13 +1678,15 @@ footer {
   border: 1px solid #46ff18;
   border-radius: 8px;
   color: #fff;
-  padding: 10px 10px 7px 10px;
+  /* padding: 10px 10px 7px 10px; */
   padding-right: 42px;
   background: transparent;
   width: 85%;
   margin-right: 15px;
 }
-
+/* .link-click:visited{
+  color: inherit;
+} */
 .right-col button {
   display: flex;
   justify-content: center;

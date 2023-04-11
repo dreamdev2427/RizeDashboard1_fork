@@ -11,7 +11,7 @@ function Voiting() {
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Voiting</h2>
+              <h2 className="text-white">Voting</h2>
             </div>
             <div>
               <div className="rize-tabs-container">
