@@ -1701,6 +1701,9 @@ footer {
   /* box-shadow: 0px 0px 20px -7px #2fed00; */
 }
 
+button.btn.rize-btn-green.v-center.h-center{
+  font-size: 14px !important;
+}
 .right-col p {
   font-size: 14px;
   margin: 0;
