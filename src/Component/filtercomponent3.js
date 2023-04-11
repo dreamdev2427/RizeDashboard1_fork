@@ -13,16 +13,21 @@ function Filter3() {
   const handlePriceMaxChange = (event) => {
     setPriceMax(parseInt(event.target.value));
   };
- 
+
   return (
-    <div  className="rize-nav-item-network">
-      <a className="rize-nav-item rize-imp-link " style={{padding:'0px 15px'}}>Price Range</a>
+    <div className="rize-nav-item-network">
+      <a
+        className="rize-nav-item rize-imp-link "
+        style={{ padding: "0px 15px" }}
+      >
+        Price Range
+      </a>
       <div className="rize-dropdown radio--slider--menu d-flex ">
         <div className="slider-manage">
           <div className="range-slider-name w-100">
             <p
               className="pb-2 pt-2 d-flex pl-3 w-100 "
-              style={{ alignItems: "flex-start" }}
+              style={{ alignItems: "flex-start", marginLeft: 20 }}
             >
               Range
             </p>
@@ -30,7 +35,11 @@ function Filter3() {
           <div className="pb-2 range-slider-name">
             <p
               className="pb-2 pl-3 w-100"
-              style={{ color: "#33ff00", alignItems: "flex-start" }}
+              style={{
+                color: "#33ff00",
+                alignItems: "flex-start",
+                marginLeft: 20,
+              }}
             >
               1000$ - 100000$
             </p>

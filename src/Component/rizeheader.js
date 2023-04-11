@@ -82,14 +82,13 @@ function DashboardHeader() {
               <div className="v-center">
                 <div class="dropdown">
                   <a
-                    style={{ height: 16, 
-                    color:'white' }}
+                    style={{ height: 12, color: "white" }}
                     className="rize-nav-item dropdown-toggle"
                   >
                     Pages
                   </a>
                   <ul class="dropdown-menu">
-                  <li>
+                    <li>
                       <Link className="dropdown-item" to="/roadmap">
                         Roadmap
                       </Link>
@@ -105,7 +104,10 @@ function DashboardHeader() {
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/rize-stake-and-learn">
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                      >
                         Validator
                       </Link>
                     </li>
@@ -140,7 +142,7 @@ function DashboardHeader() {
                 <div className="rize-nav-item-network nets">
                   <a
                     className="rize-nav-item"
-                    style={{ marginRight: 10, height: 16, paddingLeft: 0 }}
+                    style={{ marginRight: 10, height: 12, paddingLeft: 0 }}
                   >
                     Networks
                   </a>
@@ -222,14 +224,11 @@ function DashboardHeader() {
                 </div>
                 <button
                   className="btn rize-btn-green v-center"
-                  style={{ padding: 11, paddingBottom: 7 }}
+                  style={{ padding: 11 }}
                 >
                   <span
                     style={{
                       height: 13,
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
                     }}
                   >
                     Wallet Connect

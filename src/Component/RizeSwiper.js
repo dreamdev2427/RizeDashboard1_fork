@@ -28,45 +28,45 @@ export default function App() {
         loop={true}
       >
         <SwiperSlide>
-        <div className="video-container">
-          <video
-            autoPlay={true}
-            muted={true}
-            loop={true}
-            controls={false}
-            className="w-sm-100 video--border"
-            width="100%"
-          >
-            <source src={video1} type="video/webm" />
-          </video>
+          <div className="video-container video--border">
+            <video
+              autoPlay={true}
+              muted={true}
+              loop={true}
+              controls={false}
+              className="w-sm-100 "
+              width="100%"
+            >
+              <source src={video1} type="video/webm" />
+            </video>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="video-container" >
-          <video
-            autoPlay={true}
-            muted={true}
-            loop={true}
-            controls={false}
-            className="w-sm-100 video--border"
-            width="100%"
-          >
-            <source src={video2} type="video/webm" />
-          </video>
+          <div className="video-container video--border">
+            <video
+              autoPlay={true}
+              muted={true}
+              loop={true}
+              controls={false}
+              className="w-sm-100 "
+              width="100%"
+            >
+              <source src={video2} type="video/webm" />
+            </video>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="video-container">
-          <video
-            autoPlay={true}
-            muted={true}
-            loop={true}
-            controls={false}
-            className="w-sm-100 video--border"
-            width="100%"
-          >
-            <source src={video3} type="video/webm" />
-          </video>
+          <div className="video-container video--border">
+            <video
+              autoPlay={true}
+              muted={true}
+              loop={true}
+              controls={false}
+              className="w-sm-100 "
+              width="100%"
+            >
+              <source src={video3} type="video/webm" />
+            </video>
           </div>
         </SwiperSlide>
       </Swiper>

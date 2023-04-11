@@ -15,7 +15,7 @@ function Service() {
         <div className="container rize-mini-container">
           {/* DISCOVER */}
           <div className="row mb-sm-5 pb-sm-5 pb-3">
-            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-sm-1">
+            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div>
                 <h1>Discover Rare NFTs</h1>
                 <p>
@@ -34,8 +34,10 @@ function Service() {
                 </button>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-sm-2 mb-4 mb-sm-0">
-              <img src={serviceImg} className="w-sm-100" />
+            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
+              <div>
+                <img src={serviceImg} className="w-sm-100" />
+              </div>
             </div>
           </div>
           {/* UTILITY */}
@@ -63,7 +65,7 @@ function Service() {
           </div>
           {/* BRIDGE */}
           <div className="row mb-sm-5 pb-sm-5 pb-3">
-            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-sm-1">
+            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div>
                 <h1>Bridge</h1>
                 <p>
@@ -79,8 +81,12 @@ function Service() {
                 </button>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-sm-2 mb-4 mb-sm-0">
-              <img src={BridgeGif} className="w-sm-100" style={{borderRadius : '20px'}} />
+            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
+              <img
+                src={BridgeGif}
+                className="w-sm-100"
+                style={{ borderRadius: "20px" }}
+              />
             </div>
           </div>
           {/* LLE */}
@@ -110,7 +116,7 @@ function Service() {
           </div>
           {/* Rize Validator */}
           <div className="row">
-            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-sm-1">
+            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div>
                 <h1>Rize Validator Node</h1>
                 <p>
@@ -128,7 +134,7 @@ function Service() {
                 </Link>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-sm-2 mb-4 mb-sm-0">
+            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
               <img src={Rize_Validator_Node} className="w-sm-100" />
             </div>
           </div>

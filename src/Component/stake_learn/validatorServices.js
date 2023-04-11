@@ -7,9 +7,7 @@ function ValidatorServices() {
       <div className="rize-suboverlay-container">
         <div className="container ">
           {/* <div className="container rize-mini-container"> */}
-          <h1 className="services text-white">
-          Rize Is Capable
-          </h1>
+          <h1 className="services text-white">Rize Is Capable</h1>
           <div className="container rize-mini-container">
             {/* DISCOVER */}
             <div className="row">
@@ -27,14 +25,7 @@ function ValidatorServices() {
                       increase rewards.
                     </p>
                   </div>
-                  <div style={{ paddingTop: 10 }}>
-                    <button
-                      style={{ marginBottom: 30, minWidth: 120 }}
-                      className="btn rize-btn-validator-green v-center h-center"
-                    >
-                      <span>Learn More</span>
-                    </button>
-                  </div>
+                  <div style={{ paddingTop: 10 }}></div>
                 </div>
               </div>
               <div className="col-sm-4 rize-blog v-center">
@@ -49,14 +40,7 @@ function ValidatorServices() {
                       news and updates, and learn more about the space.
                     </p>
                   </div>
-                  <div style={{ paddingTop: 10 }}>
-                    <button
-                      style={{ marginBottom: 30, minWidth: 120 }}
-                      className="btn rize-btn-validator-green v-center h-center"
-                    >
-                      <span>Learn More</span>
-                    </button>
-                  </div>
+                  <div style={{ paddingTop: 10 }}></div>
                 </div>
               </div>
               <div className="col-sm-4 rize-blog v-center">
@@ -73,14 +57,7 @@ function ValidatorServices() {
                       double-sign.
                     </p>
                   </div>
-                  <div style={{ paddingTop: 10 }}>
-                    <button
-                      style={{ marginBottom: 30, minWidth: 120 }}
-                      className="btn rize-btn-validator-green v-center h-center"
-                    >
-                      <span>Learn More</span>
-                    </button>
-                  </div>
+                  <div style={{ paddingTop: 10 }}></div>
                 </div>
               </div>
             </div>

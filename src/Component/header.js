@@ -67,8 +67,7 @@ function Header() {
                     style={{ height: 16 }}
                     className="rize-nav-item dropdown-toggle"
                   >
-
-{/*  add utility, add members, , add nft market, */}
+                    {/*  add utility, add members, , add nft market, */}
                     Pages
                   </a>
                   <ul class="dropdown-menu">
@@ -88,7 +87,10 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/rize-stake-and-learn">
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                      >
                         Validator
                       </Link>
                     </li>
@@ -112,7 +114,7 @@ function Header() {
                         Contact Us
                       </Link>
                     </li> */}
-                    
+
                     {/* <li>
                       <Link className="dropdown-item" to="/wallet">
                         Wallet
@@ -127,7 +129,7 @@ function Header() {
                   >
                     Networks
                   </a>
-                  <div className="rize-dropdown" style={{left:'298px'}}>
+                  <div className="rize-dropdown">
                     <div>
                       <div className="d-flex">
                         <div className="v-center rize-dropdown-padding rize-dropdown-item1">
@@ -205,8 +207,7 @@ function Header() {
                 </div>
                 <button
                   className="btn rize-btn-green v-center"
-                  style={{ padding: 11,
-                     paddingBottom:7 }}
+                  style={{ padding: 11, paddingBottom: 7 }}
                 >
                   {/* <img
                     className="rize-icon-sm"
