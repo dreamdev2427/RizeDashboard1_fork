@@ -72,7 +72,7 @@ function Service() {
                   </div>
                   <div className="col-6 p-0 pl-3 mb-7">
                     <div className="wallet-body-sub">
-                      <div className="wallet-body-subtitle pr-3">Fee</div>
+                      <div className="wallet-body-subtitle pr-3">Fees</div>
                       <div className="wallet-body-2subtitle pr-3">50%</div>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ function Service() {
                   <div className="col-12 p-0 pr-3 pl-3 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
-                        Donor Stake Address
+                        Earnwise Stake Address
                       </div>
                       <div className="wallet-body-2subtitle pr-3">
                         42D........Hawaii
@@ -389,30 +389,17 @@ function Service() {
               {/* Rize Validator */}
               <div className="pl-3 pl-sm-0">
                 <div className="d-flex">
-                  <span className="wallet-body-title pr-3 mt-md-0 mt-3">Rize Validator</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <span className="wallet-body-title pr-3 mt-md-0 mt-3">My Tokens</span>
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
-                  <div className="col-12 p-0 pr-3 pl-3 mb-7">
-                    <div className="wallet-body-sub">
-                      <div className="wallet-body-subtitle pr-3">
-                        Operator Address
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        42D........Hawaii
-                      </div>
-                      <img src={Copy} className="copyIcon" />
-                    </div>
+                  <div className="col-12 p-0 pr-3">
+                    <div class="wallet-body-subtitle pr-3 mb-1">Already Staked</div>
+                    <div class="wallet-body-2subtitle pr-3">126,000 CORE</div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3">
-                    <div className="wallet-body-sub">
-                      <div className="wallet-body-subtitle pr-3">
-                        Delegated to Rize
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        405,000 CORE
-                      </div>
-                    </div>
+                </div>
+                <div className="row wallet-body-sub-row m-0 mt-2 py-3">
+                  <div className="col-12 p-0 pr-3">
+                    <div class="wallet-body-2subtitle pr-3">400.000 CORE</div>
                   </div>
                 </div>
                 <div className="wallet-body-mytoken pr-3 text-white">
@@ -448,15 +435,31 @@ function Service() {
                 </div>
               </div>
             </div>
+            {/*Claim reward button*/}
+            <div className="pl-3 pl-sm-0 mt-4">
+              <div className="d-flex">
+                <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 1)</span> </span>
+                <img className="wallet-body-title-pr-3-img" src={Info} />
+              </div>
+              <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
+                <div className="clmrwddiv">
+                  <div className="wallet-body-title pr-3 clmrwd mt-2">
+                    <span>Claim Rewards</span>
+                    <span className="rwd">45.6 CORE</span>
+                  </div>
+                </div>
+                <img class="icon-info" src={Info} />
+              </div>
+            </div>
             {/* Stake */}
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
-                <span className="wallet-body-title pr-3">Claim</span>
+                <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 2)</span> </span>
                 <img className="wallet-body-title-pr-3-img" src={Info} />
               </div>
               <div className="row">
                 <div className="col-8 pr-3">
-                  <div className="wallet-body-sub-row m-0 mt-2 v-center">
+                  <div className="wallet-body-sub-row m-0 mt-2 v-center" style={{ padding: "12px 14px" }}>
                     <div className="wallet-body-stoke-text pr-3">30%</div>{" "}
                     <input
                       type="range"
@@ -467,12 +470,13 @@ function Service() {
                   </div>
                 </div>
                 <div className="col-4 pl-3">
-                  <div className="wallet-body-sub-row m-0 mt-2 v-center">
-                    <div>
+                  <div className="wallet-body-sub-row m-0 mt-2 v-center justify-content-center p-relative">
+                    <img className="icon-info" src={Info} />
+                    <div className="d-flex align-items-center justify-content-center flex-column" >
                       <div id="stktext" className="wallet-body-stoke-text1 pr-3">
                         Claim Restake
                       </div>{" "}
-                      <div className="wallet-body-stoke-text2 pl-3">
+                      <div className="wallet-body-stoke-text2 pl-3 mt-1">
                         Rize Pays Fees
                       </div>
                     </div>
@@ -483,7 +487,7 @@ function Service() {
             {/* Stake */}
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
-                <span className="wallet-body-title pr-3">Claim</span>
+                <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 3)</span> </span>
                 <img className="wallet-body-title-pr-3-img" src={Info} />
               </div>
               <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative">
@@ -491,29 +495,14 @@ function Service() {
                   <div className="wallet-body-stoke-text1 pr-3 rtbtn">
                     Setup Max Auto Restake
                   </div>{" "}
-                  <div className="wallet-body-stoke-text2 pl-3">
+                  <div className="wallet-body-stoke-text2 pl-3 mt-2">
                     Rize Pays Fees Uses Restake App
                   </div>
                 </div>
                 <img class="icon-info" src={Info} />
               </div>
             </div>
-            {/*Claim reward button*/}
-            <div className="pl-3 pl-sm-0 mt-4">
-              <div className="d-flex">
-                <span className="wallet-body-title pr-3">Claim</span>
-                <img className="wallet-body-title-pr-3-img" src={Info} />
-              </div>
-              <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
-                <div className="clmrwddiv">
-                  <div className="wallet-body-title pr-3 clmrwd">
-                    <span>Claim Reward</span>
-                    <span className="rwd">45.6 CORE</span>
-                  </div>
-                </div>
-                <img class="icon-info" src={Info} />
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
