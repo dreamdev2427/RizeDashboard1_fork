@@ -23,7 +23,7 @@ function Discount() {
                   <div className="col-7">
                     <div className="discount-right-blur-container-top-heading-container">
                       <h1 className="text-white">Carbon</h1>
-                      <p className="rize-p text-white mb-0">
+                      <p id="resp" className="rize-p text-white mb-0">
                         1 Edition Mined
                       </p>
                     </div>
