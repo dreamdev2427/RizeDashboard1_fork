@@ -8,17 +8,17 @@ import Drawer from "./rizedrwaer";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Net1 from "../assets/images/img/Networks/net1.png";
-import Net2 from "../assets/images/img/Networks/net2.png";
-import Net3 from "../assets/images/img/Networks/net3.png";
-import Net4 from "../assets/images/img/Networks/net4.png";
-import Net5 from "../assets/images/img/Networks/net5.png";
-import Net6 from "../assets/images/img/Networks/net6.png";
-import Net7 from "../assets/images/img/Networks/net7.png";
-import Net8 from "../assets/images/img/Networks/net8.png";
-import Net9 from "../assets/images/img/Networks/net9.png";
-import Net10 from "../assets/images/img/Networks/net10.png";
-import Net11 from "../assets/images/img/Networks/net11.png";
+import Net1 from "../assets/images/img/Networks/net1.svg";
+import Net2 from "../assets/images/img/Networks/net2.svg";
+import Net3 from "../assets/images/img/Networks/net3.svg";
+import Net4 from "../assets/images/img/Networks/net4.svg";
+import Net5 from "../assets/images/img/Networks/net5.svg";
+import Net6 from "../assets/images/img/Networks/net6.svg";
+import Net7 from "../assets/images/img/Networks/net7.svg";
+import Net8 from "../assets/images/img/Networks/net8.svg";
+import Net9 from "../assets/images/img/Networks/net9.svg";
+import Net10 from "../assets/images/img/Networks/net10.svg";
+import Net11 from "../assets/images/img/Networks/net11.svg";
 import Filter from "./filter";
 
 function Header() {
@@ -78,21 +78,6 @@ function Header() {
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item" to="/roadmap">
-                        Roadmap
-                      </Link>
-                    </li>
-                    {/* <li>
-                      <Link className="dropdown-item" to="/escrow">
-                        Escrow
-                      </Link>
-                    </li> */}
-                    <li>
-                      <Link className="dropdown-item" to="/blog">
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
                       <Link
                         className="dropdown-item"
                         to="/escrow"
@@ -101,7 +86,10 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/rize-stake-and-learn">
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                      >
                         Earnwise
                       </Link>
                     </li>
@@ -113,6 +101,22 @@ function Header() {
                     <li>
                       <Link className="dropdown-item" to="/">
                         Members
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        NFT Market
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/roadmap">
+                        Roadmap
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link className="dropdown-item" to="/blog">
+                        Blog
                       </Link>
                     </li>
                     {/* <li>
