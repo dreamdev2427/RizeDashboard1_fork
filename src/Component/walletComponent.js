@@ -61,7 +61,7 @@ function Service() {
               <div className="col-md-6 pl-3 pl-sm-0">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Coreum Stats</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
                   <div className="col-6 p-0 mb-7">
@@ -100,7 +100,7 @@ function Service() {
               <div className="col-md-6 pl-3 pl-sm-0">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3 mt-4 mt-md-0">Rize Validator</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
                   <div className="col-12 p-0 mb-7">
@@ -130,7 +130,7 @@ function Service() {
               <div className="col-md-6 pl-3 pl-sm-0 mt-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Rize Donorship</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
                   <div className="col-12 p-0 mb-7">
@@ -181,7 +181,7 @@ function Service() {
               <div className="col-md-6 pl-3 pl-sm-0 mt-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Rize Earnwise</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
                   <div className="col-12 p-0 mb-7">
@@ -232,7 +232,7 @@ function Service() {
               <div className="col-md-6 pl-3 pl-sm-0 mt-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Rize Escrow</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2 escrow">
                   <div className="col-6 p-0 pl-1 pr-2 mb-7">
@@ -305,7 +305,7 @@ function Service() {
               <div className="col-md-6 pl-3 pl-sm-0 mt-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Rize Drip</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2 escrow">
                   <div className="col-sm-6 col-12 p-0 pr-2 pl-1 mb-7">
@@ -410,7 +410,7 @@ function Service() {
               <div className="pl-3 pl-sm-0 mt-4">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Stake</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <img className="wallet-body-title-pr-3-img with-label" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row1 m-0 mt-2">
                   <div className="col-12 p-0 pr-3 pl-3 mb-7">
@@ -439,7 +439,7 @@ function Service() {
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
                 <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 1)</span> </span>
-                <img className="wallet-body-title-pr-3-img" src={Info} />
+                <img className="wallet-body-title-pr-3-img with-label" src={Info} />
               </div>
               <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
                 <div className="clmrwddiv">
@@ -455,7 +455,7 @@ function Service() {
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
                 <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 2)</span> </span>
-                <img className="wallet-body-title-pr-3-img" src={Info} />
+                <img className="wallet-body-title-pr-3-img with-label" src={Info} />
               </div>
               <div className="row">
                 <div className="col-8 pr-3">
@@ -488,7 +488,7 @@ function Service() {
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
                 <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 3)</span> </span>
-                <img className="wallet-body-title-pr-3-img" src={Info} />
+                <img className="wallet-body-title-pr-3-img with-label" src={Info} />
               </div>
               <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative">
                 <div className="">
