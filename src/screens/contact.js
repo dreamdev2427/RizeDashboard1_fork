@@ -113,7 +113,7 @@ export default function ContactUs() {
                       style={{ minWidth: 120 }}
                       className="btn rize-btn-validator-green--submit v-center h-center"
                     >
-                      Submit
+                      <span style={{ height: 16 }}> Submit</span>
                     </button>
                   </div>
                 </form>

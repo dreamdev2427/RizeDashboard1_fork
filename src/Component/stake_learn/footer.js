@@ -48,7 +48,7 @@ export default function Footer () {
             </div>
            
           </div>
-          <div class="right-col right-col-placing">
+          <div class="right-col right-col-placing pr-0">
             <h2 class="right-col-newslatter-text"><a className="link-click" href="#">Join our  newsletter</a></h2>
             <div class="row right-col-row-css ">
               <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
