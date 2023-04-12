@@ -1439,6 +1439,10 @@ h1.rize-discount {
 
 }
 
+.rize-table tbody td {
+  background-color: #252725;
+}
+
 @media only screen and (max-width : 768px) {
   .rize-table tbody td span {
 
@@ -1768,6 +1772,10 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.side--drawer-option a {
+  color: #fff !important;
 }
 
 .tag {

@@ -30,7 +30,6 @@ export default function Footer() {
               </div>
             </ul>
           </div>
-
           <div class="row">
             <div class="footer_social_link">
               <img class="footer_icon" src={footerImg1} />
@@ -42,11 +41,13 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="right-col right-col-placing">
+        <div class="right-col right-col-placing align-items-stretch" style={{ maxWidth: 400 }}>
           <h2 class="right-col-newslatter-text">Join our newsletter</h2>
           <div class="row right-col-row-css ">
-            <input type="email" placeholder="Enter Your Email" />
-            <button>Send</button>
+            <div className="col-12 d-flex align-items-center" >
+              <input type="email" placeholder="Enter Your Email" />
+              <button>Send</button>
+            </div>
           </div>
         </div>
       </div>
