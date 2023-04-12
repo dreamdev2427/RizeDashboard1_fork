@@ -95,23 +95,23 @@ function Header() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/rize-stake-and-learn"
+                        to="/escrow"
                       >
                         Validator
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/earnwise">
+                      <Link className="dropdown-item" to="/rize-stake-and-learn">
                         Earnwise
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/utility">
+                      <Link className="dropdown-item" to="/">
                         Utility
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/members">
+                      <Link className="dropdown-item" to="/">
                         Members
                       </Link>
                     </li>
