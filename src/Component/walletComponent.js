@@ -64,19 +64,19 @@ function Service() {
                   <img className="wallet-body-title-pr-3-img" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
-                  <div className="col-6 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">ARP</div>
                       <div className="wallet-body-2subtitle pr-3">30%</div>
                     </div>
                   </div>
-                  <div className="col-6 p-0 pl-3 mb-7">
+                  <div className="col-6 p-0 pl-2 mb-7">
                     <div className="wallet-body-sub">
-                      <div className="wallet-body-subtitle pr-3">Fee</div>
+                      <div className="wallet-body-subtitle pr-3">Fees</div>
                       <div className="wallet-body-2subtitle pr-3">50%</div>
                     </div>
                   </div>
-                  <div className="col-6 p-0 pr-3">
+                  <div className="col-6 p-0">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Unbond Period
@@ -84,7 +84,7 @@ function Service() {
                       <div className="wallet-body-2subtitle pr-3">7 days</div>
                     </div>
                   </div>
-                  <div className="col-6 p-0 pl-3">
+                  <div className="col-6 p-0 pl-2">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Payout Frequency
@@ -103,7 +103,7 @@ function Service() {
                   <img className="wallet-body-title-pr-3-img" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
-                  <div className="col-12 p-0 pr-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Operator Address
@@ -114,7 +114,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3">
+                  <div className="col-12 p-0">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Delegated to Rize
@@ -133,7 +133,7 @@ function Service() {
                   <img className="wallet-body-title-pr-3-img" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
-                  <div className="col-12 p-0 pr-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Donor Stake Address
@@ -144,7 +144,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Fees from Rize Ecosystem
@@ -154,7 +154,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Distribution Wallet Address
@@ -165,7 +165,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3">
+                  <div className="col-12 p-0">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Total Distributed Rewards
@@ -184,10 +184,10 @@ function Service() {
                   <img className="wallet-body-title-pr-3-img" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
-                  <div className="col-12 p-0 pr-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
-                        Donor Stake Address
+                        Earnwise Stake Address
                       </div>
                       <div className="wallet-body-2subtitle pr-3">
                         42D........Hawaii
@@ -195,7 +195,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Fees from Rize Ecosystem
@@ -205,7 +205,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3 mb-7">
+                  <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Distribution Wallet Address
@@ -216,7 +216,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3">
+                  <div className="col-12 p-0">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Total Distributed Rewards
@@ -235,7 +235,7 @@ function Service() {
                   <img className="wallet-body-title-pr-3-img" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2 escrow">
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 pl-1 pr-2 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Escrow Address
@@ -246,7 +246,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 pr-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Bridge Fees
@@ -254,7 +254,7 @@ function Service() {
                       <div className="wallet-body-2subtitle pr-3">5000 USD</div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 pl-1 pr-2 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Rize Purchased
@@ -262,7 +262,7 @@ function Service() {
                       <div className="wallet-body-2subtitle pr-3">5000 USD</div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 pr-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Market Sales
@@ -272,7 +272,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 pl-1 pr-2 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Compounded
@@ -288,7 +288,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-6 p-0 pr-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">Total</div>
                       <div className="wallet-body-2subtitle pr-3">
@@ -308,7 +308,7 @@ function Service() {
                   <img className="wallet-body-title-pr-3-img" src={Info} />
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2 escrow">
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-2 pl-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Drip Stake Address
@@ -319,7 +319,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Drip Payout Address
@@ -330,7 +330,7 @@ function Service() {
                       <img src={Copy} className="copyIcon" />
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-2 pl-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Validator Fees
@@ -340,7 +340,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Percent of Fees Dipped
@@ -348,7 +348,7 @@ function Service() {
                       <div className="wallet-body-2subtitle pr-3">10%</div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-2 pl-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Compounded
@@ -364,7 +364,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-3 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Total Dripped
@@ -389,30 +389,17 @@ function Service() {
               {/* Rize Validator */}
               <div className="pl-3 pl-sm-0">
                 <div className="d-flex">
-                  <span className="wallet-body-title pr-3 mt-md-0 mt-3">Rize Validator</span>
-                  <img className="wallet-body-title-pr-3-img" src={Info} />
+                  <span className="wallet-body-title pr-3 mt-md-0 mt-3">My Tokens</span>
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
-                  <div className="col-12 p-0 pr-3 pl-3 mb-7">
-                    <div className="wallet-body-sub">
-                      <div className="wallet-body-subtitle pr-3">
-                        Operator Address
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        42D........Hawaii
-                      </div>
-                      <img src={Copy} className="copyIcon" />
-                    </div>
+                  <div className="col-12 p-0 pr-3">
+                    <div class="wallet-body-subtitle pr-3 mb-1">Already Staked</div>
+                    <div class="wallet-body-2subtitle pr-3">126,000 CORE</div>
                   </div>
-                  <div className="col-12 p-0 pl-3 pl-3">
-                    <div className="wallet-body-sub">
-                      <div className="wallet-body-subtitle pr-3">
-                        Delegated to Rize
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        405,000 CORE
-                      </div>
-                    </div>
+                </div>
+                <div className="row wallet-body-sub-row m-0 mt-2 py-3">
+                  <div className="col-12 p-0 pr-3">
+                    <div class="wallet-body-2subtitle pr-3">400.000 CORE</div>
                   </div>
                 </div>
                 <div className="wallet-body-mytoken pr-3 text-white">
@@ -448,15 +435,31 @@ function Service() {
                 </div>
               </div>
             </div>
+            {/*Claim reward button*/}
+            <div className="pl-3 pl-sm-0 mt-4">
+              <div className="d-flex">
+                <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 1)</span> </span>
+                <img className="wallet-body-title-pr-3-img" src={Info} />
+              </div>
+              <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
+                <div className="clmrwddiv">
+                  <div className="wallet-body-title pr-3 clmrwd mt-2">
+                    <span>Claim Rewards</span>
+                    <span className="rwd">45.6 CORE</span>
+                  </div>
+                </div>
+                <img class="icon-info" src={Info} />
+              </div>
+            </div>
             {/* Stake */}
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
-                <span className="wallet-body-title pr-3">Claim</span>
+                <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 2)</span> </span>
                 <img className="wallet-body-title-pr-3-img" src={Info} />
               </div>
               <div className="row">
                 <div className="col-8 pr-3">
-                  <div className="wallet-body-sub-row m-0 mt-2 v-center">
+                  <div className="wallet-body-sub-row m-0 mt-2 v-center" style={{ padding: "12px 14px" }}>
                     <div className="wallet-body-stoke-text pr-3">30%</div>{" "}
                     <input
                       type="range"
@@ -467,12 +470,13 @@ function Service() {
                   </div>
                 </div>
                 <div className="col-4 pl-3">
-                  <div className="wallet-body-sub-row m-0 mt-2 v-center">
-                    <div>
+                  <div className="wallet-body-sub-row m-0 mt-2 v-center justify-content-center p-relative">
+                    <img className="icon-info" src={Info} />
+                    <div className="d-flex align-items-center justify-content-center flex-column" >
                       <div id="stktext" className="wallet-body-stoke-text1 pr-3">
                         Claim Restake
                       </div>{" "}
-                      <div className="wallet-body-stoke-text2 pl-3">
+                      <div className="wallet-body-stoke-text2 pl-3 mt-1">
                         Rize Pays Fees
                       </div>
                     </div>
@@ -483,7 +487,7 @@ function Service() {
             {/* Stake */}
             <div className="pl-3 pl-sm-0 mt-4">
               <div className="d-flex">
-                <span className="wallet-body-title pr-3">Claim</span>
+                <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 3)</span> </span>
                 <img className="wallet-body-title-pr-3-img" src={Info} />
               </div>
               <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative">
@@ -491,29 +495,14 @@ function Service() {
                   <div className="wallet-body-stoke-text1 pr-3 rtbtn">
                     Setup Max Auto Restake
                   </div>{" "}
-                  <div className="wallet-body-stoke-text2 pl-3">
+                  <div className="wallet-body-stoke-text2 pl-3 mt-2">
                     Rize Pays Fees Uses Restake App
                   </div>
                 </div>
                 <img class="icon-info" src={Info} />
               </div>
             </div>
-            {/*Claim reward button*/}
-            <div className="pl-3 pl-sm-0 mt-4">
-              <div className="d-flex">
-                <span className="wallet-body-title pr-3">Claim</span>
-                <img className="wallet-body-title-pr-3-img" src={Info} />
-              </div>
-              <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
-                <div className="clmrwddiv">
-                  <div className="wallet-body-title pr-3 clmrwd">
-                    <span>Claim Reward</span>
-                    <span className="rwd">45.6 CORE</span>
-                  </div>
-                </div>
-                <img class="icon-info" src={Info} />
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

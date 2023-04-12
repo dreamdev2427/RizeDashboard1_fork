@@ -25,12 +25,12 @@ export default function Footer () {
             <div class="row" style={{marginLeft :'-5px'}}>
               <ul>
                 <div>
-                  <li>Dashboard</li>
-                  <li>Swap</li>
+                <li><a className="link-click" href="#">Dashboard</a></li>
+                  <li><a className="link-click" href="#">Swap</a></li>
                
-                  <li>Member</li>
-                  <li>LLE</li>
-                  <li>Bridge</li>
+                  <li><a className="link-click" href="#">Member</a></li>
+                  <li><a className="link-click" href="#">LLE</a></li>
+                  <li><a className="link-click" href="#">Bridge</a></li>
                 </div>
                 
               </ul>
@@ -38,20 +38,20 @@ export default function Footer () {
           
             <div class="row">
               <div class="footer_social_link">
-                      <img class="footer_icon" src={footerImg1}/>
-                      <img class="footer_icon" src={footerImg2}/>
-                      <img class="footer_icon"src= {footerImg3}/>
-                      <img class="footer_icon"src= {footerImg4}/>
-                      <img class="footer_icon"src= {footerImg5}/>
-                      <img class="footer_icon"src= {footerImg6}/>
+                      <a className="link-click" href="#"><img class="footer_icon" src={footerImg1}/></a>
+                      <a className="link-click" href="#"><img class="footer_icon" src={footerImg2}/></a>
+                      <a className="link-click" href="#"><img class="footer_icon"src= {footerImg3}/></a>
+                      <a className="link-click" href="#"><img class="footer_icon"src= {footerImg4}/></a>
+                      <a className="link-click" href="#"><img class="footer_icon"src= {footerImg5}/></a>
+                      <a className="link-click" href="#"><img class="footer_icon"src= {footerImg6}/></a>
               </div>    
             </div>
            
           </div>
           <div class="right-col right-col-placing">
-            <h2 class="right-col-newslatter-text">Join our  newsletter</h2>
+            <h2 class="right-col-newslatter-text"><a className="link-click" href="#">Join our  newsletter</a></h2>
             <div class="row right-col-row-css ">
-              <input type="email" placeholder="Enter Your Email" />
+              <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
               <button >Send</button>
             </div>
           
@@ -65,8 +65,9 @@ export default function Footer () {
           </div>
           <div class="row  ">
             <div class="footer--bottom-links">
-              <a  href="#">Terms</a> 
-               <a href="#">Privacy Policy</a></div>
+              <a className="link-click"  href="#">Terms</a> 
+               <a className="link-click" href="#">Privacy Policy</a>
+            </div>
           </div>
         </div>
 
