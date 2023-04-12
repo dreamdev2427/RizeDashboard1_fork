@@ -141,6 +141,8 @@ header.container.rize-header .row div {
 
 div.rize-header-filter {
   padding-left: 10px;
+  height: 33px;
+  cursor: pointer;
 }
 
 div.rize-header-filter img {
@@ -3058,6 +3060,7 @@ input[type="radio"]:hover {
   padding-left: 7px;
   max-width: 80px;
   font-size: 12px;
+  color: white;
 }
 
 .range--slider--button {
@@ -3315,4 +3318,7 @@ div.wallet-body-stoke-text {
   position: relative;
   top: -9px;
   right: 0px;
+}
+input:focus-visible {
+  outline-color: #30ed01;
 }

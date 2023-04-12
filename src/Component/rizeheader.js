@@ -139,7 +139,10 @@ function DashboardHeader() {
                   </ul>
                 </div>
 
-                <div className="rize-nav-item-network nets">
+                <div
+                  className="rize-nav-item-network nets"
+                  style={{ height: 60 }}
+                >
                   <a
                     className="rize-nav-item"
                     style={{ marginRight: 10, height: 12, paddingLeft: 0 }}
@@ -222,18 +225,20 @@ function DashboardHeader() {
                     </div>
                   </div>
                 </div>
-                <button
-                  className="btn rize-btn-green v-center"
-                  style={{ padding: 11 }}
-                >
-                  <span
-                    style={{
-                      height: 13,
-                    }}
+                <Link to="/wallet">
+                  <button
+                    className="btn rize-btn-green v-center"
+                    style={{ padding: 11 }}
                   >
-                    Wallet Connect
-                  </span>
-                </button>
+                    <span
+                      style={{
+                        height: 13,
+                      }}
+                    >
+                      Wallet Connect
+                    </span>
+                  </button>
+                </Link>
                 <div className="rize-header-divider" />
                 <img className="rize-header-prifile" src={profileICon} />
                 <img className="rize-icon-sm" src={add_to_cartIcon} />

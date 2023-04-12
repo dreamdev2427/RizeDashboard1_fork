@@ -1,16 +1,21 @@
 import MultiRangeSlider from "./multirangeslider";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import RangeSlider from "react-bootstrap-range-slider";
 import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css";
 
 function Filter3() {
   const [priceMin, setPriceMin] = useState(1000);
   const [priceMax, setPriceMax] = useState(10000);
+  const [inputFlab, setinputFlag] = useState(false);
+
   const handlePriceMinChange = (event) => {
+    console.warn(parseInt(event.target.value));
+    setinputFlag(true);
     setPriceMin(parseInt(event.target.value));
   };
 
   const handlePriceMaxChange = (event) => {
+    setinputFlag(true);
     setPriceMax(parseInt(event.target.value));
   };
 
@@ -41,28 +46,41 @@ function Filter3() {
                 marginLeft: 20,
               }}
             >
-              1000$ - 100000$
+              {`${priceMin ? priceMin.toLocaleString() : 0}$ - ${
+                priceMax ? priceMax.toLocaleString() : 0
+              }$`}
             </p>
 
             <MultiRangeSlider
               min={1000}
               max={100000}
-              onChange={({ min, max }) =>
-                console.log(`min = ${min}, max = ${max}`)
-              }
+              onChange={({ min, max }) => {
+                if (!inputFlab) {
+                  setPriceMin(min);
+                  setPriceMax(max);
+                  console.log(`min = ${min}, max = ${max}`);
+                }
+              }}
             />
 
             <div className="range--slider--input pt-4">
               <input
+                onBlur={() => {
+                  setinputFlag(false);
+                }}
+                min={1000}
+                max={100000}
                 type="text"
                 name="price-min"
-                onChange={handlePriceMinChange}
+                onChange={(e) => handlePriceMinChange(e)}
                 placeholder="Min Price"
               />
               <input
+                min={1000}
+                max={100000}
                 type="text"
                 name="price-max"
-                onChange={handlePriceMaxChange}
+                onChange={(e) => handlePriceMaxChange(e)}
                 placeholder="Max Price"
               />
             </div>
@@ -79,13 +97,13 @@ function Filter3() {
               }}
               className="btn rize-btn-netowrk-green v-center h-center "
             >
-              Cancel
+              <span style={{ height: 14 }}>Cancel</span>
             </button>
             <button
               style={{ marginBottom: 15, minWidth: 80 }}
               className="btn rize-btn-netowrk-green v-center h-center "
             >
-              Apply
+              <span style={{ height: 14 }}>Apply</span>
             </button>
           </div>
         </div>
