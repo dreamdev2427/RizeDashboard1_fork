@@ -30,7 +30,7 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Marketplace
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -58,7 +58,7 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -77,7 +77,7 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -108,7 +108,7 @@ function Service() {
                     style={{ marginBottom: 30, minWidth: 120 }}
                     className="btn rize-btn-netowrk-green v-center h-center"
                   >
-                    Learn more
+                    <span style={{ height: 17 }}>Learn more</span>
                   </button>
                 </Link>
               </div>
@@ -129,7 +129,7 @@ function Service() {
                     style={{ marginBottom: 30, minWidth: 120 }}
                     className="btn rize-btn-netowrk-green v-center h-center"
                   >
-                    Learn more
+                    <span style={{ height: 17 }}>Learn more</span>
                   </button>
                 </Link>
               </div>

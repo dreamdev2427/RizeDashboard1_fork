@@ -2076,6 +2076,7 @@ button.btn.rize-btn-green.v-center.h-center {
   left: -18px !important;
   min-width: 100px;
   text-align: center;
+  overflow: hidden;
   /* box-shadow: inset 0px 0px 15px -7px #30ed01; */
 }
 
@@ -3512,4 +3513,13 @@ input:focus-visible {
   .table-responsive > .table {
     background-color: unset !important;
   }
+}
+.footer--menu ul li a.link-click {
+  color: white;
+}
+a {
+  color: white !important;
+}
+.dropdown-menu li a.dropdown-item {
+  padding-top: 7px;
 }

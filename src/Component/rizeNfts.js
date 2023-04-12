@@ -29,7 +29,7 @@ function Nft() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
