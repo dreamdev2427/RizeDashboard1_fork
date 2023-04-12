@@ -35,7 +35,7 @@ function Service() {
               </div>
             </div>
             <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
-              <div>
+              <div className="f-end">
                 <img src={serviceImg} className="w-sm-100" />
               </div>
             </div>
