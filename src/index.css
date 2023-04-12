@@ -3294,3 +3294,7 @@ div.wallet-body-stoke-text {
 input:focus-visible {
   outline-color: #30ed01;
 }
+
+.bold-green {
+  color: #30ed01;
+}

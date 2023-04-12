@@ -18,7 +18,7 @@ function Service() {
         {/* RIZE WALLET TITLE CONTAINER */}
         <div className="row rize-wallet-title-container">
           <div className="col-md-4 v-center pl-3 pl-sm-0">
-            <h2 className="rize-wallet-title mb-0">Select a wallet</h2>
+            <h2 className="rize-wallet-title mb-0 m-0">Select a wallet</h2>
           </div>
           <div className="col-md-2 mt-2 mt-md-0">
             <button
@@ -58,7 +58,7 @@ function Service() {
           <div className="col-md-8">
             <div className="row">
               {/* Coreum Stats */}
-              <div className="col-md-6 pl-3 pl-sm-0">
+              <div className="col-md-6 pl-3 pl-sm-0 mb-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Coreum Stats</span>
                   <img className="wallet-body-title-pr-3-img with-label" src={Info} />
@@ -127,7 +127,7 @@ function Service() {
                 </div>
               </div>
               {/* Rize Donorship */}
-              <div className="col-md-6 pl-3 pl-sm-0 mt-3">
+              <div className="col-md-6 pl-3 pl-sm-0 mt-3 mb-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Rize Donorship</span>
                   <img className="wallet-body-title-pr-3-img with-label" src={Info} />
@@ -403,7 +403,7 @@ function Service() {
                   </div>
                 </div>
                 <div className="wallet-body-mytoken pr-3 text-white">
-                  Lock more Tokens to increase your yield
+                  <b className="bold-green" >Lock more Tokens</b> to increase your yield
                 </div>
               </div>
               {/* Stake */}
@@ -435,7 +435,7 @@ function Service() {
               </div>
             </div>
             {/*Claim reward button*/}
-            <div className="pl-3 pl-sm-0 mt-4">
+            <div className="pl-3 pl-sm-0 mt-3">
               <div className="d-flex">
                 <span className="wallet-body-title pr-3">Claim <span className="color-dark" >(Option 1)</span> </span>
                 <img className="wallet-body-title-pr-3-img with-label" src={Info} />
