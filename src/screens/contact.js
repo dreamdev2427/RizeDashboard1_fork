@@ -109,6 +109,7 @@ export default function ContactUs() {
                     }}
                   >
                     <button
+                      type="button"
                       style={{ minWidth: 120 }}
                       className="btn rize-btn-validator-green--submit v-center h-center"
                     >

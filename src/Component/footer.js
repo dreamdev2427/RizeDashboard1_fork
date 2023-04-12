@@ -20,33 +20,72 @@ export default function Footer() {
           </div>
           <div class="row" style={{ marginLeft: "-5px" }}>
             <ul>
-            <div>
-                <li><a className="link-click" href="#">Dashboard</a></li>
-                  <li><a className="link-click" href="#">Swap</a></li>
-               
-                  <li><a className="link-click" href="#">Member</a></li>
-                  <li><a className="link-click" href="#">LLE</a></li>
-                  <li><a className="link-click" href="#">Bridge</a></li>
-                </div>
+              <div>
+                <li>
+                  <a className="link-click" href="#">
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a className="link-click" href="#">
+                    Swap
+                  </a>
+                </li>
+
+                <li>
+                  <a className="link-click" href="#">
+                    Member
+                  </a>
+                </li>
+                <li>
+                  <a className="link-click" href="#">
+                    LLE
+                  </a>
+                </li>
+                <li>
+                  <a className="link-click" href="#">
+                    Bridge
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
-
           <div class="row">
             <div class="footer_social_link">
-            <a href="#"><img class="footer_icon" src={footerImg1}/></a>
-                      <a href="#"><img class="footer_icon" src={footerImg2}/></a>
-                      <a href="#"><img class="footer_icon"src= {footerImg3}/></a>
-                      <a href="#"><img class="footer_icon"src= {footerImg4}/></a>
-                      <a href="#"><img class="footer_icon"src= {footerImg5}/></a>
-                      <a href="#"><img class="footer_icon"src= {footerImg6}/></a>
+              <a href="#">
+                <img class="footer_icon" src={footerImg1} />
+              </a>
+              <a href="#">
+                <img class="footer_icon" src={footerImg2} />
+              </a>
+              <a href="#">
+                <img class="footer_icon" src={footerImg3} />
+              </a>
+              <a href="#">
+                <img class="footer_icon" src={footerImg4} />
+              </a>
+              <a href="#">
+                <img class="footer_icon" src={footerImg5} />
+              </a>
+              <a href="#">
+                <img class="footer_icon" src={footerImg6} />
+              </a>
             </div>
           </div>
         </div>
-        <div class="right-col right-col-placing">
+        <div
+          class="right-col right-col-placing align-items-stretch"
+          style={{ maxWidth: 400 }}
+        >
           <h2 class="right-col-newslatter-text">Join our newsletter</h2>
           <div class="row right-col-row-css ">
-          <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
-            <button>Send</button>
+            {/* <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
+            <button>Send</button> */}
+
+            <div className="col-12 d-flex align-items-center">
+              <input type="email" placeholder="Enter Your Email" />
+              <button>Send</button>
+            </div>
           </div>
         </div>
       </div>
