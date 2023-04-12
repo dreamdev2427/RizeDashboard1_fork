@@ -1,9 +1,7 @@
 function Filter2() {
   return (
     <div  className="rize-nav-item-network"
-    style={{
-      height: "unset",
-    }}>
+    >
       <a className="rize-nav-item rize-imp-link " style={{padding:'0px 15px'}}>Newest</a>
       <div className="rize-dropdown radio-menu-2nd d-flex ">
         <div className="form-group options-dropdown v-center">
