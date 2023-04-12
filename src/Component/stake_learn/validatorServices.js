@@ -16,7 +16,7 @@ function ValidatorServices() {
                   <div>
                     <img src={validator1} width="100%" className="mb-4" />
                     <h1>Decentralized</h1>
-                    <p>
+                    <p className="text-justify">
                       Rize employs a decentralized approach to its operations,
                       utilizing a combination of hardware and cloud providers
                       located across various regions globally. This approach
@@ -34,7 +34,7 @@ function ValidatorServices() {
                   <div>
                     <img src={validator2} width="100%" className="mb-4" />
                     <h1>Support</h1>
-                    <p>
+                    <p className="text-justify">
                       At our platform. we prioritize availability and
                       accessibility for our users. Our services are designed to
                       be available 24/7, with a dedicated team of professionals
@@ -50,7 +50,7 @@ function ValidatorServices() {
                   <div>
                     <img src={validator3} width="100%" className="mb-4" />
                     <h1>Security</h1>
-                    <p>
+                    <p className="text-justify">
                       Our team of experienced engineers has built a platform
                       that utilizes a trustless model. with multiple layers of
                       security and monitoring processes to ensure the safety of
