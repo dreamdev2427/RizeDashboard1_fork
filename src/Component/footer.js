@@ -19,7 +19,7 @@ export default function Footer() {
             </span>
           </div>
           <div class="row" style={{ marginLeft: "-5px" }}>
-            <ul>
+            <ul >
               <div>
                 <li>
                   <a className="link-click" href="#">
@@ -74,7 +74,7 @@ export default function Footer() {
           </div>
         </div>
         <div
-          class="right-col right-col-placing align-items-stretch"
+          class="right-col right-col-placing pr-0 align-items-stretch"
           style={{ maxWidth: 400 }}
         >
           <h2 class="right-col-newslatter-text">Join our newsletter</h2>
@@ -82,7 +82,7 @@ export default function Footer() {
             {/* <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
             <button>Send</button> */}
 
-            <div className="col-12 d-flex align-items-center">
+            <div className="col-12 d-flex align-items-center pr-0">
               <input type="email" placeholder="Enter Your Email" />
               <button className="btn rize-btn-green" >Send</button>
             </div>
