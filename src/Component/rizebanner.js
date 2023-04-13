@@ -435,7 +435,7 @@ function RizeBanner(props) {
                 }}
                 className="btn rize-btn-green v-center h-center"
               >
-                <span style={{ height: 22 }}>Explore</span>
+                <span style={{ height: 18 }}>Explore</span>
               </button>
             </div>
           </div>

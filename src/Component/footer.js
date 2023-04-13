@@ -84,7 +84,7 @@ export default function Footer() {
 
             <div className="col-12 d-flex align-items-center pr-0">
               <input type="email" placeholder="Enter Your Email" />
-              <button className="btn rize-btn-green" >Send</button>
+              <button className="btn rize-btn-green" ><span style={{height:13}}>Send</span></button>
             </div>
           </div>
         </div>
