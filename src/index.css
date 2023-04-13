@@ -2055,13 +2055,22 @@ textarea#message::placeholder {
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 460px) {
   .contactus--css {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     padding-left: 15px;
+  }
+  .wallet-body-subtitle.pr-3{
+    font-size: 7px;
+  }
+  .wallet-body-2subtitle.pr-3{
+    font-size: 10px;
+  }
+  .wallet-body-sub{
+    padding-left: 7px !important;
   }
 }
 
@@ -3142,7 +3151,7 @@ span.wallet-body-title {
 
 .wallet-body-sub {
   background: #2f342f;
-  padding: 7px;
+  padding: 7px ;
   border-radius: 4px;
   position: relative;
 }
