@@ -30,7 +30,7 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  <span style={{ height: 17 }}>Learn more</span>
+                  <span style={{ height: 17 }}>Marketplace</span>
                 </button>
               </div>
             </div>

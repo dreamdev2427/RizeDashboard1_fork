@@ -404,12 +404,12 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 bl-d-g pl-0 pl-sm-2">
+          <div className="col-md-4 bl-d-g pl-0 pl-2 mt-3 mt-sm-0 ">
             <div className="bb-d-g">
               {/* Rize Validator */}
               <div className="pl-3 pl-sm-0">
                 <div className="d-flex">
-                  <span className="wallet-body-title pr-3 mt-md-0 mt-3">
+                  <span className="wallet-body-title pr-3">
                     My Tokens
                   </span>
                 </div>

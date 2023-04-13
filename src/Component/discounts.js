@@ -1,6 +1,6 @@
 import img from "../assets/images/img/Escrow/img.png"
 function Discount() {
-    return (     <section className="mt-5 pt-5" data-aos="fade-up">
+  return (<section className="mt-5 pt-5" data-aos="fade-up">
     <div className="rize-discount-container v-center h-center">
       <div className="row w-100">
         <div className="col-sm-7 v-center">
@@ -22,7 +22,7 @@ function Discount() {
                 <div className="row">
                   <div className="col-7">
                     <div className="discount-right-blur-container-top-heading-container">
-                      <h1 className="text-white">Carbon</h1>
+                      <h1 className="text-white mt-0">Carbon</h1>
                       <p id="resp" className="rize-p text-white mb-0">
                         1 Edition Mined
                       </p>
@@ -45,19 +45,19 @@ function Discount() {
                 }}
               >
                 <div className="row">
-                  <div className="col-4 v-center">
+                  <div className="col-4 content-center">
                     <div className="discount-right-blur-container-bottom-heading-container">
-                      <h1 className="text-white">$4500</h1>
+                      <h1 className="text-white mt-0">$4500</h1>
                       <p className="rize-p text-white mb-0">Auction</p>
                     </div>
                   </div>
-                  <div className="col-4 v-center">
+                  <div className="col-4 content-center">
                     <div className="discount-right-blur-container-bottom-heading-container">
-                      <h1 className="text-white">$9000</h1>
+                      <h1 className="text-white mt-0">$9000</h1>
                       <p className="rize-p text-white mb-0">Buy Now</p>
                     </div>
                   </div>
-                  <div className="col-4 v-center">
+                  <div className="col-4 content-center">
                     <div className="discount-right-blur-container-bottom-heading-container">
                       <div className="h-center">
                         <svg
@@ -83,7 +83,7 @@ function Discount() {
         </div>
       </div>
     </div>
-  </section> );
+  </section>);
 }
 
 export default Discount;
