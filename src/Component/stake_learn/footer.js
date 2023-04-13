@@ -6,6 +6,8 @@ import footerImg3 from "../assets/images/Image/pic3.svg"
 import footerImg4 from "../assets/images/Image/pic4.svg"
 import footerImg5 from "../assets/images/Image/pic5.svg"
 import footerImg6 from "../assets/images/Image/pic6.svg"
+
+
 export default function Footer () {
     return (
          <div>
@@ -14,7 +16,11 @@ export default function Footer () {
           <div class="left-col">
             <div class="row tag">
               <span style={{width:'inherit'}}>
-                <img class="footer_logo" src={logo} alt="Image 1"/>
+                
+                <Link  to="/">
+              <img class="footer_logo" src={logo} alt="Image 1"/>
+            </Link>
+
 
               </span  > 
               <span style={{padding:'0px'}}>
