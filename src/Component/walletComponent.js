@@ -84,7 +84,7 @@ function Service() {
                       <div className="wallet-body-subtitle pr-3">
                         Unbond Period
                       </div>
-                      <div className="wallet-body-2subtitle pr-3">7 days</div>
+                      <div className="wallet-body-2subtitle pr-3 wallet-days">7 days</div>
                     </div>
                   </div>
                   <div className="col-6 p-0 pl-2">
