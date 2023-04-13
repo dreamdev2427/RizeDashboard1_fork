@@ -24,9 +24,9 @@ export default function Footer() {
               <p class="footer_text">Gather. Create. Evolve.</p>
             </span>
           </div>
-          <div class="row" style={{ marginLeft: "-5px" }}>
-            <ul >
-              <div>
+          <div class="row" style={{ marginBottom: 12 }}>
+            <div className="col-md-12" style={{ paddingLeft: 12 }}>
+              <ul >
                 <li>
                   <a className="link-click" href="#">
                     Dashboard
@@ -53,8 +53,8 @@ export default function Footer() {
                     Bridge
                   </a>
                 </li>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
           <div class="row">
             <div class="footer_social_link">
@@ -88,9 +88,9 @@ export default function Footer() {
             {/* <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
             <button>Send</button> */}
 
-            <div className="col-12 d-flex align-items-center pr-0">
+            <div className="col-12 d-flex align-items-center pr-0" style={{ paddingLeft: 12 }}>
               <input type="email" placeholder="Enter Your Email" />
-              <button className="btn rize-btn-green" ><span style={{height:13}}>Send</span></button>
+              <button className="btn rize-btn-green" ><span style={{ height: 13 }}>Send</span></button>
             </div>
           </div>
         </div>
