@@ -80,7 +80,7 @@ function Header() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/rize-stake-and-learn"
+                        to="/escrow"
                       >
                         Validator
                       </Link>
