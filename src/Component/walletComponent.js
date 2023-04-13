@@ -448,14 +448,14 @@ function Service() {
                           className="rize-input"
                         />
                         <button className="btn rize-btn-green v-center h-center rize-btn-sm-cus">
-                          <span style={{ height: 14 }}>Max</span>
+                          <span className="content-center" >Max</span>
                         </button>
                       </div>
                       <button
                         style={{ minWidth: 120, width: "100%" }}
                         className="btn rize-btn-green v-center h-center mb-3"
                       >
-                        <span style={{ height: 14 }}>Confirm</span>
+                        <span className="content-center" >Confirm</span>
                       </button>
                     </div>
                   </div>

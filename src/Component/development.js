@@ -12,25 +12,23 @@ function Development() {
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Development poroposals</h2>
+              <h2 className="text-white">Development poroposals countdown</h2>
             </div>
             <div>
               <div className="rize-tabs-container">
                 <div
                   onClick={() => setactiveTab(!activeTab)}
-                  className={`${
-                    activeTab == true ? "rize-active-tab" : "rize-inactive-tab"
-                  }`}
+                  className={`${activeTab == true ? "rize-active-tab" : "rize-inactive-tab"
+                    }`}
                 >
                   Open
                 </div>
                 <div
                   onClick={() => setactiveTab(!activeTab)}
-                  className={`${
-                    activeTab != true
+                  className={`${activeTab != true
                       ? "rize-active-tab rize-active-tab-right"
                       : "rize-inactive-tab"
-                  }`}
+                    }`}
                 >
                   Past
                 </div>

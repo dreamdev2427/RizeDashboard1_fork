@@ -70,8 +70,8 @@ function Service() {
                 <h1>Bridge</h1>
                 <p>
                   First cross chain bridge between Cosmos and XRPL. A new way to
-                  safe guard your most precious assets.And move away from
-                  centralized scams. Experience a seemless bridge experience!
+                  safe guard your most precious assets. And move away from
+                  centralized scams. Experience a seamless bridge experience!
                 </p>
                 <button
                   style={{ marginBottom: 30, minWidth: 120 }}
@@ -122,7 +122,7 @@ function Service() {
                 <p>
                   First cross chain bridge between Cosmos and XRPL. A new way to
                   safe guard your most precious assets. And move away from
-                  centralized scams. Experience a seemless bridge experience!
+                  centralized scams. Experience a seamless bridge experience!
                 </p>
                 <Link to="rize-stake-and-learn">
                   <button
