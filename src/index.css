@@ -425,8 +425,8 @@ video {
   .shift-right {
     margin-left: unset !important;
   }
-  .rize-mini-container{
-    padding: 0px 30px!important;
+  .rize-mini-container {
+    padding: 0px 30px !important;
   }
 }
 
@@ -3353,7 +3353,7 @@ div.wallet-body-2subtitle {
 
 .rize-btn-sm-cus {
   position: absolute;
-  top: 10.3px;
+  top: 8.3px;
   padding: 6px 20px;
   right: 8px;
   border-radius: 6px;
@@ -3420,6 +3420,7 @@ div.wallet-body-stoke-text {
   border-radius: 6px;
   border: 1px solid #33ff00;
   cursor: pointer;
+  height: 100%;
 }
 
 .wallet-body-sub-row.m-0.mt-2.v-center.restake-btn {
@@ -3471,6 +3472,7 @@ div.wallet-body-stoke-text {
 .wallet-body-stoke-text2.pl-3 {
   display: flex;
   justify-content: center;
+  white-space: nowrap;
 }
 
 @media screen and (max-height: 576px) {
@@ -3593,7 +3595,6 @@ a {
   letter-spacing: 4px;
 }
 
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .mb-sm-7 {
@@ -3630,9 +3631,8 @@ a {
 
 @media (min-width: 768px) and (max-width: 1300px) {
   .copyIcon {
-    width: 17px;
+    width: 12px;
   }
-
 }
 
 @media (max-width: 378px) {
@@ -3650,4 +3650,6 @@ a {
   white-space: nowrap;
   margin-left: 10px;
 }
-
+.left {
+  width: calc(100% - 17px);
+}

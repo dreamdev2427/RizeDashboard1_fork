@@ -555,7 +555,7 @@ function Service() {
                   </div>
                 </div>
                 <div className="col-sm-4 mt-sm-0 mt-3">
-                  <div className="wallet-body-sub-row m-0 p-0 px-2 v-center justify-content-center p-relative h-100">
+                  <div className="wallet-body-sub-row m-0 p-0 p-2 v-center justify-content-center p-relative h-100">
                     <img className="icon-info" src={Info} />
                     <div className="d-flex align-items-center justify-content-center flex-column">
                       <div
