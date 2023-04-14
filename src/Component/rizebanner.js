@@ -441,7 +441,7 @@ function RizeBanner(props) {
           </div>
 
           <div className="col-lg-4 offset-lg-2 col-md-6 rize-banner-right pr-sm-0 v-center">
-            <div>
+            <div className="p-md-0 p-3">
               <img
                 // className="mt-md-5 mt-0 "
                 width={100}
