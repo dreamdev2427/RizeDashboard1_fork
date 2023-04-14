@@ -30,7 +30,7 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Marketplace</span>
                 </button>
               </div>
             </div>
@@ -58,7 +58,7 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -70,14 +70,14 @@ function Service() {
                 <h1>Bridge</h1>
                 <p>
                   First cross chain bridge between Cosmos and XRPL. A new way to
-                  safe guard your most precious assets.And move away from
-                  centralized scams. Experience a seemless bridge experience!
+                  safe guard your most precious assets. And move away from
+                  centralized scams. Experience a seamless bridge experience!
                 </p>
                 <button
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -108,7 +108,7 @@ function Service() {
                     style={{ marginBottom: 30, minWidth: 120 }}
                     className="btn rize-btn-netowrk-green v-center h-center"
                   >
-                    Learn more
+                    <span style={{ height: 17 }}>Learn more</span>
                   </button>
                 </Link>
               </div>
@@ -122,14 +122,14 @@ function Service() {
                 <p>
                   First cross chain bridge between Cosmos and XRPL. A new way to
                   safe guard your most precious assets. And move away from
-                  centralized scams. Experience a seemless bridge experience!
+                  centralized scams. Experience a seamless bridge experience!
                 </p>
                 <Link to="rize-stake-and-learn">
                   <button
                     style={{ marginBottom: 30, minWidth: 120 }}
                     className="btn rize-btn-netowrk-green v-center h-center"
                   >
-                    Learn more
+                    <span style={{ height: 17 }}>Learn more</span>
                   </button>
                 </Link>
               </div>

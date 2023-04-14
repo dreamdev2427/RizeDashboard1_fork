@@ -18,7 +18,7 @@ function Service() {
         {/* RIZE WALLET TITLE CONTAINER */}
         <div className="row rize-wallet-title-container">
           <div className="col-md-4 v-center pl-3 pl-sm-0">
-            <h2 className="rize-wallet-title mb-0">Select a wallet</h2>
+            <h2 className="rize-wallet-title mb-0 m-0">Select a wallet</h2>
           </div>
           <div className="col-md-2 mt-2 mt-md-0">
             <div
@@ -58,7 +58,7 @@ function Service() {
           <div className="col-md-8">
             <div className="row">
               {/* Coreum Stats */}
-              <div className="col-md-6 pl-3 pl-sm-0">
+              <div className="col-md-6 pl-3 pl-sm-0 mb-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Coreum Stats</span>
                   <img
@@ -66,7 +66,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2">
+                <div className="row wallet-body-sub-row m-0 mt-2" style={{ paddingTop: 7, paddingBottom: 7 }}>
                   <div className="col-6 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">ARP</div>
@@ -76,7 +76,7 @@ function Service() {
                   <div className="col-6 p-0 pl-2 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">Fees</div>
-                      <div className="wallet-body-2subtitle pr-3">50%</div>
+                      <div className="wallet-body-2subtitle pr-3">5%</div>
                     </div>
                   </div>
                   <div className="col-6 p-0">
@@ -84,7 +84,7 @@ function Service() {
                       <div className="wallet-body-subtitle pr-3">
                         Unbond Period
                       </div>
-                      <div className="wallet-body-2subtitle pr-3">7 days</div>
+                      <div className="wallet-body-2subtitle pr-3 wallet-days">7 days</div>
                     </div>
                   </div>
                   <div className="col-6 p-0 pl-2">
@@ -110,7 +110,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2">
+                <div className="row wallet-body-sub-row m-0 mt-2" style={{ paddingTop: 7, paddingBottom: 7 }}>
                   <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
@@ -135,7 +135,7 @@ function Service() {
                 </div>
               </div>
               {/* Rize Donorship */}
-              <div className="col-md-6 pl-3 pl-sm-0 mt-3">
+              <div className="col-md-6 pl-3 pl-sm-0 mt-3 mb-3">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Rize Donorship</span>
                   <img
@@ -143,7 +143,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2">
+                <div className="row wallet-body-sub-row m-0 mt-2" style={{ paddingTop: 7, paddingBottom: 7 }}>
                   <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
@@ -197,7 +197,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2">
+                <div className="row wallet-body-sub-row m-0 mt-2" style={{ paddingTop: 7, paddingBottom: 7 }}>
                   <div className="col-12 p-0 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
@@ -251,7 +251,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2 escrow">
+                <div className="row wallet-body-sub-row m-0 mt-2 escrow" style={{ paddingTop: 7, paddingBottom: 7 }}>
                   <div className="col-6 p-0 pl-1 pr-2 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
@@ -289,7 +289,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 p-0 pl-1 pr-2 mb-7">
+                  <div className="col-6 p-0 pl-1 pr-2">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Compounded
@@ -305,7 +305,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 p-0 pr-1 mb-7">
+                  <div className="col-6 p-0 pr-1">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">Total</div>
                       <div className="wallet-body-2subtitle pr-3">
@@ -327,7 +327,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2 escrow">
+                <div className="row wallet-body-sub-row m-0 mt-2 escrow" style={{ paddingTop: 7, paddingBottom: 7 }}>
                   <div className="col-sm-6 col-12 p-0 pr-2 pl-1 mb-7">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
@@ -368,7 +368,7 @@ function Service() {
                       <div className="wallet-body-2subtitle pr-3">10%</div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-2 pl-1 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-2 pl-1">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Compounded
@@ -384,7 +384,7 @@ function Service() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-12 p-0 pr-1 mb-7">
+                  <div className="col-sm-6 col-12 p-0 pr-1">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">
                         Total Dripped
@@ -404,12 +404,12 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 bl-d-g pl-0 pl-sm-2">
+          <div className="col-md-4 bl-d-g pl-0 pl-2 mt-3 mt-sm-0 ">
             <div className="bb-d-g">
               {/* Rize Validator */}
               <div className="pl-3 pl-sm-0">
                 <div className="d-flex">
-                  <span className="wallet-body-title pr-3 mt-md-0 mt-3">
+                  <span className="wallet-body-title pr-3">
                     My Tokens
                   </span>
                 </div>
@@ -427,7 +427,7 @@ function Service() {
                   </div>
                 </div>
                 <div className="wallet-body-mytoken pr-3 text-white">
-                  Lock more Tokens to increase your yield
+                  <b className="bold-green" >Lock more Tokens</b> to increase your yield
                 </div>
               </div>
               {/* Stake */}
@@ -440,22 +440,22 @@ function Service() {
                   />
                 </div>
                 <div className="row wallet-body-sub-row1 m-0 mt-2">
-                  <div className="col-12 p-0 pr-3 pl-3 mb-7">
-                    <div className="wallet-body-sub">
+                  <div className="col-12 p-0 mb-7">
+                    <div className="wallet-body-sub p-0">
                       <div className="p-relative">
                         <input
                           placeholder=".04 CORE remains for future transactions"
                           className="rize-input"
                         />
                         <button className="btn rize-btn-green v-center h-center rize-btn-sm-cus">
-                          <span style={{ height: 14 }}>Max</span>
+                          <span className="content-center" >Max</span>
                         </button>
                       </div>
                       <button
                         style={{ minWidth: 120, width: "100%" }}
-                        className="btn rize-btn-green v-center h-center"
+                        className="btn rize-btn-green v-center h-center mb-3"
                       >
-                        <span style={{ height: 14 }}>Confirm</span>
+                        <span className="content-center" >Confirm</span>
                       </button>
                     </div>
                   </div>
@@ -463,7 +463,7 @@ function Service() {
               </div>
             </div>
             {/*Claim reward button*/}
-            <div className="pl-3 pl-sm-0 mt-4">
+            <div className="pl-3 pl-sm-0" style={{ marginTop: 20 }}>
               <div className="d-flex">
                 <span className="wallet-body-title pr-3">
                   Claim <span className="color-dark">(Option 1)</span>{" "}
@@ -475,7 +475,7 @@ function Service() {
               </div>
               <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
                 <div className="clmrwddiv">
-                  <div className="wallet-body-title pr-3 clmrwd mt-2">
+                  <div className="wallet-body-title pr-3 clmrwd mt-2" style={{ fontSize: 12 }}>
                     <span>Claim Rewards</span>
                     <span className="rwd">45.6 CORE</span>
                   </div>
@@ -496,10 +496,7 @@ function Service() {
               </div>
               <div className="row">
                 <div className="col-8 pr-3">
-                  <div
-                    className="wallet-body-sub-row m-0 mt-2 v-center"
-                    style={{ padding: "12px 14px" }}
-                  >
+                  <div className="wallet-body-sub-row m-0 mt-2 h-100 v-center" style={{ padding: "2px 14px" }}>
                     <div className="wallet-body-stoke-text pr-3">30%</div>{" "}
                     <input
                       type="range"
@@ -510,7 +507,7 @@ function Service() {
                   </div>
                 </div>
                 <div className="col-4 pl-3">
-                  <div className="wallet-body-sub-row m-0 mt-2 v-center justify-content-center p-relative">
+                  <div className="wallet-body-sub-row m-0 mt-2 p-0 px-2 v-center justify-content-center p-relative h-100">
                     <img className="icon-info" src={Info} />
                     <div className="d-flex align-items-center justify-content-center flex-column">
                       <div
@@ -519,7 +516,7 @@ function Service() {
                       >
                         Claim Restake
                       </div>{" "}
-                      <div className="wallet-body-stoke-text2 pl-3 mt-1">
+                      <div className="wallet-body-stoke-text2 pl-3">
                         Rize Pays Fees
                       </div>
                     </div>

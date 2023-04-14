@@ -80,7 +80,7 @@ function Header() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/rize-stake-and-learn"
+                        to="/escrow"
                       >
                         Validator
                       </Link>
@@ -210,7 +210,7 @@ function Header() {
 
                     <div>
                       <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item11">
+                        <div className="v-center rize-dropdown-padding rize-dropdown-item11" style={{ marginLeft: 1 }}>
                           <img src={Net6} />
                           <span>Near</span>
                         </div>

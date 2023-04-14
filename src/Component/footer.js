@@ -1,3 +1,4 @@
+import { Router } from "react-router-dom";
 import logo from "../assets/images/Image/logo.png";
 import footerImg1 from "../assets/images/Image/pic1.svg";
 import footerImg2 from "../assets/images/Image/pic2.svg";
@@ -5,6 +6,8 @@ import footerImg3 from "../assets/images/Image/pic3.svg";
 import footerImg4 from "../assets/images/Image/pic4.svg";
 import footerImg5 from "../assets/images/Image/pic5.svg";
 import footerImg6 from "../assets/images/Image/pic6.svg";
+import {Link} from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer>
@@ -12,15 +15,18 @@ export default function Footer() {
         <div class="left-col">
           <div class="row tag">
             <span style={{ width: "inherit" }}>
-              <img class="footer_logo" src={logo} alt="Image 1" />
+              {/* <img class="footer_logo" src={logo} alt="Image 1" /> */}
+              <Link  to="/" >
+              <img class="footer_logo" src={logo} alt="Image 1"/>
+            </Link>
             </span>
             <span style={{ padding: "0px" }}>
               <p class="footer_text">Gather. Create. Evolve.</p>
             </span>
           </div>
-          <div class="row" style={{ marginLeft: "-5px" }}>
-            <ul >
-              <div>
+          <div class="row" style={{ marginBottom: 12 }}>
+            <div className="col-md-12" style={{ paddingLeft: 12 }}>
+              <ul >
                 <li>
                   <a className="link-click" href="#">
                     Dashboard
@@ -47,8 +53,8 @@ export default function Footer() {
                     Bridge
                   </a>
                 </li>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
           <div class="row">
             <div class="footer_social_link">
@@ -82,9 +88,9 @@ export default function Footer() {
             {/* <input id="footer-input-email" type="email" placeholder="Enter Your Email" />
             <button>Send</button> */}
 
-            <div className="col-12 d-flex align-items-center pr-0">
+            <div className="col-12 d-flex align-items-center pr-0" style={{ paddingLeft: 12 }}>
               <input type="email" placeholder="Enter Your Email" />
-              <button>Send</button>
+              <button className="btn rize-btn-green" ><span style={{ height: 13 }}>Send</span></button>
             </div>
           </div>
         </div>

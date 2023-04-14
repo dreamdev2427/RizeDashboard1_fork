@@ -1,15 +1,21 @@
-import blog1 from "../assets/images/img/blogs/blog1.png";
-import blog2 from "../assets/images/img/blogs/blog2.png";
-import blog3 from "../assets/images/img/blogs/blog3.png";
-import blog4 from "../assets/images/img/blogs/blog4.png";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import B1 from "../assets/images/img/blogs/b1.png";
 import Footer from "../Component/footer";
 import Header from "../Component/header";
+
 function BlogPage() {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <section className="rize-main">
       <Header />
-      <section className="rizeblog-top pt-3" data-aos="fade-up" style={{marginTop:80}}>
+      <section className="rizeblog-top pt-3" data-aos="fade-up" style={{ marginTop: 80 }}>
         <div>
           <div className="container">
             {/* <div className="rize-blog-view">
@@ -47,7 +53,7 @@ function BlogPage() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
             </p>
-            
+
           </div>
         </div>
       </section>
