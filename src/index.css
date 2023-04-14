@@ -2181,12 +2181,14 @@ textarea#message::placeholder {
     flex-direction: column;
     padding-left: 15px;
   }
+
   .wallet-body-subtitle.pr-3 {
     font-size: 7px;
   }
   .wallet-body-2subtitle.pr-3 {
     font-size: 10px;
   }
+
   .wallet-body-sub {
     padding-left: 7px !important;
   }
@@ -2349,11 +2351,11 @@ a:hover {
   }
 
   .wallet-body-stoke-text1 {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .wallet-body-stoke-text2.pl-3 {
-    font-size: 5px !important;
+    font-size: 7px !important;
   }
 
   .pl-3 {
@@ -2390,17 +2392,17 @@ a:hover {
     font-size: 50px !important;
   }
 
-  .wallet-body-stoke-text1 {
+  /* .wallet-body-stoke-text1 {
     font-size: 10px !important;
   }
 
   .wallet-body-stoke-text2.pl-3 {
     font-size: 5px !important;
-  }
+  } */
 
-  .wallet-body-sub {
+  /* .wallet-body-sub {
     padding: 4px !important;
-  }
+  } */
 
   .col-md-2.mt-2.mt-md-0.pr-3.pr-sm-0 {
     width: 98% !important;
@@ -3270,24 +3272,31 @@ span.wallet-body-title {
 
 .wallet-body-sub {
   background: #2f342f;
-  padding: 7px;
+
+  padding: 10px;
+
   border-radius: 4px;
   position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 div.wallet-body-subtitle {
   color: #bdc6bd;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 div.wallet-body-2subtitle {
   color: #34f901;
   font-size: 15px;
   height: 17px;
+  margin-top: 4px;
 }
 
 .mb-7 {
-  margin-bottom: 7px;
+  margin-bottom: 7px !important;
 }
 
 .pr-3 {
@@ -3299,9 +3308,7 @@ div.wallet-body-2subtitle {
 }
 
 .copyIcon {
-  position: absolute;
-  top: 14px;
-  right: 18px;
+  /* padding-right: 5px; */
 }
 
 .bl-d-g {
@@ -3327,6 +3334,7 @@ div.wallet-body-2subtitle {
   font-size: 12px;
   color: #ffffff;
   padding: 16px 10px;
+  padding-right: 100px;
 }
 
 .rize-input::placeholder {
@@ -3380,7 +3388,7 @@ div.wallet-body-stoke-text {
   background: #30ed01;
   cursor: pointer;
   border-radius: 50px;
-  margin-top: -0.35rem;
+  margin-top: -5.75px;
 }
 
 .rize-range-slider::-moz-range-thumb {
@@ -3396,7 +3404,7 @@ div.wallet-body-stoke-text {
   color: #30ed01;
   text-align: center;
   line-height: 18px;
-  font-size: 18px;
+  font-size: 15px;
   /* margin-top: 7px; */
 }
 
@@ -3408,10 +3416,9 @@ div.wallet-body-stoke-text {
 
 .wallet-body-sub-row {
   background: #1c1e1c;
-  padding: 7px 8px;
+  padding: 0.5rem;
   border-radius: 6px;
   border: 1px solid #33ff00;
-  padding-top: 5px;
   cursor: pointer;
 }
 
@@ -3466,15 +3473,6 @@ div.wallet-body-stoke-text {
   justify-content: center;
 }
 
-.row.wallet-body-sub-row.m-0.mt-2.escrow {
-  background: #1c1e1c;
-  padding: 1px 4px;
-  border-radius: 6px;
-  border: 1px solid #33ff00;
-  padding-top: 7px;
-  cursor: pointer;
-}
-
 @media screen and (max-height: 576px) {
   div.wallet-body-subtitle {
     color: #bdc6bd;
@@ -3524,7 +3522,7 @@ div.wallet-body-stoke-text {
 
 .wallet-body-title-pr-3-img {
   padding-left: 9px;
-  margin-bottom: 4px;
+  margin-bottom: -1px;
 }
 
 input:focus-visible {
@@ -3594,3 +3592,62 @@ a {
   font-size: 45px;
   letter-spacing: 4px;
 }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .mb-sm-7 {
+    margin-bottom: 7px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .mb-md-7 {
+    margin-bottom: 7px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mb-lg-7 {
+    margin-bottom: 7px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mb-xl-7 {
+    margin-bottom: 7px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wallet-right-container {
+    border-left: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .copyIcon {
+    width: 17px;
+  }
+
+}
+
+@media (max-width: 378px) {
+  .rize-wallet-title {
+    font-size: 25px !important;
+    text-align: center;
+  }
+}
+
+.claim-option-1-reward-text {
+  white-space: nowrap;
+}
+
+.claim-option-1-core-text {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
