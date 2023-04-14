@@ -201,7 +201,7 @@ function Header() {
                           <img src={Net5} />
                           <span>Avalanche</span>
                         </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10">
+                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10" style={{ marginTop: 1}}>
                           <img src={Net11} />
                           <span>Tezos</span>
                         </div>
@@ -216,6 +216,7 @@ function Header() {
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
                 <Link to="/wallet">

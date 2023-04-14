@@ -4,25 +4,14 @@ import connectIcon from "../assets/images/icons/Wallet_connect.svg";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import searchIcon from "../assets/images/icons/search.svg";
-import Search from "./mob-search";
-
-// let inputBox = document.querySelector('.input-box'),
-//   searchIcon = document.querySelector('.search'),
-//   closeIcon = document.querySelector('.close-icon');
-
-// // ---- ---- Open Input ---- ---- //
-// searchIcon.addEventListener('click', () => {
-//   inputBox.classList.add('open');
-// });
-// // ---- ---- Close Input ---- ---- //
-// closeIcon.addEventListener('click', () => {
-//   inputBox.classList.remove('open');
-// });
-
+import SearchBar from "./mob-search";
+import MobileHeader from "./mob-search";
 
 
 export default function Drawer(props) {
   const [drawerWidth, setDrawerWidth] = useState(props.drawerWidth);
+  const [searchInput, setSearchInput] = useState("");
+
   const handleClick = () => {
     setDrawerWidth(0);
     props.close(0);
@@ -40,7 +29,6 @@ export default function Drawer(props) {
         <div className="row" style={{ marginBottom: 30 }}>
           <div className="col-6 v-center">
             <img className="rize-header-prifile-drawer" src={profileIcon} />
-            
           </div>
           
         
@@ -54,22 +42,37 @@ export default function Drawer(props) {
             </a>
           </div>
         </div>
-
-        <div className="row" style={{ marginBottom: 30 }}>
+        <div className="rize-header-search" style={{width:"75%", marginBottom:15}}>
+    <input
+      type="text"
+      // placeholder="Search"
       
+      value={searchInput}
+      onChange={(e) => setSearchInput(e.target.value)}
+    />
+     <img src={searchIcon} style={{    right: 5, position: "absolute" }} />
+    {/* <div className="search-icon">
+      <img src={searchIcon} alt="Search" />
+    </div> */}
+  </div>
 
-          <Search/>
-          
 
-        </div>
+        {/* <div className="row" style={{ marginBottom: 30 }}> 
+          <MobileHeader/>
+        </div> */}
         <div className="side--drawer-option d-block">
           {/* <Link to="/"> Dashboard</Link> */}
-          <Link to="/roadmap">Road Map</Link>
-          <Link to="/blog">Blog</Link>
           <Link to="/escrow">Validator</Link>
           <Link to="/rize-stake-and-learn">Earnwise</Link>
           <Link to="/">Utility</Link>
           <Link to="/">Members</Link>
+          <Link to="/">NFT Market</Link>
+          <Link to="/roadmap">Road Map</Link>
+          <Link to="/blog">Blog</Link>
+          
+         
+         
+          
           {/* <Link to="#">Bridge</Link> */}
           {/* <Link to="/contact-us">ContactUs</Link> */}
         </div>
