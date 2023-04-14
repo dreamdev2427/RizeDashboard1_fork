@@ -277,11 +277,12 @@ function DashboardHeader() {
           <div className="col-4 v-center">
             <div className="rize-header-right-section">
               <img
+                id="c-icon"
                 className="rize-icon-sm"
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img className="rize-icon-sm" src={searchIcon} />
+              <img id="s-icon" className="rize-icon-sm" src={searchIcon} />
             </div>
           </div>
         </div>

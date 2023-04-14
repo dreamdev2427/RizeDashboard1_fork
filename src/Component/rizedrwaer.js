@@ -4,8 +4,7 @@ import connectIcon from "../assets/images/icons/Wallet_connect.svg";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import searchIcon from "../assets/images/icons/search.svg";
-import SearchBar from "./mob-search";
-import MobileHeader from "./mob-search";
+
 
 
 export default function Drawer(props) {
@@ -30,8 +29,6 @@ export default function Drawer(props) {
           <div className="col-6 v-center">
             <img className="rize-header-prifile-drawer" src={profileIcon} />
           </div>
-          
-        
           
           <div
             className="col-6 v-center"

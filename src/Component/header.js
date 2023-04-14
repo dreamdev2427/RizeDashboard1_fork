@@ -281,7 +281,8 @@ function Header() {
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img className="rize-icon-sm" src={searchIcon} />
+               <img id="s-icon" className="rize-icon-sm" src={searchIcon} />
+              {/* <img id="#s-icon_1" className="rize-icon-sm" src={searchIcon} /> */}
             </div>
           </div>
         </div>
