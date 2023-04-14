@@ -35,7 +35,7 @@ function Service() {
               </div>
             </div>
             <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
-              <div className="f-end">
+              <div className="text-right w-100">
                 <img src={serviceImg} className="w-sm-100" />
               </div>
             </div>
@@ -81,7 +81,7 @@ function Service() {
                 </button>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
+            <div className="col-md-6 rize-what-we-are-left rize-services-left text-right order-1 order-md-2 mb-4 mb-sm-0">
               <img
                 src={BridgeGif}
                 className="w-sm-100"
@@ -134,7 +134,7 @@ function Service() {
                 </Link>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
+            <div className="col-md-6 rize-what-we-are-left rize-services-left text-right  order-1 order-md-2 mb-4 mb-sm-0">
               <img src={Rize_Validator_Node} className="w-sm-100" />
             </div>
           </div>
