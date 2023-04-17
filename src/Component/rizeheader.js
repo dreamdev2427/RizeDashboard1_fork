@@ -67,10 +67,7 @@ function DashboardHeader() {
             <div className="rize-header-right-section">
               <div>
                 <a className="rize-nav-item rize-imp-link">Airdrop</a>
-                <Link
-                  to="/rize-stake-and-learn"
-                  className="rize-nav-item rize-imp-link"
-                >
+                <Link to="/escrow" className="rize-nav-item rize-imp-link">
                   Validator
                 </Link>
                 <a className="rize-nav-item rize-imp-link">Bridge</a>
@@ -89,15 +86,15 @@ function DashboardHeader() {
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <Link
-                        className="dropdown-item"
-                        to="/rize-stake-and-learn"
-                      >
+                      <Link className="dropdown-item" to="/escrow">
                         Validator
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/h">
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                      >
                         Earnwise
                       </Link>
                     </li>
