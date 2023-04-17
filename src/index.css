@@ -1379,6 +1379,8 @@ h1.rize-discount {
 .discount-right-blur-container {
   position: relative;
   overflow: hidden;
+  border: 2px solid #33ff00;
+  border-radius: 31px;
 }
 
 .discount-right-blur-container-image {

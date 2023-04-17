@@ -11,6 +11,8 @@ function What_we_are() {
             <div>
               <h1>What We Are</h1>
               <p>
+                All who join RIze are Rize!
+                <br />
                 We are think out of the box, AI ran
                 organization. Yes, the structure may seem similar to others now,
                 but as our system learns, it grows, thanks to innovative AI and
