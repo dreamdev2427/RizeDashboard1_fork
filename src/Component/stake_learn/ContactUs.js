@@ -32,27 +32,27 @@ export default function ContactUs() {
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label for="name" style={{ display: "none" }}>
-                          Name:
+                          First Name:
                         </label>
                         <input
                           type="text"
                           class="form-control"
-                          id="Name"
-                          placeholder="Name"
+                          id="first-name"
+                          placeholder="First Name"
                           required
                         />
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <label for="subject" style={{ display: "none" }}>
-                          subject:
+                        <label for="name" style={{ display: "none" }}>
+                          Last Name:
                         </label>
                         <input
                           type="text"
                           class="form-control"
-                          id="subject"
-                          placeholder="Subject"
+                          id="last-name"
+                          placeholder="Last Name"
                           required
                         />
                       </div>
@@ -76,13 +76,13 @@ export default function ContactUs() {
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label for="Wallet" style={{ display: "none" }}>
-                          Wallet:
+                          Phone number:
                         </label>
                         <input
                           type="text"
                           class="form-control"
-                          id="Wallet"
-                          placeholder="Wallet Adress"
+                          id="phone"
+                          placeholder="Phone number"
                           required
                         />
                       </div>
@@ -97,7 +97,7 @@ export default function ContactUs() {
                         class="form-control"
                         rows="4"
                         id="message"
-                        placeholder="Enter your message"
+                        placeholder="Write your message"
                       ></textarea>
                     </div>
                   </div>
@@ -109,6 +109,7 @@ export default function ContactUs() {
                     }}
                   >
                     <button
+                      type="button"
                       style={{ minWidth: 120 }}
                       className="btn rize-btn-validator-green--submit v-center h-center"
                     >

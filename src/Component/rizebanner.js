@@ -3,11 +3,12 @@ import { useEffect } from "react";
 
 function RizeBanner(props) {
   useEffect(() => {
-    initAnim();
+    setTimeout(() => {
+      initAnim();
+    }, 1000);
   }, []);
 
   function initAnim() {
-    
     //for debug messages
     var Debugger = function () {};
     Debugger.log = function (message) {
@@ -19,9 +20,7 @@ function RizeBanner(props) {
     };
 
     canvasApp();
-
-    
-  };
+  }
   function canvasSupport() {
     return true;
   }
@@ -71,7 +70,77 @@ function RizeBanner(props) {
     var theta, phi;
     var x0, y0, z0;
 
-    init();
+    // --------------------------------------------------
+    var canvas = document.getElementById("canvasOne");
+    var ctx = canvas.getContext("2d");
+    var particals = [];
+
+    var H = 500;
+    var W = 1200;
+
+    canvas.width = W;
+    canvas.height = H;
+
+    setInterval(draw, 70);
+
+    function draw() {
+      var blob = {
+        x: W / 2,
+        y: H / 2,
+        xSpeed: (Math.random() - 0.5) * 2,
+        ySpeed: (Math.random() - 0.5) * 2,
+        size: 0.7,
+      };
+
+      particals.push(blob);
+      clear();
+      for (var i = 0; i < particals.length; i++) {
+        updateBlob(particals[i]);
+        drawBlob(particals[i]);
+      }
+    }
+
+    var kristina = {
+      washApple: function (apple) {
+        apple.clean = true;
+      },
+    };
+
+    var apple = {
+      clear: false,
+    };
+
+    kristina.washApple(apple);
+
+    //#03ed21
+    function drawBlob(blob) {
+      var r = 52;
+      var g = 220;
+      var b = 9;
+      var color = "rgb(" + r + ", " + g + ", " + b + ")";
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.arc(blob.x, blob.y, blob.size, 0, 2 * Math.PI);
+      ctx.fill();
+    }
+
+    function clear() {
+      ctx.fillStyle = "#071b03";
+      ctx.fillRect(0, 0, W, H);
+    }
+
+    function updateBlob(blob) {
+      blob.x += blob.xSpeed;
+      blob.y += blob.ySpeed;
+      blob.xSpeed *= 1.05;
+      blob.ySpeed *= 1.05;
+      if (blob.size < 25) {
+        blob.size *= 1.01;
+      }
+    }
+    // --------------------------------------------------
+
+    // init();
 
     function init() {
       console.log("asdfasdfafasfasdf");
@@ -252,14 +321,7 @@ function RizeBanner(props) {
 
           //draw
           context.beginPath();
-          context.arc(
-            p.projX,
-            p.projY,
-            m * particleRad,
-            0,
-            2 * Math.PI,
-            false
-          );
+          context.arc(p.projX, p.projY, m * particleRad, 0, 2 * Math.PI, false);
           context.closePath();
           context.fill();
         }
@@ -373,17 +435,17 @@ function RizeBanner(props) {
                 }}
                 className="btn rize-btn-green v-center h-center"
               >
-                Explore
+                <span style={{ height: 18 }}>Explore</span>
               </button>
             </div>
           </div>
 
-          <div className="col-lg-4 offset-lg-2 col-md-6 rize-banner-right pr-sm-0 ">
-            <div>
+          <div className="col-lg-4 offset-lg-2 col-md-6 rize-banner-right pr-sm-0 v-center">
+            <div className="p-md-0 p-3">
               <img
+                // className="mt-md-5 mt-0 "
                 width={100}
                 src={illustrationsImg}
-                style={{ marginTop: 50 }}
               />
             </div>
           </div>

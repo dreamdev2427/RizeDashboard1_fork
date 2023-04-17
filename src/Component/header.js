@@ -8,17 +8,18 @@ import Drawer from "./rizedrwaer";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Net1 from "../assets/images/img/Networks/net1.png";
-import Net2 from "../assets/images/img/Networks/net2.png";
-import Net3 from "../assets/images/img/Networks/net3.png";
-import Net4 from "../assets/images/img/Networks/net4.png";
-import Net5 from "../assets/images/img/Networks/net5.png";
-import Net6 from "../assets/images/img/Networks/net6.png";
-import Net7 from "../assets/images/img/Networks/net7.png";
-import Net8 from "../assets/images/img/Networks/net8.png";
-import Net9 from "../assets/images/img/Networks/net9.png";
-import Net10 from "../assets/images/img/Networks/net10.png";
-import Net11 from "../assets/images/img/Networks/net11.png";
+import Net1 from "../assets/images/img/Networks/net1.svg";
+import Net2 from "../assets/images/img/Networks/net2.svg";
+import Net3 from "../assets/images/img/Networks/net3.svg";
+import Net4 from "../assets/images/img/Networks/net4.svg";
+import Net5 from "../assets/images/img/Networks/net5.svg";
+import Net6 from "../assets/images/img/Networks/net6.svg";
+import Net7 from "../assets/images/img/Networks/net7.svg";
+import Net8 from "../assets/images/img/Networks/net8.svg";
+import Net9 from "../assets/images/img/Networks/net9.svg";
+import Net10 from "../assets/images/img/Networks/net10.svg";
+import Net11 from "../assets/images/img/Networks/net11.svg";
+import Filter from "./filter";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,11 @@ function Header() {
     setIsOpen(!isOpen);
     setDrawerWidth(275);
   };
+  const handlefilter = () => {
+    setisclicked(!isclicked);
+  };
+
+  const [isclicked, setisclicked] = useState(false);
   return (
     <section className="rize-container">
       {/* ||--------------------------------------------------------------------------------|| */}
@@ -55,7 +61,7 @@ function Header() {
               <img className="rize-header-search-icon" src={searchIcon} />
             </div>
             <div className="rize-header-filter">
-              <img src={filterIcon} />
+              <img src={filterIcon} onClick={handlefilter} />
             </div>
           </div>
 
@@ -67,44 +73,50 @@ function Header() {
                     style={{ height: 16 }}
                     className="rize-nav-item dropdown-toggle"
                   >
-
-{/*  add utility, add members, , add nft market, */}
+                    {/*  add utility, add members, , add nft market, */}
                     Pages
                   </a>
                   <ul class="dropdown-menu">
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to="/escrow"
+                      >
+                        Validator
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                      >
+                        Earnwise
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        Utility
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        Members
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        NFT Market
+                      </Link>
+                    </li>
                     <li>
                       <Link className="dropdown-item" to="/roadmap">
                         Roadmap
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link className="dropdown-item" to="/escrow">
-                        Escrow
-                      </Link>
-                    </li> */}
+
                     <li>
                       <Link className="dropdown-item" to="/blog">
                         Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/rize-stake-and-learn">
-                        Validator
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/earnwise">
-                        Earnwise
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/utility">
-                        Utility
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/members">
-                        Members
                       </Link>
                     </li>
                     {/* <li>
@@ -112,7 +124,7 @@ function Header() {
                         Contact Us
                       </Link>
                     </li> */}
-                    
+
                     {/* <li>
                       <Link className="dropdown-item" to="/wallet">
                         Wallet
@@ -120,14 +132,17 @@ function Header() {
                     </li> */}
                   </ul>
                 </div>
-                <div className="rize-nav-item-network nets">
+                <div
+                  className="rize-nav-item-network nets"
+                  style={{ height: 60 }}
+                >
                   <a
                     className="rize-nav-item"
                     style={{ marginRight: 10, height: 16, paddingLeft: 0 }}
                   >
                     Networks
                   </a>
-                  <div className="rize-dropdown" style={{left:'298px'}}>
+                  <div className="rize-dropdown">
                     <div>
                       <div className="d-flex">
                         <div className="v-center rize-dropdown-padding rize-dropdown-item1">
@@ -186,7 +201,7 @@ function Header() {
                           <img src={Net5} />
                           <span>Avalanche</span>
                         </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10">
+                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10" style={{ marginTop: 1}}>
                           <img src={Net11} />
                           <span>Tezos</span>
                         </div>
@@ -195,35 +210,37 @@ function Header() {
 
                     <div>
                       <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item11">
+                        <div className="v-center rize-dropdown-padding rize-dropdown-item11" style={{ marginLeft: 1 }}>
                           <img src={Net6} />
                           <span>Near</span>
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
-                <button
-                  className="btn rize-btn-green v-center"
-                  style={{ padding: 11,
-                     paddingBottom:7 }}
-                >
-                  {/* <img
+                <Link to="/wallet">
+                  <button
+                    className="btn rize-btn-green v-center"
+                    style={{ padding: 11, paddingBottom: 7 }}
+                  >
+                    {/* <img
                     className="rize-icon-sm"
                     style={{ marginRight: 10 }}
                     src={walletConnectIcon}
                   />{" "} */}
-                  <span
-                    style={{
-                      height: 13,
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    Wallet Connect
-                  </span>
-                </button>
+                    <span
+                      style={{
+                        height: 13,
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                    >
+                      Wallet Connect
+                    </span>
+                  </button>
+                </Link>
                 <div className="rize-header-divider" />
                 <img className="rize-header-prifile" src={profileICon} />
                 <img className="rize-icon-sm" src={add_to_cartIcon} />
@@ -231,6 +248,7 @@ function Header() {
             </div>
           </div>
         </div>
+        {isclicked && <Filter />}
       </header>
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                  MOBILE HEADER                                  || */}
@@ -263,7 +281,8 @@ function Header() {
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img className="rize-icon-sm" src={searchIcon} />
+               <img id="s-icon" className="rize-icon-sm" src={searchIcon} />
+              {/* <img id="#s-icon_1" className="rize-icon-sm" src={searchIcon} /> */}
             </div>
           </div>
         </div>

@@ -12,25 +12,23 @@ function Development() {
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Development poroposals</h2>
+              <h2 className="text-white">Development poroposals countdown</h2>
             </div>
             <div>
               <div className="rize-tabs-container">
                 <div
                   onClick={() => setactiveTab(!activeTab)}
-                  className={`${
-                    activeTab == true ? "rize-active-tab" : "rize-inactive-tab"
-                  }`}
+                  className={`${activeTab == true ? "rize-active-tab" : "rize-inactive-tab"
+                    }`}
                 >
                   Open
                 </div>
                 <div
                   onClick={() => setactiveTab(!activeTab)}
-                  className={`${
-                    activeTab != true
+                  className={`${activeTab != true
                       ? "rize-active-tab rize-active-tab-right"
                       : "rize-inactive-tab"
-                  }`}
+                    }`}
                 >
                   Past
                 </div>
@@ -50,25 +48,25 @@ function Development() {
               </thead>
               <tbody>
                 <tr>
-                  <td>
+                  <td className="bt-g">
                     <div className="rize-table-createdby">
                       <img src={dp1} />
                       <span className="text-white ml-4">Lorem ipsum</span>
                     </div>
                   </td>
-                  <td>
+                  <td className="bt-g">
                     <div>
                       <span className="text-white ml-4">
                         Lorem Ipsum Dolor sit amit color asetto...
                       </span>
                     </div>
                   </td>
-                  <td>
+                  <td className="bt-g">
                     <div>
                       <span className="text-white ml-4">2 Days</span>
                     </div>
                   </td>
-                  <td>
+                  <td className="bt-g">
                     <div>
                       <button
                         style={{ minWidth: 100 }}

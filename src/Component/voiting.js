@@ -11,7 +11,7 @@ function Voiting() {
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Voiting</h2>
+              <h2 className="text-white">Voting</h2>
             </div>
             <div>
               <div className="rize-tabs-container">
@@ -49,25 +49,25 @@ function Voiting() {
               </thead>
               <tbody>
                 <tr>
-                  <td>
+                  <td className="bt-g">
                     <div className="rize-table-createdby">
                       <img src={dp1} />
                       <span className="text-white ml-4">Lorem ipsum</span>
                     </div>
                   </td>
-                  <td>
+                  <td className="bt-g">
                     <div>
                       <span className="text-white ml-4">
                         Lorem Ipsum Dolor sit amit color asetto...
                       </span>
                     </div>
                   </td>
-                  <td>
+                  <td className="bt-g">
                     <div>
                       <span className="text-white ml-4">2 Days</span>
                     </div>
                   </td>
-                  <td>
+                  <td className="bt-g">
                     <div>
                       <button
                         style={{ minWidth: 100 }}

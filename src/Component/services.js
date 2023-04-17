@@ -15,7 +15,7 @@ function Service() {
         <div className="container rize-mini-container">
           {/* DISCOVER */}
           <div className="row mb-sm-5 pb-sm-5 pb-3">
-            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-sm-1">
+            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div>
                 <h1>Discover Rare NFTs</h1>
                 <p>
@@ -30,12 +30,14 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Marketplace</span>
                 </button>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-sm-2 mb-4 mb-sm-0">
-              <img src={serviceImg} className="w-sm-100" />
+            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-md-2 mb-4 mb-sm-0">
+              <div className="text-right w-100">
+                <img src={serviceImg} className="w-sm-100" />
+              </div>
             </div>
           </div>
           {/* UTILITY */}
@@ -56,31 +58,35 @@ function Service() {
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
           </div>
           {/* BRIDGE */}
           <div className="row mb-sm-5 pb-sm-5 pb-3">
-            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-sm-1">
+            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div>
                 <h1>Bridge</h1>
                 <p>
                   First cross chain bridge between Cosmos and XRPL. A new way to
-                  safe guard your most precious assets.And move away from
-                  centralized scams. Experience a seemless bridge experience!
+                  safe guard your most precious assets. And move away from
+                  centralized scams. Experience a seamless bridge experience!
                 </p>
                 <button
                   style={{ marginBottom: 30, minWidth: 120 }}
                   className="btn rize-btn-netowrk-green v-center h-center"
                 >
-                  Learn more
+                  <span style={{ height: 17 }}>Learn more</span>
                 </button>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-sm-2 mb-4 mb-sm-0">
-              <img src={BridgeGif} className="w-sm-100" style={{borderRadius : '20px'}} />
+            <div className="col-md-6 rize-what-we-are-left rize-services-left text-right order-1 order-md-2 mb-4 mb-sm-0">
+              <img
+                src={BridgeGif}
+                className="w-sm-100"
+                style={{ borderRadius: "20px" }}
+              />
             </div>
           </div>
           {/* LLE */}
@@ -102,7 +108,7 @@ function Service() {
                     style={{ marginBottom: 30, minWidth: 120 }}
                     className="btn rize-btn-netowrk-green v-center h-center"
                   >
-                    Learn more
+                    <span style={{ height: 17 }}>Learn more</span>
                   </button>
                 </Link>
               </div>
@@ -110,25 +116,25 @@ function Service() {
           </div>
           {/* Rize Validator */}
           <div className="row">
-            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-sm-1">
+            <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div>
                 <h1>Rize Validator Node</h1>
                 <p>
                   First cross chain bridge between Cosmos and XRPL. A new way to
                   safe guard your most precious assets. And move away from
-                  centralized scams. Experience a seemless bridge experience!
+                  centralized scams. Experience a seamless bridge experience!
                 </p>
                 <Link to="rize-stake-and-learn">
                   <button
                     style={{ marginBottom: 30, minWidth: 120 }}
                     className="btn rize-btn-netowrk-green v-center h-center"
                   >
-                    Learn more
+                    <span style={{ height: 17 }}>Learn more</span>
                   </button>
                 </Link>
               </div>
             </div>
-            <div className="col-md-6 rize-what-we-are-left rize-services-left f-end order-1 order-sm-2 mb-4 mb-sm-0">
+            <div className="col-md-6 rize-what-we-are-left rize-services-left text-right  order-1 order-md-2 mb-4 mb-sm-0">
               <img src={Rize_Validator_Node} className="w-sm-100" />
             </div>
           </div>

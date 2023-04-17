@@ -9,17 +9,17 @@ import Drawer from "./rizedrwaer";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Net1 from "../assets/images/img/Networks/net1.png";
-import Net2 from "../assets/images/img/Networks/net2.png";
-import Net3 from "../assets/images/img/Networks/net3.png";
-import Net4 from "../assets/images/img/Networks/net4.png";
-import Net5 from "../assets/images/img/Networks/net5.png";
-import Net6 from "../assets/images/img/Networks/net6.png";
-import Net7 from "../assets/images/img/Networks/net7.png";
-import Net8 from "../assets/images/img/Networks/net8.png";
-import Net9 from "../assets/images/img/Networks/net9.png";
-import Net10 from "../assets/images/img/Networks/net10.png";
-import Net11 from "../assets/images/img/Networks/net11.png";
+import Net1 from "../assets/images/img/Networks/net1.svg";
+import Net2 from "../assets/images/img/Networks/net2.svg";
+import Net3 from "../assets/images/img/Networks/net3.svg";
+import Net4 from "../assets/images/img/Networks/net4.svg";
+import Net5 from "../assets/images/img/Networks/net5.svg";
+import Net6 from "../assets/images/img/Networks/net6.svg";
+import Net7 from "../assets/images/img/Networks/net7.svg";
+import Net8 from "../assets/images/img/Networks/net8.svg";
+import Net9 from "../assets/images/img/Networks/net9.svg";
+import Net10 from "../assets/images/img/Networks/net10.svg";
+import Net11 from "../assets/images/img/Networks/net11.svg";
 
 import Filter from "./filter";
 
@@ -82,54 +82,58 @@ function DashboardHeader() {
               <div className="v-center">
                 <div class="dropdown">
                   <a
-                    style={{ height: 16, 
-                    color:'white' }}
+                    style={{ height: 12, color: "white" }}
                     className="rize-nav-item dropdown-toggle"
                   >
                     Pages
                   </a>
                   <ul class="dropdown-menu">
-                  <li>
-                      <Link className="dropdown-item" to="/roadmap">
-                        Roadmap
-                      </Link>
-                    </li>
-                    {/* <li>
-                      <Link className="dropdown-item" to="/escrow">
-                        Escrow
-                      </Link>
-                    </li> */}
                     <li>
-                      <Link className="dropdown-item" to="/blog">
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/rize-stake-and-learn">
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                      >
                         Validator
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/earnwise">
+                      <Link className="dropdown-item" to="/h">
                         Earnwise
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/utility">
+                      <Link className="dropdown-item" to="/">
                         Utility
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/members">
+                      <Link className="dropdown-item" to="/">
                         Members
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        NFT Market
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/roadmap">
+                        Roadmap
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link className="dropdown-item" to="/blog">
+                        Blog
                       </Link>
                     </li>
                     {/* <li>
                       <Link className="dropdown-item" to="/contact-us">
                         Contact Us
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+
+                    {/* <li>
                       <Link className="dropdown-item" to="/wallet">
                         Wallet
                       </Link>
@@ -137,10 +141,13 @@ function DashboardHeader() {
                   </ul>
                 </div>
 
-                <div className="rize-nav-item-network nets">
+                <div
+                  className="rize-nav-item-network nets"
+                  style={{ height: 60 }}
+                >
                   <a
                     className="rize-nav-item"
-                    style={{ marginRight: 10, height: 16, paddingLeft: 0 }}
+                    style={{ marginRight: 10, height: 12, paddingLeft: 0 }}
                   >
                     Networks
                   </a>
@@ -220,21 +227,20 @@ function DashboardHeader() {
                     </div>
                   </div>
                 </div>
-                <button
-                  className="btn rize-btn-green v-center"
-                  style={{ padding: 11, paddingBottom: 7 }}
-                >
-                  <span
-                    style={{
-                      height: 13,
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
+                <Link to="/wallet">
+                  <button
+                    className="btn rize-btn-green v-center"
+                    style={{ padding: 11 }}
                   >
-                    Wallet Connect
-                  </span>
-                </button>
+                    <span
+                      style={{
+                        height: 13,
+                      }}
+                    >
+                      Wallet Connect
+                    </span>
+                  </button>
+                </Link>
                 <div className="rize-header-divider" />
                 <img className="rize-header-prifile" src={profileICon} />
                 <img className="rize-icon-sm" src={add_to_cartIcon} />
@@ -271,11 +277,12 @@ function DashboardHeader() {
           <div className="col-4 v-center">
             <div className="rize-header-right-section">
               <img
+                id="c-icon"
                 className="rize-icon-sm"
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img className="rize-icon-sm" src={searchIcon} />
+              <img id="s-icon" className="rize-icon-sm" src={searchIcon} />
             </div>
           </div>
         </div>
