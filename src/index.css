@@ -1434,6 +1434,12 @@ h1.rize-discount {
   text-align: center;
 }
 
+.discount-right-blur-container-bottom-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
 .space-between {
   justify-content: space-between;
   display: flex;

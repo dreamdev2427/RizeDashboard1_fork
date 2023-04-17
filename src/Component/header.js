@@ -201,7 +201,7 @@ function Header() {
                           <img src={Net5} />
                           <span>Avalanche</span>
                         </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10" style={{ marginTop: 1}}>
+                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10" style={{ marginTop: 1 }}>
                           <img src={Net11} />
                           <span>Tezos</span>
                         </div>
@@ -216,7 +216,7 @@ function Header() {
                         </div>
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
                 <Link to="/wallet">
@@ -281,7 +281,7 @@ function Header() {
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-               <img id="s-icon" className="rize-icon-sm" src={searchIcon} />
+              <img id="s-icon" className="rize-icon-sm d-none" src={searchIcon} />
               {/* <img id="#s-icon_1" className="rize-icon-sm" src={searchIcon} /> */}
             </div>
           </div>

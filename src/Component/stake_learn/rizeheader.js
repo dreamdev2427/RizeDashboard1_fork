@@ -90,7 +90,7 @@ function Header() {
               className="rize-icon-sm"
               src={menuIcon}
             />
-          <Drawer
+            <Drawer
               key={drawerWidth}
               close={() => {
                 setDrawerWidth(0);
@@ -100,11 +100,11 @@ function Header() {
           </div>
           <div className="col-4 v-center h-center">
             <img
-             
+
               className="rize-header-logo"
               src={rize1}
             />
-            
+
           </div>
           <div className="col-4 v-center">
             <div className="rize-header-right-section">
@@ -113,7 +113,7 @@ function Header() {
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img className="rize-icon-sm" src={searchIcon} />
+              <img className="rize-icon-sm d-none" src={searchIcon} />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import img from "../assets/images/img/Escrow/img.jpg"
 function Discount() {
   return (<section className="mt-5 pt-5" data-aos="fade-up">
-    <div className="rize-discount-container v-center h-center">
+    <div className="rize-discount-container v-center h-center px-1 px-md-4">
       <div className="row w-100">
         <div className="col-sm-7 v-center">
           <div className="mb-5">
@@ -19,8 +19,8 @@ function Discount() {
             <img src={img} width="100%" />
             <div className="discount-right-blur-container-image">
               <div style={{ padding: 13 }}>
-                <div className="row px-4">
-                  <div className="col-7 content-center justify-content-start">
+                <div className="row px-lg-3 px-2">
+                  <div className="col-7 px-0 content-center justify-content-start">
                     <div className="discount-right-blur-container-top-heading-container">
                       <h1 className="text-white mt-0">Carbon</h1>
                       <p id="resp" className="rize-p text-white mb-0">
@@ -28,7 +28,7 @@ function Discount() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-5 content-center justify-content-end">
+                  <div className="col-5 px-0 content-center justify-content-end">
                     <div className="discount-right-blur-container-top-badge-container f-end">
                       <div className="rize-badge">
                         <span style={{ height: 11 }}>Art</span>
@@ -44,21 +44,21 @@ function Discount() {
                   borderRadius: "0px 0px 15px 15px"
                 }}
               >
-                <div className="row px-4">
-                  <div className="col-4 content-center justify-content-start">
+                <div className="row px-lg-3 px-2">
+                  <div className="col-4 px-0 content-center justify-content-start">
                     <div className="discount-right-blur-container-bottom-heading-container">
                       <h1 className="text-white mt-0">$4500</h1>
                       <p className="rize-p text-white mb-0">Auction</p>
                     </div>
                   </div>
-                  <div className="col-4 content-center">
+                  <div className="col-4 px-0 content-center">
                     <div className="discount-right-blur-container-bottom-heading-container">
                       <h1 className="text-white mt-0">$9000</h1>
                       <p className="rize-p text-white mb-0">Buy Now</p>
                     </div>
                   </div>
-                  <div className="col-4 content-center justify-content-end">
-                    <div className="discount-right-blur-container-bottom-heading-container">
+                  <div className="col-4 px-0 content-center justify-content-end">
+                    <div className="discount-right-blur-container-bottom-heading-container align-items-center">
                       <div className="h-center">
                         <svg
                           width={15}

@@ -284,7 +284,7 @@ function DashboardHeader() {
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img className="rize-icon-sm" src={searchIcon} />
+              <img className="rize-icon-sm d-none" src={searchIcon} />
             </div>
           </div>
         </div>
