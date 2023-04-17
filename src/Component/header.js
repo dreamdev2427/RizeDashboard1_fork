@@ -210,7 +210,7 @@ function Header() {
 
                     <div>
                       <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item11" style={{ marginLeft: 1 }}>
+                        <div className="v-center rize-dropdown-padding rize-dropdown-item11" style={{ marginLeft: 0.5 }}>
                           <img src={Net6} />
                           <span>Near</span>
                         </div>

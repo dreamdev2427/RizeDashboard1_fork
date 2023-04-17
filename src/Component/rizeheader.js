@@ -207,7 +207,10 @@ function DashboardHeader() {
                           <img src={Net5} />
                           <span>Avalanche</span>
                         </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10">
+                        <div
+                          className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10"
+                          style={{ marginTop: 1 }}
+                        >
                           <img src={Net11} />
                           <span>Tezos</span>
                         </div>
@@ -216,7 +219,10 @@ function DashboardHeader() {
 
                     <div>
                       <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item11">
+                        <div
+                          className="v-center rize-dropdown-padding rize-dropdown-item11"
+                          style={{ marginLeft: 0.5 }}
+                        >
                           <img src={Net6} />
                           <span>Near</span>
                         </div>
@@ -274,12 +280,11 @@ function DashboardHeader() {
           <div className="col-4 v-center">
             <div className="rize-header-right-section">
               <img
-                id="c-icon"
                 className="rize-icon-sm"
                 style={{ marginRight: 16 }}
                 src={add_to_cartIcon}
               />
-              <img id="s-icon" className="rize-icon-sm" src={searchIcon} />
+              <img className="rize-icon-sm" src={searchIcon} />
             </div>
           </div>
         </div>

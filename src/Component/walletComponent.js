@@ -495,15 +495,15 @@ function Service() {
                           placeholder=".04 CORE remains for future transactions"
                           className="rize-input"
                         />
-                        <button className="btn rize-btn-green rize-btn-sm-cus content-center">
-                          <span style={{ height: 16 }} >Max</span>
+                        <button className="btn rize-btn-green rize-btn-sm-cus ">
+                          <span className="d-block" style={{ height: 14, }} >Max</span>
                         </button>
                       </div>
                       <button
                         style={{ minWidth: 120, width: "100%" }}
                         className="btn rize-btn-green v-center h-center mb-3"
                       >
-                        <span className="content-center" style={{ height: 20 }} >Confirm</span>
+                        <span className="" style={{ height: 16 }} >Confirm</span>
                       </button>
                     </div>
                   </div>
