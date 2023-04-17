@@ -182,7 +182,7 @@ function Service() {
                       <div className="d-flex align-items-center justify-content-between h-100">
                         <div className="left h-100 justify-content-between d-flex flex-column">
                           <div className="wallet-body-subtitle pr-3">
-                            Distribution Wallet Address
+                            Distribution Address
                           </div>
                           <div className="wallet-body-2subtitle pr-3">
                             42D........Hawaii
@@ -221,7 +221,7 @@ function Service() {
                       <div className="d-flex align-items-center justify-content-between h-100">
                         <div className="left h-100 justify-content-between d-flex flex-column">
                           <div className="wallet-body-subtitle pr-3">
-                            Earnwise Stake Address
+                            Stake Address
                           </div>
                           <div className="wallet-body-2subtitle pr-3">
                             42D........Hawaii
@@ -248,7 +248,7 @@ function Service() {
                       <div className="d-flex align-items-center justify-content-between h-100">
                         <div className="left h-100 justify-content-between d-flex flex-column">
                           <div className="wallet-body-subtitle pr-3">
-                            Distribution Wallet Address
+                            Distribution Address
                           </div>
                           <div className="wallet-body-2subtitle pr-3">
                             42D........Hawaii
@@ -330,14 +330,14 @@ function Service() {
                       <div className="wallet-body-subtitle pr-3">
                         Compounded
                       </div>
+                      <div className="wallet-body-2subtitle pr-3">
+                        5000 CORE
+                      </div>
                       <div
                         className="wallet-body-subtitle pr-3 "
                         style={{ color: "#2F342F" }}
                       >
                         300,000 USD
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        5000 CORE
                       </div>
                     </div>
                   </div>
@@ -421,14 +421,14 @@ function Service() {
                       <div className="wallet-body-subtitle pr-3">
                         Compounded
                       </div>
+                      <div className="wallet-body-2subtitle pr-3">
+                        5000 CORE
+                      </div>
                       <div
                         className="wallet-body-subtitle pr-3 "
                         style={{ color: "#2F342F" }}
                       >
                         300,000 USD
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        5000 CORE
                       </div>
                     </div>
                   </div>
@@ -437,14 +437,14 @@ function Service() {
                       <div className="wallet-body-subtitle pr-3">
                         Total Dripped
                       </div>
+                      <div className="wallet-body-2subtitle pr-3">
+                        5000 CORE
+                      </div>
                       <div
                         className="wallet-body-subtitle pr-3 "
                         style={{ color: "#2F342F" }}
                       >
                         300,000 USD
-                      </div>
-                      <div className="wallet-body-2subtitle pr-3">
-                        5000 CORE
                       </div>
                     </div>
                   </div>
@@ -495,15 +495,15 @@ function Service() {
                           placeholder=".04 CORE remains for future transactions"
                           className="rize-input"
                         />
-                        <button className="btn rize-btn-green v-center h-center rize-btn-sm-cus">
-                          <span className="content-center" >Max</span>
+                        <button className="btn rize-btn-green rize-btn-sm-cus content-center">
+                          <span style={{ height: 16 }} >Max</span>
                         </button>
                       </div>
                       <button
                         style={{ minWidth: 120, width: "100%" }}
                         className="btn rize-btn-green v-center h-center mb-3"
                       >
-                        <span className="content-center" >Confirm</span>
+                        <span className="content-center" style={{ height: 20 }} >Confirm</span>
                       </button>
                     </div>
                   </div>
