@@ -3764,7 +3764,7 @@ a {
 @media (max-width: 608px) {
 
   .rize-banner--container .rize-banner--heading {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   .rize-banner--container .rize-banner--heading.big-heading {
