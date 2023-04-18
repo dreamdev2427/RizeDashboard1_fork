@@ -2782,14 +2782,14 @@ canvas {
 }
 
 .how-it-works-title h1 {
-  font-size: 50px;
+  font-size: 70px;
   letter-spacing: 4px;
   color: white;
 }
 
 .how-it-works h1 {
   color: #ffffff;
-  font-size: 23px;
+  font-size: 40px;
   margin-bottom: 0px;
 }
 
@@ -2798,18 +2798,18 @@ canvas {
 }
 
 .how-it-works p {
-  font-size: 12px;
+  font-size: 15px;
   color: rgb(255, 255, 255);
 }
 
 .how-it-works li {
-  font-size: 12px;
+  font-size: 15px;
   color: rgb(255, 255, 255);
 }
 
 .how-it-works-types--1st {
   position: absolute;
-  top: 70px;
+  top: 40px;
   left: 380px;
 }
 
@@ -2819,7 +2819,7 @@ canvas {
 
 @media only screen and (max-width: 1550px) {
   .how-it-works-types--1st {
-    left: 185px;
+    left: 200px;
   }
 }
 
@@ -2836,7 +2836,7 @@ canvas {
 
 @media only screen and (max-width: 768px) {
   .how-it-works-types--1st {
-    top: 35px;
+    top: 40px;
     left: 73px;
   }
 }
@@ -2850,7 +2850,7 @@ canvas {
 
 .how-it-works-types {
   position: absolute;
-  top: 70px;
+  top: 40px;
   left: 390px;
 }
 
@@ -2860,7 +2860,7 @@ canvas {
 
 @media only screen and (max-width: 1550px) {
   .how-it-works-types {
-    left: 190px;
+    left: 200px;
   }
 }
 
@@ -3808,4 +3808,8 @@ a {
 
 .pb-110 {
   padding-bottom: 110px;
+}
+
+.row.mb-5.pb-5{
+  padding-bottom: 1rem !important;
 }
