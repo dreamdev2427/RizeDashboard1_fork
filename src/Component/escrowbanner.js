@@ -9,7 +9,7 @@ function Banner() {
           <div className="col-md-7 rize-banner-left">
             <h1>For Exclusive Holders</h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do
               eiusmod tempor incididunt ut.
             </p>
           </div>

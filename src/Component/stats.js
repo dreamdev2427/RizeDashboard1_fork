@@ -1,11 +1,11 @@
 function Stats() {
   return (
-    <section className="mt-5 pt-3" data-aos="fade-up">
+    <section className="mt-sm-5 mt-0 pt-sm-5 pt-0" data-aos="fade-up">
       <div className="rize-suboverlay-container">
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white mb-5">Stats</h2>
+              <h2 className="text-white mb-5 f-32">Stats</h2>
             </div>
           </div>
           <div className="table-responsive">
@@ -18,8 +18,8 @@ function Stats() {
                     </div>
                   </td>
                   <td className="bt-g">
-                    <div>
-                      <span className="text-white ml-4">20.20</span>
+                    <div className="f-center w-100">
+                      <span className="text-white ">20.20</span>
                     </div>
                   </td>
                 </tr>
@@ -32,8 +32,8 @@ function Stats() {
                     </div>
                   </td>
                   <td>
-                    <div>
-                      <span className="text-white ml-4">50.26</span>
+                    <div className="f-center w-100">
+                      <span className="text-white ">50.26</span>
                     </div>
                   </td>
                 </tr>
@@ -46,8 +46,8 @@ function Stats() {
                     </div>
                   </td>
                   <td>
-                    <div>
-                      <span className="text-white ml-4">69.065</span>
+                    <div className="f-center w-100">
+                      <span className="text-white">69.065</span>
                     </div>
                   </td>
                 </tr>
@@ -60,8 +60,8 @@ function Stats() {
                     </div>
                   </td>
                   <td>
-                    <div>
-                      <span className="text-white ml-4">254</span>
+                    <div className="f-center w-100">
+                      <span className="text-white ">254</span>
                     </div>
                   </td>
                 </tr>
@@ -74,8 +74,8 @@ function Stats() {
                     </div>
                   </td>
                   <td>
-                    <div>
-                      <span className="text-white ml-4">325</span>
+                    <div className="f-center w-100">
+                      <span className="text-white">325</span>
                     </div>
                   </td>
                 </tr>

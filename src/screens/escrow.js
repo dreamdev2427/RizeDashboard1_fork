@@ -10,7 +10,7 @@ import Stats from "../Component/stats";
 function Escrow() {
   return (
     <>
-      <section className="rize-main">
+      <section className="rize-main escrow-rize-main">
         {/* ||--------------------------------------------------------------------------------|| */}
         {/* ||                                   RIZE DRAWER                                  || */}
         {/* ||--------------------------------------------------------------------------------|| */}

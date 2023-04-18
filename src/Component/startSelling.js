@@ -2,7 +2,7 @@
 import LiquidGlass from "../assets/video/liquid_glass_animation.webm";
 function StartSelling() {
   return (
-    <section className="mt-5 pt-5" data-aos="fade-up">
+    <section className="mt-5 pt-5 pb-110" data-aos="fade-up">
       <div className="rize-start-selling-container v-center h-center">
         <div>
           <div className="h-center">
@@ -23,10 +23,10 @@ function StartSelling() {
           </h1>
           <div className="h-center">
             <button
-              style={{ minWidth: 300 }}
+              style={{ minWidth: 250 }}
               className="btn start-selling-btn rize-btn-green v-center h-center"
             >
-              Sell Now
+              <span className="text-white" style={{height:16}}>Sell Now</span>
             </button>
           </div>
         </div>

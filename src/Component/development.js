@@ -7,14 +7,14 @@ function Development() {
   const [activeTab, setactiveTab] = useState(true);
 
   return (
-    <section className="mt-5 pt-3" data-aos="fade-up">
+    <section className="mt-sm-5 mt-0 pt-sm-5 pt-0" data-aos="fade-up">
       <div className="rize-suboverlay-container">
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Development proposal countdown</h2>
+              <h2 className="text-white f-32">Development proposal countdown</h2>
             </div>
-            <div>
+            <div className="v-center">
               <div className="rize-tabs-container">
                 <div
                   onClick={() => setactiveTab(!activeTab)}
@@ -35,7 +35,7 @@ function Development() {
               </div>
             </div>
           </div>
-          <h2 className="text-white mt-4 mb-5">Open Votes : 3</h2>
+          <h2 className="text-white mt-4 mb-4 f-32">Open Votes : 3</h2>
           <div className="table-responsive">
             <table className="rize-table rize-development-table table">
               <thead>
@@ -68,11 +68,11 @@ function Development() {
                   </td>
                   <td className="bt-g">
                     <div>
-                      <button
+                       <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
@@ -98,11 +98,11 @@ function Development() {
                   </td>
                   <td>
                     <div>
-                      <button
+                       <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
@@ -128,11 +128,11 @@ function Development() {
                   </td>
                   <td>
                     <div>
-                      <button
+                       <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>

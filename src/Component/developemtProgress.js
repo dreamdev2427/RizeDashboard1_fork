@@ -7,13 +7,13 @@ function DevelopmentProgress() {
   const [activeTab, setactiveTab] = useState(true);
 
   return (
-    <section className="mt-5 pt-3" data-aos="fade-up">
+    <section className="mt-sm-5 mt-0 pt-sm-5 pt-0" data-aos="fade-up">
       <div className="rize-suboverlay-container">
-        <p className="rize-p text-center mb-0">
+        <p className="rize-p text-center mb-0 ">
           Vote begins at 2 million Coreum staked{" "}
         </p>
         <h1
-          className="mt-2 mb-5 rize-text-primary text-center"
+          className="mt-4 mb-5 rize-text-primary text-center f-65"
           style={{ fontSize: "65px!important" }}
         >
           0.01 mil
@@ -21,9 +21,9 @@ function DevelopmentProgress() {
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Charity Voting</h2>
+              <h2 className="text-white f-32">Charity Voting</h2>
             </div>
-            <div>
+            <div className="v-center">
               <div className="rize-tabs-container">
                 <div
                   onClick={() => setactiveTab(!activeTab)}
@@ -46,7 +46,7 @@ function DevelopmentProgress() {
               </div>
             </div>
           </div>
-          <h2 className="mt-4 mb-5 rize-text-primary">Open Votes : 3</h2>
+          <h2 className="mt-2 mb-4 rize-text-primary f-32">Open Votes : 3</h2>
           <div className="table-responsive">
             <table className="rize-table rize-development-table table">
               <thead>
@@ -79,11 +79,11 @@ function DevelopmentProgress() {
                   </td>
                   <td className="bt-g">
                     <div>
-                      <button
+                       <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
@@ -109,11 +109,11 @@ function DevelopmentProgress() {
                   </td>
                   <td>
                     <div>
-                      <button
+                       <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
@@ -139,11 +139,11 @@ function DevelopmentProgress() {
                   </td>
                   <td>
                     <div>
-                      <button
+                       <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
