@@ -84,6 +84,10 @@ strong {
   background-size: cover;
 }
 
+.escrow-rize-main {
+  background-image: url("./assets/images/img/Escrow/Escrow-bg.jpg") !important;
+}
+
 .rize-home-main {
   background-image: url("./assets/images/img/bg-homepage.jpg");
   background-repeat: no-repeat;
@@ -292,12 +296,12 @@ div .rize-banner-left p {
 }
 
 .rize-suboverlay-container {
-  background: #101010;
+  background: #1010103d;
   width: 90%;
   margin: 0 auto;
-  padding: 70px 0px;
+  padding: 40px 0px;
   border-radius: 25px;
-  opacity: 85%;
+  opacity: 1;
 }
 
 .rize-launchpad-container {
@@ -321,7 +325,7 @@ div .rize-banner-left p {
 
 h1.start-selling-text {
   font-size: 30px;
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
 .start-selling-btn {
@@ -337,6 +341,11 @@ h1.start-selling-text {
 .f-end {
   display: flex;
   justify-content: flex-end;
+}
+
+.f-center {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 425px) {
@@ -368,11 +377,11 @@ h1.start-selling-text {
 }
 
 .rize-p {
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(255, 255, 255);
   word-spacing: 1px;
-  line-height: 20px;
   text-align: justify;
+  margin-top: 10px;
 }
 
 .rize-blog h1 {
@@ -450,6 +459,11 @@ video {
 }
 
 @media only screen and (max-width: 992px) {
+  .f-lg-center {
+    display: flex;
+    justify-content: center !important;
+  }
+
   .rize-web-header {
     display: none;
   }
@@ -472,6 +486,11 @@ video {
   .h-sm-center {
     display: flex;
     justify-content: center;
+  }
+
+  h1.start-selling-text {
+    font-size: 22px;
+    text-align: center;
   }
 
   .w-sm-100 {
@@ -1337,7 +1356,7 @@ a {
 h1.rize-discount {
   color: #46ff18;
   font-size: 70px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
@@ -1348,13 +1367,17 @@ h1.rize-discount {
     margin-top: 10px;
     margin-bottom: 5px;
   }
+
+  .rize-discount-container {
+    padding: 60px 5px !important;
+  }
 }
 
 .rize-discount-container {
   background-image: url("./assets/images/img/Escrow/discount50-bg.png");
   width: 90%;
   margin: 0 auto;
-  padding: 60px 115px;
+  padding: 60px 86px !important;
   border-radius: 25px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1369,6 +1392,7 @@ h1.rize-discount {
     border-radius: 25px;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 60px 15px !important;
   }
 }
 
@@ -1381,12 +1405,13 @@ h1.rize-discount {
   overflow: hidden;
   border: 2px solid #33ff00;
   border-radius: 31px;
+  max-width: 300px;
 }
 
 .discount-right-blur-container-image {
   position: absolute;
   bottom: 0px;
-  width: 90%;
+  width: 94%;
   backdrop-filter: blur(5px);
   border-radius: 15px;
   margin-bottom: 15px;
@@ -1459,10 +1484,10 @@ h1.rize-discount {
 }
 
 .rize-active-tab {
-  padding: 8px 33px;
+  padding: 10px 33px;
   font-size: 12px;
   background: #47f919;
-  height: 31px;
+  height: 33px;
   border-radius: 8px 0px 0px 8px;
   color: #101310;
   cursor: pointer;
@@ -1473,9 +1498,9 @@ h1.rize-discount {
 }
 
 .rize-inactive-tab {
-  padding: 8px 33px;
+  padding: 10px 33px;
   font-size: 12px;
-  height: 31px;
+  height: 33px;
   border-radius: 0px 8px 8px 0px;
   color: white;
   cursor: pointer;
@@ -2261,6 +2286,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 475px) {
+  div .rize-banner-left h1 {
+    font-size: 40px !important;
+  }
+
   .how-it-works-title {
     padding-top: 0% !important;
   }
@@ -3509,7 +3538,6 @@ a {
   background-color: #252725;
 }
 
-
 .main-banner-heading {
   font-size: 46px;
   letter-spacing: 4px;
@@ -3768,4 +3796,16 @@ a {
   .single-game-container .para {}
 
   .single-game-container .heading {}
+}
+
+.f-32 {
+  font-size: 32px !important;
+}
+
+.f-65 {
+  font-size: 65px !important;
+}
+
+.pb-110 {
+  padding-bottom: 110px;
 }

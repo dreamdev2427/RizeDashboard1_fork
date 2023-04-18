@@ -3,18 +3,18 @@ function Discount() {
   return (<section className="mt-5 pt-5" data-aos="fade-up">
     <div className="rize-discount-container v-center h-center px-1 px-md-4">
       <div className="row w-100">
-        <div className="col-sm-7 v-center">
+        <div className="col-lg-7 v-center">
           <div className="mb-5">
-            <p className="text-white rize-p mb-0" style={{ fontSize: 16 }}>
+            <p className="text-white rize-p mb-0 text-left" style={{ fontSize: 16 }}>
               Special offer for Exclusive Users Only
             </p>
             <h1 className="rize-discount mb-0">50% Discount</h1>
-            <h2 className="text-white rize-p mb-0 rize-discount-subheading">
+            <h2 className="text-white rize-p mb-0 rize-discount-subheading text-left">
               Limited time offer
             </h2>
           </div>
         </div>
-        <div className="col-sm-5 f-end">
+        <div className="col-lg-5 f-end f-lg-center">
           <span className="discount-right-blur-container h-center">
             <img src={img} width="100%" />
             <div className="discount-right-blur-container-image">
@@ -45,19 +45,19 @@ function Discount() {
                 }}
               >
                 <div className="row px-lg-3 px-2">
-                  <div className="col-4 px-0 content-center justify-content-start">
+                  <div className="col px-0 content-center justify-content-start">
                     <div className="discount-right-blur-container-bottom-heading-container">
                       <h1 className="text-white mt-0">$4500</h1>
                       <p className="rize-p text-white mb-0">Auction</p>
                     </div>
                   </div>
-                  <div className="col-4 px-0 content-center">
+                  <div className="col px-0 content-center">
                     <div className="discount-right-blur-container-bottom-heading-container">
                       <h1 className="text-white mt-0">$9000</h1>
                       <p className="rize-p text-white mb-0">Buy Now</p>
                     </div>
                   </div>
-                  <div className="col-4 px-0 content-center justify-content-end">
+                  <div className="col-3 px-0 content-center justify-content-end">
                     <div className="discount-right-blur-container-bottom-heading-container align-items-center">
                       <div className="h-center">
                         <svg

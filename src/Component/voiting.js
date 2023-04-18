@@ -6,14 +6,14 @@ function Voiting() {
   const [activeTab, setactiveTab] = useState(true);
 
   return (
-    <section className="mt-5 pt-3" data-aos="fade-up">
+    <section className="mt-5 pt-5" data-aos="fade-up">
       <div className="rize-suboverlay-container">
         <div className="container rize-mini-container ">
           <div className="space-between">
             <div>
-              <h2 className="text-white">Voting</h2>
+              <h2 className="text-white f-32">Voting </h2>
             </div>
-            <div>
+            <div className="v-center">
               <div className="rize-tabs-container">
                 <div
                   onClick={() => setactiveTab(!activeTab)}
@@ -36,7 +36,7 @@ function Voiting() {
               </div>
             </div>
           </div>
-          <h2 className="text-white mt-4 mb-5">Open Votes : 3</h2>
+          <h2 className="text-white mt-4 mb-4 f-32">Open Votes : 3</h2>
           <div className="table-responsive">
             <table className="rize-table rize-vote-table table">
               <thead>
@@ -73,7 +73,7 @@ function Voiting() {
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
@@ -103,7 +103,7 @@ function Voiting() {
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
@@ -133,7 +133,7 @@ function Voiting() {
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        Vote
+                        <span style={{ height: 15 }}>Vote</span>
                       </button>
                     </div>
                   </td>
