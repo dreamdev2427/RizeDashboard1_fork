@@ -86,7 +86,7 @@ function DashboardHeader() {
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item" to="/escrow">
+                      <Link className="dropdown-item" to="/escrow" style={{marginTop:-4}}>
                         Validator
                       </Link>
                     </li>
@@ -94,6 +94,7 @@ function DashboardHeader() {
                       <Link
                         className="dropdown-item"
                         to="/rize-stake-and-learn"
+                        
                       >
                         Earnwise
                       </Link>
@@ -120,7 +121,7 @@ function DashboardHeader() {
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to="/blog">
+                      <Link className="dropdown-item" to="/blog" style={{marginBottom:-4}}>
                         Blog
                       </Link>
                     </li>
