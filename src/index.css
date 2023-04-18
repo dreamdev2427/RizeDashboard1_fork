@@ -2058,15 +2058,7 @@ a.dropdown-item {
   height: 42px;
 }
 
-.rize-main-blog-container {
-  height: 183px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  border: 1px solid #30ed01;
-  border-radius: 20px;
-  margin-bottom: 18px;
-}
+.rize-main-blog-container {}
 
 .contact-us-css--message {
   margin-top: 160px;
@@ -3581,4 +3573,199 @@ a {
 
 .left {
   width: calc(100% - 17px);
+}
+
+.rize-banner--container .rize-banner--heading {
+  font-size: 34px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0px;
+}
+
+.rize-banner--container .rize-banner--heading.big-heading {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.rize-banner--container .rize-banner--paragraph {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  margin-bottom: 43px;
+  margin-top: 36px;
+}
+
+.rize-banner--container .rize-banner--heading.big-heading+.rize-banner--paragraph {
+  margin-bottom: 28px;
+  margin-top: 27px;
+}
+
+.rize-banner--container .rize-banner--button {
+  font-size: 13px !important;
+  line-height: 21px;
+  border-radius: 9px;
+  padding: 5px 18px;
+}
+
+.rize--section-heading {
+  font-size: 45px;
+  color: white;
+}
+
+.rize--section-heading2 {
+  font-size: 15px;
+  line-height: 146%;
+  color: white;
+}
+
+.rize--section-heading3 {
+  font-size: 22px;
+  line-height: 33px;
+  color: white;
+}
+
+.rize-border-image {
+  border: 1px solid #33ff00 !important;
+  border-radius: 22px;
+}
+
+.single-game-container .para {
+  color: white;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.single-game-container .heading {
+  color: white;
+  font-size: 25px;
+  line-height: 39px;
+  margin-bottom: 11px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .mb-sm-7 {
+    margin-bottom: 7px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) and (min-width: 768px) {
+
+  .rize-banner--container .rize-banner--heading {
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0px;
+  }
+
+  .rize-banner--container .rize-banner--heading.big-heading {
+    font-size: 36px;
+    line-height: 47px;
+  }
+
+  .rize-banner--container .rize-banner--paragraph {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    margin-bottom: 33px;
+    margin-top: 25px;
+  }
+
+  .rize-banner--container .rize-banner--heading.big-heading+.rize-banner--paragraph {
+    margin-bottom: 28px;
+    margin-top: 27px;
+  }
+
+  .rize-banner--container .rize-banner--button {
+    font-size: 13px !important;
+    line-height: 21px;
+    border-radius: 9px;
+    padding: 5px 18px;
+  }
+
+  .rize--section-heading {
+    font-size: 35px;
+    color: white;
+  }
+
+  .rize--section-heading2 {
+    font-size: 12px;
+    line-height: 146%;
+    color: white;
+  }
+
+  .rize--section-heading3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+  }
+
+  .rize-border-image {
+    border: 1px solid #33ff00 !important;
+    border-radius: 22px;
+  }
+
+  .single-game-container .para {
+    color: white;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .single-game-container .heading {
+    color: white;
+    font-size: 22px;
+    line-height: 39px;
+    margin-bottom: 11px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .rize-banner--container .rize-banner--heading.big-heading {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .rize-banner--container .rize-banner--heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+
+@media (max-width: 608px) {
+
+  .rize-banner--container .rize-banner--heading {
+    font-size: 30px;
+  }
+
+  .rize-banner--container .rize-banner--heading.big-heading {
+    font-size: 33px;
+    line-height: 45px;
+  }
+
+  .rize-banner--container .rize-banner--paragraph {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .rize--section-heading {
+    font-size: 40px;
+  }
+
+  .rize--section-heading2 {
+    font-size: 13px;
+    line-height: 146%;
+  }
+
+  .rize--section-heading3 {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .rize-border-image {}
+
+  .single-game-container .para {}
+
+  .single-game-container .heading {}
 }

@@ -4,13 +4,13 @@ function What_we_are() {
     <section className="mt-5 pt-3 " data-aos="fade-up">
       <div className="container rize-mini-container">
         <div className=" row">
-          <div className="col-md-6 rize-what-we-are-left mb-4 mb-sm-0 h-sm-center ">
-            <img src={descriptImg} className="w-sm-100 shift-right" />
+          <div className="col-md-6 rize-what-we-are-left mb-4 mb-sm-0 h-sm-center d-flex justify-content-start align-items-center">
+            <img src={descriptImg} className="w-sm-100" />
           </div>
           <div className="col-md-6 rize-what-we-are-right v-center">
-            <div>
-              <h1>What We Are</h1>
-              <p>
+            <div className="rize-banner--container" >
+              <h1 className="rize-banner--heading" >What We Are</h1>
+              <p className="rize-banner--paragraph" >
                 All who join RIze are Rize!
                 <br />
                 We are think out of the box, AI ran

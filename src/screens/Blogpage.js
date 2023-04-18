@@ -1,7 +1,7 @@
 import blog1 from "../assets/images/img/blogs/blog1.png";
 import blog2 from "../assets/images/img/blogs/blog2.png";
 import blog3 from "../assets/images/img/blogs/blog3.png";
-import blog4 from "../assets/images/img/blogs/blog4.png";
+import blog4 from "../assets/images/img/blogs/blog2.png";
 import Footer from "../Component/footer";
 import Header from "../Component/header";
 import { Link } from "react-router-dom";

@@ -16,20 +16,19 @@ function Nft() {
       >
         <div className="container ">
           <div className="row">
-            <div className=" mt-5 pt-5 col-lg-6 rize-what-we-are-right v-center order-2 order-sm-1">
-              <div>
-                <h1>Rize NFT Governance</h1>
-                <p>
+            <div className="col-lg-6 rize-what-we-are-right v-center order-2 order-sm-1">
+              <div className="rize-banner--container">
+                <h1 className="rize-banner--heading">Rize NFT Governance</h1>
+                <p className="rize-banner--paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <button
-                  style={{ marginBottom: 30, minWidth: 120 }}
-                  className="btn rize-btn-green v-center h-center"
+                  className="btn rize-btn-green rize-banner--button"
                 >
-                  <span style={{ height: 17 }}>Learn more</span>
+                  <span>Learn more</span>
                 </button>
               </div>
             </div>
