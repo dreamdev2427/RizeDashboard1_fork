@@ -4,7 +4,7 @@ import validator3 from "../../assets/images/img/security.png";
 function ValidatorServices() {
   return (
     <section className="mt-5 pt-5 pb-5" data-aos="fade-up">
-      <div className="rize-suboverlay-container">
+      <div className="rize-suboverlay-container" style={{background:'#101010e0'}}>
         <div className="container ">
           {/* <div className="container rize-mini-container"> */}
           <h1 className="services text-white">Rize Is Capable</h1>

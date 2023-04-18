@@ -6,20 +6,20 @@ export default function Howitworks() {
     <section data-aos="fade-up" className="netowrk--top--mobile">
       <div className="container rize-mini-container">
         <div className=" row">
-          <div className="col-sm-12 how-it-works-title mb-5 pb-5">
+          <div className="col-sm-12 how-it-works-title mb-1 pb-5">
             <div>
               <h1>How it Works</h1>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-4 how-it-works v-center">
+          <div className="col-sm-4 how-it-works pr-sm-5 p-0 v-center">
             <div className="pb-5 ">
               <div>
                 <img src={firstIcon} className="mb-2" />
               </div>
               <div className="how-it-works-types--1st">
-                <h1 className="pb-4"> ACTION</h1>
+                <h1 className="pb-3"> ACTION</h1>
                 <p className="pb-2">INDIVIDUALS STAKE TO RIZE EARNWISE</p>
               </div>
             </div>
@@ -34,13 +34,13 @@ export default function Howitworks() {
               </ol>
             </div>
           </div>
-          <div className="col-sm-4 how-it-works v-center">
+          <div className="col-sm-4 how-it-works px-sm-5 p-0 v-center">
             <div className="pb-5">
               <div>
                 <img src={secndIcon} className="mb-2" />
               </div>
               <div className="how-it-works-types">
-                <h1 className="pb-4"> ACTION</h1>
+                <h1 className="pb-3"> ACTION</h1>
                 <p className="pb-2">RIZE MOVES COMMISSIONS</p>
               </div>
             </div>
@@ -58,13 +58,13 @@ export default function Howitworks() {
               </p>
             </div>
           </div>
-          <div className="col-sm-4 how-it-works v-center">
+          <div className="col-sm-4 how-it-works pl-sm-5 p-0 v-center">
             <div className="pb-5">
               <div>
                 <img src={thirdIcon} className="mb-2" />
               </div>
               <div className="how-it-works-types">
-                <h1 className="pb-4"> ACTION</h1>
+                <h1 className="pb-3"> ACTION</h1>
                 <p className="pb-2">REWARDS ARE DONATED</p>
               </div>
             </div>

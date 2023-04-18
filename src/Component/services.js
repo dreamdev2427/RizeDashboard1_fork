@@ -10,15 +10,18 @@ import { Link } from "react-router-dom";
 function Service() {
   return (
     <section className="mt-5 pt-3" data-aos="fade-up">
-      <div className="rize-suboverlay-container">
+      <div
+        className="rize-suboverlay-container"
+        style={{ background: "#10101091" }}
+      >
         <h1 className="services rize--section-heading">Services</h1>
         <div className="container rize-mini-container">
           {/* DISCOVER */}
           <div className="row mb-sm-5 pb-sm-5 pb-3">
             <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
-              <div className="rize-banner--container" >
-                <h1 className="rize-banner--heading" >Discover Rare NFTs</h1>
-                <p className="rize-banner--paragraph" >
+              <div className="rize-banner--container">
+                <h1 className="rize-banner--heading">Discover Rare NFTs</h1>
+                <p className="rize-banner--paragraph">
                   Rize market is the premier destination for those seeking rare,
                   high-quality digital assets. Our intuitive space and friendly
                   community make it easy to discover unique, hard-to-find pieces
@@ -27,10 +30,10 @@ function Service() {
                   collecting today!
                 </p>
                 <button
-                  style={{ marginBottom: 30, minWidth: 120 }}
-                  className="btn rize-btn-netowrk-green v-center h-center rize-banner--button"
+                  style={{ minWidth: 100 }}
+                  className="btn rize-btn-green v-center h-center"
                 >
-                  <span>Marketplace</span>
+                  <span style={{ height: 16 }}>Marketplace</span>
                 </button>
               </div>
             </div>
@@ -46,19 +49,19 @@ function Service() {
               <img src={utilityImg} className="w-sm-100" />
             </div>
             <div className="col-md-6 rize-what-we-are-right v-center">
-              <div className="rize-banner--container" >
-                <h1 className="rize-banner--heading" >Utility</h1>
-                <p className="rize-banner--paragraph" >
+              <div className="rize-banner--container">
+                <h1 className="rize-banner--heading">Utility</h1>
+                <p className="rize-banner--paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <button
-                  style={{ marginBottom: 30, minWidth: 120 }}
-                  className="btn rize-btn-netowrk-green v-center h-center rize-banner--button"
+                  style={{ minWidth: 100 }}
+                  className="btn rize-btn-green v-center h-center"
                 >
-                  <span>Learn more</span>
+                  <span style={{ height: 16 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -67,17 +70,17 @@ function Service() {
           <div className="row mb-sm-5 pb-sm-5 pb-3">
             <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div className="rize-banner--container">
-                <h1 className="rize-banner--heading" >Bridge</h1>
-                <p className="rize-banner--paragraph" >
+                <h1 className="rize-banner--heading">Bridge</h1>
+                <p className="rize-banner--paragraph">
                   First cross chain bridge between Cosmos and XRPL. A new way to
                   safe guard your most precious assets. And move away from
                   centralized scams. Experience a seamless bridge experience!
                 </p>
                 <button
-                  style={{ marginBottom: 30, minWidth: 120 }}
-                  className="btn rize-btn-netowrk-green v-center h-center rize-banner--button"
+                  style={{ minWidth: 100 }}
+                  className="btn rize-btn-green v-center h-center"
                 >
-                  <span>Learn more</span>
+                  <span style={{ height: 16 }}>Learn more</span>
                 </button>
               </div>
             </div>
@@ -105,10 +108,10 @@ function Service() {
                 </p>
                 <Link to="rize-stake-and-learn">
                   <button
-                    style={{ marginBottom: 30, minWidth: 120 }}
-                    className="btn rize-btn-netowrk-green v-center h-center rize-banner--button"
+                    style={{ minWidth: 100 }}
+                    className="btn rize-btn-green v-center h-center"
                   >
-                    <span>Learn more</span>
+                    <span style={{ height: 16 }}>Learn more</span>
                   </button>
                 </Link>
               </div>
@@ -117,18 +120,19 @@ function Service() {
           {/* Rize Validator */}
           <div className="row">
             <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
-              <div className="rize-banner--container" >
-                <h1 className="rize-banner--heading" >Rize Validator Node</h1>
-                <p className="rize-banner--paragraph" >
+              <div className="rize-banner--container">
+                <h1 className="rize-banner--heading">Rize Validator Node</h1>
+                <p className="rize-banner--paragraph">
                   First cross chain bridge between Cosmos and XRPL. A new way to
                   safe guard your most precious assets. And move away from
                   centralized scams. Experience a seamless bridge experience!
                 </p>
                 <Link to="rize-stake-and-learn">
                   <button
-                    className="btn rize-btn-netowrk-green v-center h-center rize-banner--button"
+                    style={{ minWidth: 100 }}
+                    className="btn rize-btn-green v-center h-center"
                   >
-                    <span>Learn more</span>
+                    <span style={{ height: 16 }}>Learn more</span>
                   </button>
                 </Link>
               </div>

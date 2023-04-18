@@ -10,7 +10,7 @@ function RizeBanner(props) {
 
   function initAnim() {
     //for debug messages
-    var Debugger = function () { };
+    var Debugger = function () {};
     Debugger.log = function (message) {
       try {
         console.log(message);
@@ -286,7 +286,7 @@ function RizeBanner(props) {
           } else if (p.age < p.attack + p.hold + p.decay) {
             p.alpha =
               ((p.lastValue - p.holdValue) / p.decay) *
-              (p.age - p.attack - p.hold) +
+                (p.age - p.attack - p.hold) +
               p.holdValue;
           }
         } else {
@@ -315,8 +315,8 @@ function RizeBanner(props) {
             depthAlphaFactor > 1
               ? 1
               : depthAlphaFactor < 0
-                ? 0
-                : depthAlphaFactor;
+              ? 0
+              : depthAlphaFactor;
           context.fillStyle = rgbString + depthAlphaFactor * p.alpha + ")";
 
           //draw
@@ -419,8 +419,10 @@ function RizeBanner(props) {
       >
         <div className=" row">
           <div className="col-md-6 rize-banner-left">
-            <div className="rize-banner--container" >
-              <h1 className="rize-banner--heading big-heading" >Gather. Create. Evolve.</h1>
+            <div className="rize-banner--container">
+              <h1 className="rize-banner--heading big-heading">
+                Gather. Create. Evolve.
+              </h1>
               <p className="text-white rize-banner--paragraph">
                 A ever advancing digital space to trade digital assets, where
                 individuals come together to learn, inspire, evolve towards
@@ -428,9 +430,9 @@ function RizeBanner(props) {
               </p>
               <button
                 className="btn rize-btn-green rize-banner--button"
-                style={{ padding: "5px 27px" }}
+                style={{ padding: "14px 45px" }}
               >
-                <span>Explore</span>
+                <span className="explore-btn">Explore</span>
               </button>
             </div>
           </div>
