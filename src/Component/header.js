@@ -81,6 +81,7 @@ function Header() {
                       <Link
                         className="dropdown-item"
                         to="/escrow"
+                        style={{marginTop:-4}}
                       >
                         Validator
                       </Link>
@@ -115,7 +116,7 @@ function Header() {
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to="/blog">
+                      <Link className="dropdown-item" to="/blog" style={{marginBottom:-4}}>
                         Blog
                       </Link>
                     </li>
