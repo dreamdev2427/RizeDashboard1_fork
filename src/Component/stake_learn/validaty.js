@@ -9,7 +9,7 @@ export default function Validaty() {
                 <h1 className="h1-validaty text-center pb-3 mb-3">
                   At present, we solely validate with Coreum
                 </h1>
-                <p className="p-about-us text-center ">
+                <p className="p-about-us text-justify ">
                   As more chains are built, we plan to add nodes for those
                   chains. This will enable us to provide more reliable and
                   secure support. Join us in utilizing Coreum to create a

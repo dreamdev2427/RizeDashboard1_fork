@@ -344,7 +344,6 @@ h1.start-selling-text {
 }
 
 .start-selling-btn {
-
   min-width: 350px;
   border: 1px solid #46ff18;
   background: #156800;
@@ -369,7 +368,7 @@ h1.start-selling-text {
     display: flex;
     justify-content: center;
   }
-  .start-selling-btn{
+  .start-selling-btn {
     min-width: 250px;
   }
 }
@@ -507,6 +506,12 @@ video {
   .h-sm-center {
     display: flex;
     justify-content: center;
+  }
+  .Stake-banner h1 {
+    font-size: 38px !important;
+  }
+  .main-banner-heading {
+    font-size: 38px !important;
   }
   canvas {
     position: absolute;
@@ -2298,7 +2303,7 @@ textarea#message::placeholder {
   color: #30ed01;
   text-align: start;
   font-size: 70px;
-  margin-bottom: 50px!important;
+  margin-bottom: 50px !important;
 }
 
 .rizeblog-top {
@@ -2428,7 +2433,7 @@ a:hover {
   }
 
   .blog--service {
-    font-size: 50px !important;
+    font-size: 36px !important;
   }
 
   .wallet-body-stoke-text1 {
@@ -2470,7 +2475,7 @@ a:hover {
   }
 
   .blog--service {
-    font-size: 50px !important;
+    font-size: 50px;
   }
 
   /* .wallet-body-stoke-text1 {
@@ -2847,7 +2852,7 @@ a:hover {
 .rize-dropdown-padding {
   padding: 8px 10px;
   width: 140px;
-  border: 0.5px solid #33FF00;
+  border: 0.5px solid #33ff00;
 }
 
 .rize-dropdown-border-left {
@@ -2946,7 +2951,7 @@ canvas {
 .how-it-works-types--1st {
   position: absolute;
   top: 40px;
-  left: 380px;
+  left: 345px;
 }
 
 .how-it-works-types--1st p {
@@ -2955,14 +2960,14 @@ canvas {
 
 @media only screen and (max-width: 1550px) {
   .how-it-works-types--1st {
-    left: 200px;
+    left: 160px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .how-it-works-types--1st {
     top: 63px;
-    left: 121px;
+    left: 95px;
   }
 
   .how-it-works-types--1st p {
@@ -2980,7 +2985,7 @@ canvas {
 @media only screen and (max-width: 500px) {
   .how-it-works-types--1st {
     top: 63px;
-    left: 155px;
+    left: 120px;
   }
 }
 
@@ -3021,7 +3026,7 @@ canvas {
 @media only screen and (max-width: 426px) {
   .how-it-works-types {
     top: 70px;
-    left: 175px;
+    left: 120px;
   }
 }
 
@@ -3968,3 +3973,9 @@ a {
   border: 1px solid #2fed01;
   border-radius: 20px;
 } */
+.mt-60-b-55 {
+  margin-top: 85px;
+  margin-bottom: 75px;
+}
+.col-sm-4.rize-blog.v-center:nth-child(1) {
+}

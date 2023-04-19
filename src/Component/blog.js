@@ -1,7 +1,8 @@
 // import blog1 from "../assets/images/img/blogs/blog1.png";
 import blog2 from "../assets/images/img/blogs/blog2.png";
 import blog3 from "../assets/images/img/blogs/blog3.png";
-import blog1 from "../assets/images/img/blogs/blog5.png";
+import blog1_1 from "../assets/images/img/blogs/blog5.png";
+import blog1 from "../assets/images/img/blogs/blog1.png";
 
 import { Link } from "react-router-dom";
 
@@ -21,7 +22,8 @@ function Blog() {
               <Link to="/blog">
                 <div>
                   <div className="rize-main-blog-container">
-                    <img src={blog1} className="mb-4 rize-border-image w-100" />
+                    <img src={blog1_1} className="mb-4 rize-border-image w-100 d-block d-sm-none" />
+                    <img src={blog1} className="mb-4 rize-border-image w-100 d-none d-sm-block" />
                   </div>
                   <h1 className="rize--section-heading3 mt-0">
                     Lorem ipsum dolorostic siting amet

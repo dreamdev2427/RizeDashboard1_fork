@@ -11,7 +11,7 @@ function ValidatorServices() {
           <div className="container rize-mini-container">
             {/* DISCOVER */}
             <div className="row">
-              <div className="col-sm-4 rize-blog v-center">
+              <div className="col-sm-4 px-sm-4 p-0 rize-blog v-center">
                 <div className="validator--service--item pr-3">
                   <div>
                     <img src={validator1} width="100%" className="mb-4" />
@@ -29,7 +29,7 @@ function ValidatorServices() {
                   <div style={{ paddingTop: 10 }}></div>
                 </div>
               </div>
-              <div className="col-sm-4 rize-blog v-center">
+              <div className="col-sm-4 px-sm-4 p-0 rize-blog v-center">
                 <div className="validator--service--item pr-3">
                   <div>
                     <img src={validator2} width="100%" className="mb-4" />
@@ -45,7 +45,7 @@ function ValidatorServices() {
                   <div style={{ paddingTop: 10 }}></div>
                 </div>
               </div>
-              <div className="col-sm-4 rize-blog v-center">
+              <div className="col-sm-4 px-sm-4 p-0 rize-blog v-center">
                 <div className="validator--service--item  ">
                   <div>
                     <img src={validator3} width="100%" className="mb-4" />

@@ -12,7 +12,7 @@ export default function Howitworks() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row m-0">
           <div className="col-sm-4 how-it-works pr-sm-5 p-0 v-center">
             <div className="pb-5 ">
               <div>
@@ -24,7 +24,7 @@ export default function Howitworks() {
               </div>
             </div>
             <div>
-              <ol>
+              <ol style={{paddingleft:20}}>
                 <li className="pb-1" >Go into your designated Coreum wallet.</li>
                 <li className="pb-1" >Choose the number of tokens you wish to stake.</li>
                 <li className="pb-1" >Select RIZE EARNWISE validator.</li>

@@ -14,7 +14,7 @@ function Nft() {
         className="rize-suboverlay-container"
         style={{ backgroundColor: "unset" }}
       >
-        <div className="container ">
+        <div className="container mt-60-b-55">
           <div className="row">
             <div className="col-lg-6 rize-what-we-are-right v-center order-2 order-sm-1">
               <div className="rize-banner--container">
