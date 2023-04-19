@@ -88,7 +88,7 @@ function Service() {
               <img
                 src={BridgeGif}
                 className="w-sm-100"
-                style={{ borderRadius: "20px" }}
+                style={{ border: "1px solid #2fed01", borderRadius: 15 }}
               />
             </div>
           </div>
@@ -138,7 +138,11 @@ function Service() {
               </div>
             </div>
             <div className="col-md-6 rize-what-we-are-left rize-services-left text-right  order-1 order-md-2 mb-4 mb-sm-0 d-flex justify-content-end align-items-center">
-              <img src={Rize_Validator_Node} className="w-sm-100" />
+              <img
+                style={{ border: "1px solid #2fed01", borderRadius: 15 }}
+                src={Rize_Validator_Node}
+                className="w-sm-100"
+              />
             </div>
           </div>
         </div>

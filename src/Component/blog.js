@@ -1,6 +1,8 @@
-import blog1 from "../assets/images/img/blogs/blog1.png";
+// import blog1 from "../assets/images/img/blogs/blog1.png";
 import blog2 from "../assets/images/img/blogs/blog2.png";
 import blog3 from "../assets/images/img/blogs/blog3.png";
+import blog1 from "../assets/images/img/blogs/blog5.png";
+
 import { Link } from "react-router-dom";
 
 function Blog() {
@@ -15,7 +17,7 @@ function Blog() {
         </h1>
         <div className="container rize-mini-container">
           <div className="row">
-            <div className="col-md-6 v-center">
+            <div className="col-md-6 v-center mb-4 mb-sm-0">
               <Link to="/blog">
                 <div>
                   <div className="rize-main-blog-container">

@@ -225,14 +225,7 @@ function Header() {
                     className="btn rize-btn-green v-center"
                     style={{ padding: 11 }}
                   >
-                    {/* <img
-                    className="rize-icon-sm"
-                    style={{ marginRight: 10 }}
-                    src={walletConnectIcon}
-                  />{" "} */}
-                    <span>
-                      Wallet Connect
-                    </span>
+                    Wallet Connect
                   </button>
                 </Link>
                 <div className="rize-header-divider" />

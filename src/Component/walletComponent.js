@@ -18,39 +18,39 @@ function Service() {
         {/* RIZE WALLET TITLE CONTAINER */}
         <div className="row rize-wallet-title-container">
           <div className="col-lg-4 v-center pl-3 pl-sm-0 pr-0">
-            <h2 className="rize-wallet-title mb-0 m-0">Select a wallet</h2>
+            <h2 className="rize-wallet-title mb-0 m-0 ff-rize">Select a wallet</h2>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
-            <div
+            <button
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
               Cosmostation
-            </div>
+            </button>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
-            <div
+            <button
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
               Ledger
-            </div>
+            </button>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
-            <div
+            <button
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
               Keplr
-            </div>
+            </button>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
-            <div
+            <button
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
               Other Wallet
-            </div>
+            </button>
           </div>
         </div>
         {/* RIZE WALLET BODY */}
@@ -482,10 +482,10 @@ function Service() {
               <div className="pl-sm-0 mt-4">
                 <div className="d-flex">
                   <span className="wallet-body-title pr-3">Stake</span>
-                  <img
+                  {/* <img
                     className="wallet-body-title-pr-3-img with-label"
                     src={Info}
-                  />
+                  /> */}
                 </div>
                 <div className="row wallet-body-sub-row1 m-0 mt-2">
                   <div className="col-12 p-0 mb-7">

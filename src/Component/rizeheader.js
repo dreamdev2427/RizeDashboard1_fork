@@ -236,9 +236,7 @@ function DashboardHeader() {
                     className="btn rize-btn-green v-center"
                     style={{ padding: 11 }}
                   >
-                    <span>
-                      Wallet Connect
-                    </span>
+                    Wallet Connect
                   </button>
                 </Link>
                 <div className="rize-header-divider" />

@@ -13,8 +13,8 @@ function RoadMap() {
       <section className="mt-5 pt-5 pb-5">
         <div className="">
           <div className="container rize-mini-container">
-            <h1 className="text-center text-white main-banner-heading">Roadmap</h1>
-            <p className="text-white text-center" style={{ fontSize: "13px" }}>
+            <h1 className="text-center text-white main-banner-heading mb-14 pb-3">Roadmap</h1>
+            <p className="text-white text-center" style={{ fontSize: "14px",lineHeight:"24px" }}>
               See what is to come in the Rize ecosystem, most things are built but
               undergoing testing.
               <br />

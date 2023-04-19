@@ -84,9 +84,7 @@ export default function Drawer(props) {
                     style={{ marginRight: 10 }}
                     src={walletConnectIcon}
                   />{" "} */}
-              <span>
-                Wallet Connect
-              </span>
+              Wallet Connect
             </button>
           </Link>
         </a>
