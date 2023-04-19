@@ -21,21 +21,21 @@ function RoadMap() {
               Some will need votes from the community to be implemented.
             </p>
             {/* DISCOVER */}
-            <div>
+            <div className="d-flex flex-column justify-content-center align-items-center" >
               <img
                 src={q1}
                 className="mb-5"
-                width="100%"
+                width="88%"
               />
               <img
                 src={q2}
                 className="mb-5"
-                width="100%"
+                width="88%"
               />
               <img
                 src={q3}
                 className="mb-5"
-                width="100%"
+                width="88%"
               />
             </div>
           </div>

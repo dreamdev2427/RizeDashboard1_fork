@@ -25,7 +25,7 @@ function Service() {
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
-              <span style={{ height: 13 }}>Cosmostation</span>
+              Cosmostation
             </div>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
@@ -33,7 +33,7 @@ function Service() {
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
-              <span style={{ height: 13 }}>Ledger</span>
+              Ledger
             </div>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
@@ -41,7 +41,7 @@ function Service() {
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
-              <span style={{ height: 13 }}>Keplr</span>
+              Keplr
             </div>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
@@ -49,7 +49,7 @@ function Service() {
               style={{ minWidth: 120, width: "100%" }}
               className="btn rize-btn-green-outline v-center h-center"
             >
-              <span style={{ height: 13 }}>Other Wallet</span>
+              Other Wallet
             </div>
           </div>
         </div>
@@ -496,14 +496,14 @@ function Service() {
                           className="rize-input"
                         />
                         <button className="btn rize-btn-green rize-btn-sm-cus ">
-                          <span className="d-block" style={{ height: 14, }} >Max</span>
+                          <span className="d-block" >Max</span>
                         </button>
                       </div>
                       <button
                         style={{ minWidth: 120, width: "100%" }}
                         className="btn rize-btn-green v-center h-center mb-3"
                       >
-                        <span className="" style={{ height: 16 }} >Confirm</span>
+                        Confirm
                       </button>
                     </div>
                   </div>

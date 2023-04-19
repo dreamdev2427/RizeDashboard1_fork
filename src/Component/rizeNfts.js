@@ -27,9 +27,7 @@ function Nft() {
                 </p>
                 <button
                   className="btn rize-btn-green rize-banner--button"
-                >
-                  <span>Learn more</span>
-                </button>
+                >Learn more</button>
               </div>
             </div>
             <div

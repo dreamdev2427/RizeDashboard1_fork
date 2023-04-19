@@ -56,23 +56,23 @@ function Development() {
                   </td>
                   <td className="bt-g">
                     <div>
-                      <span className="text-white ml-4">
+                      <span className="text-white">
                         Lorem Ipsum Dolor sit amit color asetto...
                       </span>
                     </div>
                   </td>
                   <td className="bt-g">
                     <div>
-                      <span className="text-white ml-4">2 Days</span>
+                      <span className="text-white">2 Days</span>
                     </div>
                   </td>
                   <td className="bt-g">
                     <div>
-                       <button
+                      <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        <span style={{ height: 15 }}>Vote</span>
+                        Vote
                       </button>
                     </div>
                   </td>
@@ -86,23 +86,23 @@ function Development() {
                   </td>
                   <td>
                     <div>
-                      <span className="text-white ml-4">
+                      <span className="text-white">
                         Lorem Ipsum Dolor sit amit color asetto...
                       </span>
                     </div>
                   </td>
                   <td>
                     <div>
-                      <span className="text-white ml-4">2 Days</span>
+                      <span className="text-white">2 Days</span>
                     </div>
                   </td>
                   <td>
                     <div>
-                       <button
+                      <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        <span style={{ height: 15 }}>Vote</span>
+                        Vote
                       </button>
                     </div>
                   </td>
@@ -116,23 +116,23 @@ function Development() {
                   </td>
                   <td>
                     <div>
-                      <span className="text-white ml-4">
+                      <span className="text-white">
                         Lorem Ipsum Dolor sit amit color asetto...
                       </span>
                     </div>
                   </td>
                   <td>
                     <div>
-                      <span className="text-white ml-4">2 Days</span>
+                      <span className="text-white">2 Days</span>
                     </div>
                   </td>
                   <td>
                     <div>
-                       <button
+                      <button
                         style={{ minWidth: 100 }}
                         className="btn rize-btn-green v-center h-center"
                       >
-                        <span style={{ height: 15 }}>Vote</span>
+                        Vote
                       </button>
                     </div>
                   </td>

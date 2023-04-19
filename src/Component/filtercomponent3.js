@@ -46,9 +46,8 @@ function Filter3() {
                 marginLeft: 20,
               }}
             >
-              {`${priceMin ? priceMin.toLocaleString() : 0}$ - ${
-                priceMax ? priceMax.toLocaleString() : 0
-              }$`}
+              {`${priceMin ? priceMin.toLocaleString() : 0}$ - ${priceMax ? priceMax.toLocaleString() : 0
+                }$`}
             </p>
 
             <MultiRangeSlider
@@ -97,13 +96,13 @@ function Filter3() {
               }}
               className="btn rize-btn-netowrk-green v-center h-center "
             >
-              <span style={{ height: 14 }}>Cancel</span>
+              Cancel
             </button>
             <button
               style={{ marginBottom: 15, minWidth: 80 }}
               className="btn rize-btn-netowrk-green v-center h-center "
             >
-              <span style={{ height: 14 }}>Apply</span>
+              Apply
             </button>
           </div>
         </div>

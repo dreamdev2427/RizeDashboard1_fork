@@ -81,7 +81,7 @@ function Header() {
                       <Link
                         className="dropdown-item"
                         to="/escrow"
-                        style={{marginTop:-4}}
+                        style={{ marginTop: -4 }}
                       >
                         Validator
                       </Link>
@@ -116,7 +116,7 @@ function Header() {
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to="/blog" style={{marginBottom:-4}}>
+                      <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4 }}>
                         Blog
                       </Link>
                     </li>
@@ -223,21 +223,14 @@ function Header() {
                 <Link to="/wallet">
                   <button
                     className="btn rize-btn-green v-center"
-                    style={{ padding: 11, paddingBottom: 7 }}
+                    style={{ padding: 11 }}
                   >
                     {/* <img
                     className="rize-icon-sm"
                     style={{ marginRight: 10 }}
                     src={walletConnectIcon}
                   />{" "} */}
-                    <span
-                      style={{
-                        height: 13,
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
+                    <span>
                       Wallet Connect
                     </span>
                   </button>

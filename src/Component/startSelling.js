@@ -7,7 +7,7 @@ function StartSelling() {
         <div>
           <div className="h-center">
             <video
-             style={{width:300}}
+              style={{ width: 300 }}
               autoPlay={true}
               muted={true}
               loop={true}
@@ -26,7 +26,7 @@ function StartSelling() {
               style={{ minWidth: 250 }}
               className="btn start-selling-btn rize-btn-green v-center h-center"
             >
-              <span className="text-white" style={{height:16}}>Sell Now</span>
+              Sell Now
             </button>
           </div>
         </div>

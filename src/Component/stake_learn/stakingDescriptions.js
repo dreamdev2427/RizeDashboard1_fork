@@ -44,7 +44,7 @@ export default function Staking() {
                 Our platform provides a unique opportunity to earn validator
                 fees through engaging activities like listening to podcasts,
                 taking quizzes, and reading articles focused on growth,
-                development, and technology.<br/><br/> Rize takes 20% of fees earned and
+                development, and technology.<br /><br /> Rize takes 20% of fees earned and
                 gives back to the community to keep learning, evolving, and
                 earning.
               </p>
@@ -60,7 +60,9 @@ export default function Staking() {
                 Rize has leveraged the yield of the Coreum blockchain to
                 establish a self-sustaining escrow. This escrow is dedicated to
                 supporting a multitude of causes globally, with 10% of earned
-                rewards being donated to these causes. By delegating to Rize,
+                rewards being donated to these causes.
+                <br />
+                By delegating to Rize,
                 you can contribute to this effort and help provide long-term
                 benefits to many valuable organizations and charities. Please
                 note that the value of rewards fluctuates daily based on staked

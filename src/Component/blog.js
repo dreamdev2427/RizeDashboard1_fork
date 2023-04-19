@@ -28,9 +28,7 @@ function Blog() {
                   <button
                     style={{ minWidth: 100 }}
                     className="btn rize-btn-green v-center h-center"
-                  >
-                    <span style={{ height: 16 }}>Learn more</span>
-                  </button>
+                  >Learn more</button>
                 </div>
               </Link>
             </div>
@@ -45,7 +43,7 @@ function Blog() {
                       style={{ minWidth: 100 }}
                       className="btn rize-btn-green v-center h-center"
                     >
-                      <span style={{ height: 16 }}>Learn more</span>
+                      Learn more
                     </button>
                   </Link>
                 </div>
@@ -69,7 +67,7 @@ function Blog() {
                       style={{ minWidth: 100 }}
                       className="btn rize-btn-green v-center h-center"
                     >
-                      <span style={{ height: 16 }}>Learn more</span>
+                      Learn more
                     </button>
                   </Link>
                 </div>

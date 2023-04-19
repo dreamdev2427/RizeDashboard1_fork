@@ -6,7 +6,7 @@ import footerImg3 from "../assets/images/Image/pic3.svg";
 import footerImg4 from "../assets/images/Image/pic4.svg";
 import footerImg5 from "../assets/images/Image/pic5.svg";
 import footerImg6 from "../assets/images/Image/pic6.svg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -16,9 +16,9 @@ export default function Footer() {
           <div class="row tag">
             <span style={{ width: "inherit" }}>
               {/* <img class="footer_logo" src={logo} alt="Image 1" /> */}
-              <Link  to="/" >
-              <img class="footer_logo" src={logo} alt="Image 1"/>
-            </Link>
+              <Link to="/" >
+                <img class="footer_logo" src={logo} alt="Image 1" />
+              </Link>
             </span>
             <span style={{ padding: "0px" }}>
               <p class="footer_text">Gather. Create. Evolve.</p>
@@ -90,7 +90,7 @@ export default function Footer() {
 
             <div className="col-12 d-flex align-items-center pr-0" style={{ paddingLeft: 12 }}>
               <input type="email" placeholder="Enter Your Email" />
-              <button className="btn rize-btn-green" ><span style={{ height: 13 }}>Send</span></button>
+              <button className="btn rize-btn-green" >Send</button>
             </div>
           </div>
         </div>

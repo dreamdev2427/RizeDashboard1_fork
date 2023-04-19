@@ -21,13 +21,13 @@ export default function Validaty() {
                 </p>
               </div>
               <div className="Coreum-button">
-              <button
-                  style={{ minWidth: 250, width:350 }}
+                <button
+                  style={{ minWidth: 250, width: 350 }}
                   className="btn rize-btn-green v-center h-center"
                 >
-                  <span style={{ height: 16 }}>Use your Coreum</span>
+                  Use your Coreum
                 </button>
-                
+
               </div>
             </div>
           </div>
