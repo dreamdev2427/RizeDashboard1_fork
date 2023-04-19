@@ -13,7 +13,7 @@ function DevelopmentProgress() {
           Vote begins at 2 million Coreum staked{" "}
         </p>
         <h1
-          className="mt-4 mb-5 rize-text-primary text-center f-65"
+          className="mt-4 mb-0 rize-text-primary text-center f-65"
           style={{ fontSize: "65px!important" }}
         >
           0.01 mil

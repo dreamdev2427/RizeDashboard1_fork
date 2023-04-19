@@ -18,7 +18,9 @@ function Service() {
         {/* RIZE WALLET TITLE CONTAINER */}
         <div className="row rize-wallet-title-container">
           <div className="col-lg-4 v-center pl-3 pl-sm-0 pr-0">
-            <h2 className="rize-wallet-title mb-0 m-0 ff-rize">Select a wallet</h2>
+            <h2 className="rize-wallet-title mb-0 m-0 ff-rize">
+              Select a wallet
+            </h2>
           </div>
           <div className="col-lg-2 mt-2 mt-lg-0">
             <button
@@ -66,7 +68,7 @@ function Service() {
                     src={Info}
                   />
                 </div>
-                <div className="row wallet-body-sub-row m-0 mt-2 pb-0" >
+                <div className="row wallet-body-sub-row m-0 mt-2 pb-0">
                   <div className="col-md-6 p-0 pr-0 pr-md-2 mb-2">
                     <div className="wallet-body-sub">
                       <div className="wallet-body-subtitle pr-3">ARP</div>
@@ -84,7 +86,9 @@ function Service() {
                       <div className="wallet-body-subtitle pr-3">
                         Unbond Period
                       </div>
-                      <div className="wallet-body-2subtitle pr-3 wallet-days">7 days</div>
+                      <div className="wallet-body-2subtitle pr-3 wallet-days">
+                        7 days
+                      </div>
                     </div>
                   </div>
                   <div className="col-md-6 p-0 mb-2">
@@ -114,7 +118,7 @@ function Service() {
                   <div className="col-md-12 p-0 mb-2">
                     <div className="wallet-body-sub">
                       <div className="d-flex align-items-center justify-content-between h-100">
-                        <div className="left h-100 justify-content-between d-flex flex-column" >
+                        <div className="left h-100 justify-content-between d-flex flex-column">
                           <div className="wallet-body-subtitle pr-3">
                             Operator Address
                           </div>
@@ -122,7 +126,7 @@ function Service() {
                             42D........Hawaii
                           </div>
                         </div>
-                        <div className="right" >
+                        <div className="right">
                           <img src={Copy} className="copyIcon" />
                         </div>
                       </div>
@@ -153,7 +157,7 @@ function Service() {
                   <div className="col-md-6 p-0 pr-0 pr-md-2 mb-2">
                     <div className="wallet-body-sub">
                       <div className="d-flex align-items-center justify-content-between h-100">
-                        <div className="left h-100 justify-content-between d-flex flex-column" >
+                        <div className="left h-100 justify-content-between d-flex flex-column">
                           <div className="wallet-body-subtitle pr-3">
                             Donor Stake Address
                           </div>
@@ -457,9 +461,7 @@ function Service() {
               {/* Rize Validator */}
               <div className="pl-sm-0">
                 <div className="d-flex">
-                  <span className="wallet-body-title pr-3">
-                    My Tokens
-                  </span>
+                  <span className="wallet-body-title pr-3">My Tokens</span>
                 </div>
                 <div className="row wallet-body-sub-row m-0 mt-2">
                   <div className="col-12 p-0 pr-3">
@@ -475,7 +477,8 @@ function Service() {
                   </div>
                 </div>
                 <div className="wallet-body-mytoken pr-3 text-white">
-                  <b className="bold-green" >Lock more Tokens</b> to increase your yield
+                  <b className="bold-green">Lock more Tokens</b> to increase
+                  your yield
                 </div>
               </div>
               {/* Stake */}
@@ -489,14 +492,14 @@ function Service() {
                 </div>
                 <div className="row wallet-body-sub-row1 m-0 mt-2">
                   <div className="col-12 p-0 mb-7">
-                    <div className="" >
+                    <div className="">
                       <div className="p-relative">
                         <input
                           placeholder=".04 CORE remains for future transactions"
                           className="rize-input"
                         />
                         <button className="btn rize-btn-green rize-btn-sm-cus ">
-                          <span className="d-block" >Max</span>
+                          <span className="d-block">Max</span>
                         </button>
                       </div>
                       <button
@@ -523,9 +526,16 @@ function Service() {
               </div>
               <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
                 <div className="clmrwddiv">
-                  <div className="wallet-body-title pr-3 clmrwd mt-2" style={{ fontSize: 12 }}>
-                    <span className="claim-option-1-reward-text" >Claim Rewards</span>
-                    <span className="claim-option-1-core-text rwd">45.6 CORE</span>
+                  <div
+                    className="wallet-body-title pr-3 clmrwd mt-2"
+                    style={{ fontSize: 12 }}
+                  >
+                    <span className="claim-option-1-reward-text">
+                      Claim Rewards
+                    </span>
+                    <span className="claim-option-1-core-text rwd">
+                      45.6 CORE
+                    </span>
                   </div>
                 </div>
                 <img class="icon-info" src={Info} />
@@ -544,7 +554,10 @@ function Service() {
               </div>
               <div className="row mt-2">
                 <div className="col-sm-8">
-                  <div className="wallet-body-sub-row m-0 v-center h-100" style={{ padding: "2px 14px" }}>
+                  <div
+                    className="wallet-body-sub-row m-0 v-center h-100"
+                    style={{ padding: "2px 14px" }}
+                  >
                     <div className="wallet-body-stoke-text pr-3">30%</div>{" "}
                     <input
                       type="range"
@@ -589,7 +602,7 @@ function Service() {
                     Setup Max Auto Restake
                   </div>{" "}
                   <div className="wallet-body-stoke-text2 pl-3 mt-2">
-                    Rize Pays Fees Uses Restake App
+                    Cancel Restake
                   </div>
                 </div>
                 <img class="icon-info" src={Info} />

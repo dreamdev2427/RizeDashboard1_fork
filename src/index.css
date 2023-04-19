@@ -306,7 +306,7 @@ div .rize-banner-left p {
 .rize-mini-container {
   /* max-width: 960px; */
   max-width: 100%;
-  padding: 0px 100px;
+  padding: 35px 100px;
 }
 
 .rize-suboverlay-container {
@@ -344,7 +344,8 @@ h1.start-selling-text {
 }
 
 .start-selling-btn {
-  min-width: 300px;
+
+  min-width: 350px;
   border: 1px solid #46ff18;
   background: #156800;
   color: white;
@@ -368,6 +369,9 @@ h1.start-selling-text {
     display: flex;
     justify-content: center;
   }
+  .start-selling-btn{
+    min-width: 250px;
+  }
 }
 
 @media only screen and (max-width: 993px) {
@@ -386,9 +390,10 @@ h1.start-selling-text {
 }
 
 .services {
-  color: #ffffff !important;
+  color: #2fe209 !important;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 60px;
 }
 
 .rize-p {
@@ -506,7 +511,7 @@ video {
   canvas {
     position: absolute;
     width: 100%;
-    left: unset!important;
+    left: unset !important;
     top: 175px;
   }
 
@@ -1519,7 +1524,7 @@ h1.rize-discount {
 }
 
 .rize-discount-subheading {
-  font-size: 26px;
+  font-size: 40px;
 }
 
 .discount-right-blur-container {
@@ -1614,7 +1619,7 @@ h1.rize-discount {
   border-radius: 8px 0px 0px 8px;
   color: #101310;
   cursor: pointer;
-  box-shadow: 0px 0px 11px 0px #47f919;
+  /* box-shadow: 0px 0px 11px 0px #47f919; */
 }
 
 .rize-active-tab-right {
@@ -1635,6 +1640,7 @@ h1.rize-discount {
   width: 45px;
   border-radius: 50%;
   margin-right: 12px;
+  margin-left: 15px;
 }
 
 .rize-table tbody td span {
@@ -1648,7 +1654,7 @@ h1.rize-discount {
 }
 
 .rize-table td div {
-  height: 45px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
@@ -2292,7 +2298,7 @@ textarea#message::placeholder {
   color: #30ed01;
   text-align: start;
   font-size: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 50px!important;
 }
 
 .rizeblog-top {
@@ -2430,7 +2436,7 @@ a:hover {
   }
 
   .wallet-body-stoke-text2.pl-3 {
-    font-size: 7px !important;
+    font-size: 11px !important;
   }
 
   .pl-3 {
@@ -2841,7 +2847,7 @@ a:hover {
 .rize-dropdown-padding {
   padding: 8px 10px;
   width: 140px;
-  border: 0.5px solid #30ed01;
+  border: 0.5px solid #33FF00;
 }
 
 .rize-dropdown-border-left {
@@ -3489,7 +3495,7 @@ div.wallet-body-stoke-text {
 .wallet-body-stoke-text2.pl-3 {
   color: #7f847f;
   line-height: 12px;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .wallet-body-sub-row {
@@ -3558,7 +3564,7 @@ div.wallet-body-stoke-text {
     color: #bdc6bd;
     font-size: 11px;
   }
-  
+
   div.wallet-body-2subtitle {
     color: #34f901;
     font-size: 14px;
@@ -3683,7 +3689,6 @@ a {
   .mb-sm-7 {
     margin-bottom: 7px !important;
   }
-  
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -3959,3 +3964,7 @@ a {
   height: 19px;
   display: flex;
 }
+/* .rize-blog a div img {
+  border: 1px solid #2fed01;
+  border-radius: 20px;
+} */

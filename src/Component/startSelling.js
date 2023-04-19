@@ -23,7 +23,6 @@ function StartSelling() {
           </h1>
           <div className="h-center">
             <button
-              style={{ minWidth: 250 }}
               className="btn start-selling-btn rize-btn-green v-center h-center"
             >
               Sell Now
