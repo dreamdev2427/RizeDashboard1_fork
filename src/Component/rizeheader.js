@@ -234,7 +234,7 @@ function DashboardHeader() {
                 <Link to="/wallet">
                   <button
                     className="btn rize-btn-green v-center"
-                    style={{ padding: 11 }}
+                    style={{ padding: 11,color:"#212529" }}
                   >
                     Wallet Connect
                   </button>

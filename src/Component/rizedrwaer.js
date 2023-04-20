@@ -77,7 +77,7 @@ export default function Drawer(props) {
           <Link to="/wallet">
             <button
               className="btn rize-btn-green v-center"
-              style={{ padding: 11, paddingBottom: 7 }}
+              style={{ padding: 11, paddingBottom: 7,color:"#212529" }}
             >
               {/* <img
                     className="rize-icon-sm"

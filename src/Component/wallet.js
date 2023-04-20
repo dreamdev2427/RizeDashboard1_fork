@@ -4,7 +4,7 @@ import Footer from "../Component/footer";
 import WalletComponent from "../Component/walletComponent";
 export default function Wallet() {
   return (
-    <section className="rize-main">
+    <section className="rize-main select-wallet-bg" >
       {/*  ||--------------------------------------------------------------------------------|| */}
       {/*  || RIZE HEADER || */}
       {/*  ||--------------------------------------------------------------------------------|| */}
