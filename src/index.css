@@ -2197,9 +2197,9 @@ button.btn.rize-btn-green.v-center.h-center {
   top: 56px !important;
   background: #282a28;
   border-radius: 10px;
-  border: 0.1px solid #30ed01;
-  left: -18px !important;
-  min-width: 100px;
+  /* border: 0.1px solid #30ed01; */
+  left: -42px !important;
+  /* min-width: 100px; */
   text-align: center;
   overflow: hidden;
   /* box-shadow: inset 0px 0px 15px -7px #30ed01; */
@@ -2211,7 +2211,7 @@ button.btn.rize-btn-green.v-center.h-center {
 
 a.dropdown-item {
   color: #ffffff !important;
-  border-top: 0.5px solid #2fed01;
+  /* border-top: 0.5px solid #2fed01; */
   padding: 6px 20px;
   padding-top: 10px;
 }

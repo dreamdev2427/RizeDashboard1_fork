@@ -76,12 +76,12 @@ function Header() {
                     {/*  add utility, add members, , add nft market, */}
                     Pages
                   </a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu" style={{marginRight:15}}>
                     <li>
                       <Link
                         className="dropdown-item"
                         to="/escrow"
-                        style={{ marginTop: -4 }}
+                        style={{ marginTop: -4, padding:12 }}
                       >
                         Validator
                       </Link>
@@ -90,33 +90,34 @@ function Header() {
                       <Link
                         className="dropdown-item"
                         to="/rize-stake-and-learn"
+                        style={{padding:12 }}
                       >
                         Earnwise
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/">
+                      <Link className="dropdown-item" to="/" style={{padding:12}}> 
                         Utility
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/">
+                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
                         Members
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/">
+                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
                         NFT Market
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/roadmap">
+                      <Link className="dropdown-item" to="/roadmap"  style={{ padding:12 }}>
                         Roadmap
                       </Link>
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4 }}>
+                      <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4, padding:12 }}>
                         Blog
                       </Link>
                     </li>

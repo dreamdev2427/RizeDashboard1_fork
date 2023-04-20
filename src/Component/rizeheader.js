@@ -84,7 +84,8 @@ function DashboardHeader(props) {
                   >
                     Pages
                   </a>
-                  <ul class="dropdown-menu">
+                  
+                  {/* <ul class="dropdown-menu">
                     <li>
                       <Link className="dropdown-item" to="/escrow" style={{ marginTop: -4 }}>
                         Validator
@@ -122,6 +123,63 @@ function DashboardHeader(props) {
 
                     <li>
                       <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4 }}>
+                        Blog
+                      </Link>
+                    </li>
+                    {/* <li>
+                      <Link className="dropdown-item" to="/contact-us">
+                        Contact Us
+                      </Link>
+                    </li> */}
+
+                    {/* <li>
+                      <Link className="dropdown-item" to="/wallet">
+                        Wallet
+                      </Link>
+                    </li> */}
+                  {/* </ul>  */}
+                  <ul class="dropdown-menu" style={{marginRight:15}}>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to="/escrow"
+                        style={{ marginTop: -4, padding:12 }}
+                      >
+                        Validator
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to="/rize-stake-and-learn"
+                        style={{padding:12 }}
+                      >
+                        Earnwise
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/" style={{padding:12}}> 
+                        Utility
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
+                        Members
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
+                        NFT Market
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/roadmap"  style={{ padding:12 }}>
+                        Roadmap
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4, padding:12 }}>
                         Blog
                       </Link>
                     </li>
