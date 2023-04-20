@@ -17,7 +17,7 @@ function Service() {
         <h1 className="services rize--section-heading">Services</h1>
         <div className="container rize-mini-container">
           {/* DISCOVER */}
-          <div className="row mb-sm-0 pb-sm-5">
+          <div className="row mb-sm-0 pb-5">
             <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div className="rize-banner--container">
                 <h1 className="rize-banner--heading">Discover Rare NFTs</h1>
@@ -44,7 +44,7 @@ function Service() {
             </div>
           </div>
           {/* UTILITY */}
-          <div className="row mb-sm-0 pb-sm-5">
+          <div className="row mb-sm-0 pb-5">
             <div className="col-md-6 rize-what-we-are-left rize-services-left mb-4 mb-sm-0 d-flex align-items-center justify-content-start">
               <img src={utilityImg} className="w-sm-100" />
             </div>
@@ -67,7 +67,7 @@ function Service() {
             </div>
           </div>
           {/* BRIDGE */}
-          <div className="row mb-sm-0 pb-sm-5">
+          <div className="row mb-sm-0 pb-5">
             <div className="col-md-6 rize-what-we-are-right v-center order-2 order-md-1">
               <div className="rize-banner--container">
                 <h1 className="rize-banner--heading">Bridge</h1>
@@ -93,7 +93,7 @@ function Service() {
             </div>
           </div>
           {/* LLE */}
-          <div className="row mb-sm-0 pb-sm-5">
+          <div className="row mb-sm-0 pb-5">
             <div className="col-md-6 rize-what-we-are-left mb-4 mb-sm-0 d-flex justify-content-start align-items-center">
               <img src={Rize_Learn_Stake} className="w-sm-100" />
             </div>

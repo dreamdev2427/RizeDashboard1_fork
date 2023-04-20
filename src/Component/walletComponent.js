@@ -56,7 +56,7 @@ function Service() {
           </div>
         </div>
         {/* RIZE WALLET BODY */}
-        <div className="row mt-3">
+        <div className="row mt-3 h-100">
           <div className="col-xl-8">
             <div className="row h-100">
               {/* Coreum Stats */}
@@ -456,8 +456,8 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 bl-d-g pl-0 pl-md-0 pl-xl-3 mt-3 mt-xl-0 pr-0 wallet-right-container">
-            <div className="bb-d-g">
+          <div className="col-xl-4 bl-d-g pl-0 pl-md-0 pl-xl-3 mt-3 mt-xl-0 pr-0 wallet-right-container h-100">
+            <div className="bb-d-g h-100">
               {/* Rize Validator */}
               <div className="pl-sm-0">
                 <div className="d-flex">
@@ -513,99 +513,86 @@ function Service() {
                 </div>
               </div>
             </div>
-            {/*Claim reward button*/}
-            <div className="pl-sm-0 mt-4">
-              <div className="d-flex">
-                <span className="wallet-body-title pr-3">
-                  Claim <span className="color-dark">(Option 1)</span>{" "}
-                </span>
-                <img
-                  className="wallet-body-title-pr-3-img with-label"
-                  src={Info}
-                />
-              </div>
-              <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
-                <div className="clmrwddiv">
-                  <div
-                    className="wallet-body-title pr-3 clmrwd mt-2"
-                    style={{ fontSize: 12 }}
-                  >
-                    <span className="claim-option-1-reward-text">
-                      Claim Rewards
-                    </span>
-                    <span className="claim-option-1-core-text rwd">
-                      45.6 CORE
-                    </span>
-                  </div>
+            <div className="h-100 d-flex flex-column justify-content-between" >
+              {/*Claim reward button*/}
+              <div className="pl-sm-0 mt-4">
+                <div className="d-flex">
+                  <span className="wallet-body-title pr-3">
+                    Claim <span className="color-dark">(Option 1)</span>{" "}
+                  </span>
+                  <img
+                    className="wallet-body-title-pr-3-img with-label"
+                    src={Info}
+                  />
                 </div>
-                <img class="icon-info" src={Info} />
-              </div>
-            </div>
-            {/* Stake */}
-            <div className="pl-sm-0 mt-4">
-              <div className="d-flex">
-                <span className="wallet-body-title pr-3">
-                  Claim <span className="color-dark">(Option 2)</span>{" "}
-                </span>
-                <img
-                  className="wallet-body-title-pr-3-img with-label"
-                  src={Info}
-                />
-              </div>
-              <div className="row mt-2">
-                <div className="col-sm-8">
-                  <div
-                    className="wallet-body-sub-row m-0 v-center h-100"
-                    style={{ padding: "2px 14px" }}
-                  >
-                    <div className="wallet-body-stoke-text pr-3">30%</div>{" "}
-                    <input
-                      type="range"
-                      class="form-range rize-range-slider"
-                      id="customRange1"
-                    />
-                    <div className="wallet-body-stoke-text pl-3">MAX</div>
+                <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative claim-rwd">
+                  <div className="clmrwddiv">
+                    <div
+                      className="wallet-body-title pr-3 clmrwd mt-2"
+                      style={{ fontSize: 12 }}
+                    >
+                      <span className="claim-option-1-reward-text">
+                        Claim Rewards
+                      </span>
+                      <span className="claim-option-1-core-text rwd">
+                        45.6 CORE
+                      </span>
+                    </div>
                   </div>
+                  <img class="icon-info" src={Info} />
                 </div>
-                <div className="col-sm-4 mt-sm-0 mt-3">
-                  <div className="wallet-body-sub-row m-0 p-0 p-2 v-center justify-content-center p-relative h-100">
-                    <img className="icon-info" src={Info} />
-                    <div className="d-flex align-items-center justify-content-center flex-column">
-                      <div
-                        id="stktext"
-                        className="wallet-body-stoke-text1 pr-3"
-                      >
-                        Claim Restake
-                      </div>{" "}
-                      <div className="wallet-body-stoke-text2 pl-3">
-                        Rize Pays Fees
+              </div>
+              {/* Stake */}
+              <div className="pl-sm-0 mt-4">
+                <div className="d-flex">
+                  <span className="wallet-body-title pr-3">
+                    Claim <span className="color-dark">(Option 2)</span>{" "}
+                  </span>
+                  <img
+                    className="wallet-body-title-pr-3-img with-label"
+                    src={Info}
+                  />
+                </div>
+                <div className="row mt-2">
+                  <div className="col-sm-8">
+                    <div
+                      className="wallet-body-sub-row m-0 v-center h-100"
+                      style={{ padding: "2px 14px" }}
+                    >
+                      <div className="wallet-body-stoke-text pr-3">30%</div>{" "}
+                      <input
+                        type="range"
+                        class="form-range rize-range-slider"
+                        id="customRange1"
+                      />
+                      <div className="wallet-body-stoke-text pl-3">MAX</div>
+                    </div>
+                  </div>
+                  <div className="col-sm-4 mt-sm-0 mt-3 pl-md-0 pl-sm-1">
+                    <div className="wallet-body-sub-row m-0 p-0 p-2 v-center justify-content-center p-relative h-100">
+                      <img className="icon-info" src={Info} />
+                      <div className="d-flex align-items-center justify-content-center flex-column">
+                        <div
+                          id="stktext"
+                          className="wallet-body-stoke-text1 pr-3"
+                        >
+                          Claim Restake
+                        </div>{" "}
+                        <div className="wallet-body-stoke-text2 pl-3">
+                          Rize Pays Fees
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* Stake */}
-            <div className="pl-sm-0 mt-4">
-              <div className="d-flex">
-                <span className="wallet-body-title pr-3">
-                  Claim <span className="color-dark">(Option 3)</span>{" "}
-                </span>
-                <img
-                  className="wallet-body-title-pr-3-img with-label"
-                  src={Info}
-                />
-              </div>
-              <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn p-relative">
-                <div className="">
-                  <div className="wallet-body-stoke-text1 pr-3 rtbtn">
-                    Setup Max Auto Restake
-                  </div>{" "}
-                  <div className="wallet-body-stoke-text2 pl-3 mt-2">
+              {/* Stake */}
+              <div className="pl-sm-0 mt-4">
+                <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn">
+                  <div className="wallet-body-stoke-text1">
                     Cancel Restake
                   </div>
                 </div>
-                <img class="icon-info" src={Info} />
               </div>
             </div>
           </div>
