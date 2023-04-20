@@ -95,6 +95,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .roadmap-bg {
   background-image: url("./assets/images/slicing/Slicing/Roadmap/Roadmapbg.jpg") !important;
   background-repeat: no-repeat;
@@ -2844,16 +2845,23 @@ a:hover {
 .rize-dropdown {
   display: none !important;
   position: absolute;
-  border: 0.5px solid #33ff00;
   top: 60px;
   left: -107px;
   border-radius: 5px;
   background: #2f2f2f;
   z-index: 999999;
+  padding: 15px 30px;
+  width: 400px;
+}
+
+.rize-dropdown .rize-dropdown-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .rize-dropdown img {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .rize-dropdown span {
@@ -2862,9 +2870,8 @@ a:hover {
 }
 
 .rize-dropdown-padding {
-  padding: 8px 10px;
+  padding: 12px 10px;
   width: 140px;
-  border: 0.5px solid #33ff00;
 }
 
 .rize-dropdown-border-left {
@@ -2911,6 +2918,7 @@ rize-nav-item-network.nets {
 
 .rize-dropdown-padding:hover {
   background: #2f5b46 !important;
+  border-radius: 5px;
 }
 
 .rize-dropdown-padding:hover span {
@@ -3991,6 +3999,7 @@ a {
   margin-top: 85px;
   margin-bottom: 75px;
 }
+
 .select-wallet-bg {
   background-image: url("./assets/images/img/select_wallet.jpg");
   background-repeat: no-repeat;
@@ -4001,11 +4010,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .btn-green-outline {
   color: white !important;
 }
+
 td.bt-g {
   padding-right: 20px !important;
   padding-top: 3px !important;
   padding-bottom: 3px !important;
+
 }

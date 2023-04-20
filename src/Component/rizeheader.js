@@ -150,83 +150,50 @@ function DashboardHeader(props) {
                     Networks
                   </a>
                   <div className="rize-dropdown">
-                    <div>
-                      <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item1">
-                          <img src={Net1} />
-                          <span>Coreum</span>
-                        </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item2">
-                          <img src={Net7} />
-                          <span>XRPL</span>
-                        </div>
+                    <div className="rize-dropdown-body" >
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net1} />
+                        <span>Coreum</span>
                       </div>
-                    </div>
-
-                    <div>
-                      <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item3">
-                          <img src={Net2} />
-                          <span>Ethereum</span>
-                        </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item4">
-                          <img src={Net8} />
-                          <span>Cosmos</span>
-                        </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net7} />
+                        <span>XRPL</span>
                       </div>
-                    </div>
-
-                    <div>
-                      <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item5">
-                          <img src={Net3} />
-                          <span>BSC</span>
-                        </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item6">
-                          <img src={Net9} />
-                          <span>Solana</span>
-                        </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net2} />
+                        <span>Ethereum</span>
                       </div>
-                    </div>
-
-                    <div>
-                      <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item7">
-                          <img src={Net4} />
-                          <span>Polygon</span>
-                        </div>
-                        <div className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item8">
-                          <img src={Net10} />
-                          <span>Hedera</span>
-                        </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net8} />
+                        <span>Cosmos</span>
                       </div>
-                    </div>
-
-                    <div>
-                      <div className="d-flex">
-                        <div className="v-center rize-dropdown-padding rize-dropdown-item9">
-                          <img src={Net5} />
-                          <span>Avalanche</span>
-                        </div>
-                        <div
-                          className="v-center rize-dropdown-padding rize-dropdown-border-left rize-dropdown-item10"
-                          style={{ marginTop: 1 }}
-                        >
-                          <img src={Net11} />
-                          <span>Tezos</span>
-                        </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net3} />
+                        <span>BSC</span>
                       </div>
-                    </div>
-
-                    <div>
-                      <div className="d-flex">
-                        <div
-                          className="v-center rize-dropdown-padding rize-dropdown-item11"
-                          style={{ marginLeft: 0.5 }}
-                        >
-                          <img src={Net6} />
-                          <span>Near</span>
-                        </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net9} />
+                        <span>Solana</span>
+                      </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net4} />
+                        <span>Polygon</span>
+                      </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net10} />
+                        <span>Hedera</span>
+                      </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net5} />
+                        <span>Avalanche</span>
+                      </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net11} />
+                        <span>Tezos</span>
+                      </div>
+                      <div className="v-center rize-dropdown-padding">
+                        <img src={Net6} />
+                        <span>Near</span>
                       </div>
                     </div>
                   </div>
@@ -234,7 +201,7 @@ function DashboardHeader(props) {
                 <Link to="/wallet">
                   <button
                     className="btn rize-btn-green v-center"
-                    style={{ padding: 11,color:"#212529" }}
+                    style={{ padding: 11, color: "#212529" }}
                   >
                     Wallet Connect
                   </button>
