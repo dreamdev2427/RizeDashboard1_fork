@@ -8,7 +8,7 @@ function DevelopmentProgress() {
 
   return (
     <section className="mt-sm-5 mt-0 pt-sm-5 pt-0" data-aos="fade-up">
-      <div className="rize-suboverlay-container">
+      <div className="rize-suboverlay-container pt-40-imp">
         <p className="rize-p text-center mb-0 ">
           Vote begins at 2 million Coreum staked{" "}
         </p>

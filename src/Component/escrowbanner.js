@@ -6,10 +6,10 @@ function Banner() {
     <section className="rize-banner" data-aos="fade-up">
       <div className="container">
         <div className=" row">
-          <div className="col-md-7 rize-banner-left">
+          <div className="col-md-7 rize-banner-left" style={{ paddingLeft: 15 }}>
             <h1>For Exclusive Holders</h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> sed do
               eiusmod tempor incididunt ut.
             </p>
           </div>

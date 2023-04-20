@@ -63,7 +63,7 @@ export default function Footer() {
             <div class="row">
               <div class="footer_social_link">
                 <a className="link-click" href="#">
-                  <img class="footer_icon" src={footerImg1} />
+                  <img class="footer_icon" style={{ marginRight: 10 }} src={footerImg1} />
                 </a>
                 <a className="link-click" href="#">
                   <img class="footer_icon" src={footerImg2} />

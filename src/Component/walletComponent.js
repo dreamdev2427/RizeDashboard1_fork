@@ -456,7 +456,7 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 d-flex flex-column justify-content-between">
+          <div className="col-xl-4 bl-d-g pl-0 pl-md-0 pl-xl-3 mt-3 mt-xl-0 pr-0 d-flex flex-column justify-content-between">
             <div className="bb-d-g ">
               {/* Rize Validator */}
               <div className="pl-sm-0">
@@ -588,11 +588,9 @@ function Service() {
               </div>
               {/* Stake */}
               <div className="pl-sm-0 mt-4 d-flex flex-column justify-content-between">
-                <div className="wallet-body-sub-row m-0 mt-2 v-center restake-btn">
-                  <div className="wallet-body-stoke-text1">
-                    Cancel Restake
-                  </div>
-                </div>
+                <button className="btn rize-btn-green m-0 mt-2">
+                  Cancel Restake
+                </button>
               </div>
             </div>
           </div>

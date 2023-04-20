@@ -14,7 +14,7 @@ export default function Howitworks() {
         </div>
         <div className="row m-0">
           <div className="col-sm-4 how-it-works pr-sm-5 p-0 v-center">
-            <div className="pb-5 ">
+            <div className="pb-5 d-flex align-items-center">
               <div>
                 <img src={firstIcon} className="mb-2" />
               </div>
@@ -24,7 +24,7 @@ export default function Howitworks() {
               </div>
             </div>
             <div>
-              <ol style={{paddingleft:20}}>
+              <ol style={{ paddingleft: 20 }}>
                 <li className="pb-1" >Go into your designated Coreum wallet.</li>
                 <li className="pb-1" >Choose the number of tokens you wish to stake.</li>
                 <li className="pb-1" >Select RIZE EARNWISE validator.</li>
@@ -34,12 +34,12 @@ export default function Howitworks() {
               </ol>
             </div>
           </div>
-          <div className="col-sm-4 how-it-works px-sm-5 p-0 v-center">
-            <div className="pb-5">
+          <div className="col-sm-4 how-it-works pr-sm-5 p-0 v-center">
+            <div className="pb-5 d-flex align-items-center">
               <div>
                 <img src={secndIcon} className="mb-2" />
               </div>
-              <div className="how-it-works-types">
+              <div className="how-it-works-types--1st">
                 <h1 className="pb-3"> ACTION</h1>
                 <p className="pb-2">RIZE MOVES COMMISSIONS</p>
               </div>
@@ -58,12 +58,12 @@ export default function Howitworks() {
               </p>
             </div>
           </div>
-          <div className="col-sm-4 how-it-works pl-sm-5 p-0 v-center">
-            <div className="pb-5">
+          <div className="col-sm-4 how-it-works pr-sm-5 p-0 v-center">
+            <div className="pb-5 d-flex align-items-center">
               <div>
                 <img src={thirdIcon} className="mb-2" />
               </div>
-              <div className="how-it-works-types">
+              <div className="how-it-works-types--1st">
                 <h1 className="pb-3"> ACTION</h1>
                 <p className="pb-2">REWARDS ARE DONATED</p>
               </div>
