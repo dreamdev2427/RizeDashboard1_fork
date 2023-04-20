@@ -7,7 +7,7 @@ export default function StakeBanner() {
             <div>
               <div>
                 <h1 className="mb-4 pb-3" style={{ color: "white" }}>
-                  Rize Earnwise:
+                  Rize Earnwise
                   <br />
                   The Evocational Validator
                 </h1>

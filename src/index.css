@@ -2148,7 +2148,7 @@ button.btn.rize-btn-green.v-center.h-center {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   margin-bottom: 30px;
 }
 
@@ -2264,7 +2264,7 @@ textarea#message::placeholder {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   margin-bottom: 30px;
 }
 
@@ -3368,6 +3368,7 @@ h2.rize-wallet-title {
   background: #2fed00;
   color: #000000 !important;
 }
+
 
 .rize-wallet-title-container {
   border-bottom: 1px dashed #a3a3a3;
