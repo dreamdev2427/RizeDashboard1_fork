@@ -28,7 +28,7 @@ export default function Footer() {
             <div className="col-md-12" style={{ paddingLeft: 12 }}>
               <ul >
                 <li>
-                  <a className="link-click" href="#">
+                  <a className="link-click" href="/">
                     Dashboard
                   </a>
                 </li>
@@ -44,7 +44,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a className="link-click" href="#">
+                  <a className="link-click" href="rize-stake-and-learn">
                     LLE
                   </a>
                 </li>
