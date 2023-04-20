@@ -95,6 +95,11 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.roadmap-bg{
+  background-image: url("./assets/images/slicing/Slicing/Roadmap/Roadmapbg.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .escrow-rize-main {
   background-image: url("./assets/images/img/Escrow/Escrow-bg.jpg") !important;

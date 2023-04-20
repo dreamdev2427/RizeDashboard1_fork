@@ -5,7 +5,7 @@ import Footer from "../Component/footer";
 import Header from "../Component/header";
 function RoadMap() {
   return (<>
-    <section className="rize-main">
+    <section className="rize-main roadmap-bg">
       <Header />
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                     Road Map                                   || */}
