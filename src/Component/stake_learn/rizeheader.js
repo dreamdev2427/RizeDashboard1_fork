@@ -67,7 +67,7 @@ function Header() {
               <button className="btn rize-btn-green v-center">
                 <img
                   className="rize-icon-sm"
-                  style={{ marginRight: 10 }}
+                  style={{ marginRight: 10,color:"#212529" }}
                   src={walletConnectIcon}
                 />{" "}
                 Wallet Connect

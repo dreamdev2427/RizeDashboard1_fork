@@ -25,7 +25,7 @@ function Service() {
           <div className="col-lg-2 mt-2 mt-lg-0">
             <button
               style={{ minWidth: 120, width: "100%" }}
-              className="btn rize-btn-green-outline v-center h-center"
+              className="btn rize-btn-green-outline text-white v-center h-center"
             >
               Cosmostation
             </button>
@@ -33,7 +33,7 @@ function Service() {
           <div className="col-lg-2 mt-2 mt-lg-0">
             <button
               style={{ minWidth: 120, width: "100%" }}
-              className="btn rize-btn-green-outline v-center h-center"
+              className="btn rize-btn-green-outline text-white v-center h-center"
             >
               Ledger
             </button>
@@ -41,7 +41,7 @@ function Service() {
           <div className="col-lg-2 mt-2 mt-lg-0">
             <button
               style={{ minWidth: 120, width: "100%" }}
-              className="btn rize-btn-green-outline v-center h-center"
+              className="btn rize-btn-green-outline text-white v-center h-center"
             >
               Keplr
             </button>
@@ -49,7 +49,7 @@ function Service() {
           <div className="col-lg-2 mt-2 mt-lg-0">
             <button
               style={{ minWidth: 120, width: "100%" }}
-              className="btn rize-btn-green-outline v-center h-center"
+              className="btn rize-btn-green-outline text-white v-center h-center"
             >
               Other Wallet
             </button>
