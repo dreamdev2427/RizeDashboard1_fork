@@ -1,6 +1,6 @@
-import image1 from "../assets/images/img/blogs/blog5.png";
-import image2 from "../assets/images/img/blogs/blog3.png";
-import image3 from "../assets/images/img/blogs/blog2.png";
+import image1 from "../assets/images/Image/blog_img/image 10.png";
+import image2 from "../assets/images/Image/blog_img/image 11.png";
+import image3 from "../assets/images/Image/blog_img/image 12.png";
 function Games() {
   return (
     <section className="mt-5 pt-5 pb-5" data-aos="fade-up">
@@ -11,7 +11,7 @@ function Games() {
           <div className="row">
             <div className="col-sm-4 v-center single-game-container mb-5 mb-sm-0">
               <div>
-                <img src={image1} width="100%" className="mb-2 rize-border-image" />
+                <img src={image1} width="100%" className="mb-2" />
                 <h1 className="heading" >Lorem ipsum</h1>
                 <p className="para" >
                   Lorem ipsum dolorostic siting amet, consectetur adipiscing
@@ -21,7 +21,7 @@ function Games() {
             </div>
             <div className="col-sm-4 v-center single-game-container mb-5 mb-sm-0">
               <div>
-                <img src={image2} width="100%" className="mb-2 rize-border-image" />
+                <img src={image2} width="100%" className="mb-2" />
                 <h1 className="heading" >Lorem ipsum</h1>
                 <p className="para" >
                   Lorem ipsum dolorostic siting amet, consectetur adipiscing
@@ -31,7 +31,7 @@ function Games() {
             </div>
             <div className="col-sm-4 v-center single-game-container mb-5 mb-sm-0">
               <div>
-                <img src={image3} width="100%" className="mb-2 rize-border-image" />
+                <img src={image3} width="100%" className="mb-2" />
                 <h1 className="heading" >Lorem ipsum</h1>
                 <p className="para" >
                   Lorem ipsum dolorostic siting amet, consectetur adipiscing

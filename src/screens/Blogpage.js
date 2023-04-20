@@ -3,13 +3,13 @@ import blog2 from "../assets/images/Image/blog_img/image 11.png";
 import blog3 from "../assets/images/Image/blog_img/image 12.png";
 import blog4 from "../assets/images/img/blogs/blog2.png";
 import Footer from "../Component/footer";
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 import { Link } from "react-router-dom";
 
 function BlogPage() {
   return (
-    <section className="rize-main">
-      <Header />
+    <section className="rize-main BlogPageBg">
+      <Header validator={false}/>
       <section className="rizeblog-top pt-3" data-aos="fade-up">
         <div>
           <div className="container">
@@ -81,7 +81,7 @@ function BlogPage() {
               </div>
             </div>
             <div className="row pb-5">
-              <div className="col-sm-4 pr-sm-5 p-0 rize-blog v-center">
+              <div className="col-sm-4 px-sm-3 p-0 rize-blog v-center">
                 <Link to="/blog-view/1">
                   <div>
                     <img src={blog1} width="100%" className="mb-4" />
@@ -105,7 +105,7 @@ function BlogPage() {
                   </div>
                 </Link>
               </div>
-              <div className="col-sm-4 pl-sm-5 p-0 rize-blog v-center">
+              <div className="col-sm-4 px-sm-3 p-0 rize-blog v-center">
                 <Link to="/blog-view/1">
                   <div>
                     <img src={blog3} width="100%" className="mb-4" />

@@ -1,11 +1,11 @@
 import wavingIcon from "../assets/waving hand.svg";
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 import Footer from "../Component/footer";
 export default function ContactUs() {
   return (
     <section className="contact--us--css">
       <div>
-        <Header />
+        <Header validator={false}/>
 
         <div className="contact-us-css--message">
           <div class="container">

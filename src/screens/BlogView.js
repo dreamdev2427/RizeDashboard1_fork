@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import B1 from "../assets/images/img/blogs/b1.png";
 import Footer from "../Component/footer";
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 
 function BlogPage() {
 
@@ -13,8 +13,8 @@ function BlogPage() {
   }, [pathname]);
 
   return (
-    <section className="rize-main">
-      <Header />
+    <section className="rize-main BlogPageBg">
+      <Header validator={false}/>
       <section className="rizeblog-top pt-3" data-aos="fade-up" style={{ marginTop: 80 }}>
         <div>
           <div className="container">

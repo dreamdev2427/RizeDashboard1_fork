@@ -44,9 +44,9 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a className="link-click" href="rize-stake-and-learn">
+                  <Link to="/rize-stake-and-learn" className="link-click" href="rize-stake-and-learn">
                     LLE
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="link-click" href="#">

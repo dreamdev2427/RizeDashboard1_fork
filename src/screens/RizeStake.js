@@ -1,4 +1,4 @@
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 import Footer from "../Component/footer";
 import StakeBanner from "../Component/stake_learn/stakeBanner";
 import Staking from "../Component/stake_learn/stakingDescriptions";
@@ -14,7 +14,7 @@ export default function Stake() {
       {/*  ||--------------------------------------------------------------------------------|| */}
       {/*  || RIZE HEADER || */}
       {/*  ||--------------------------------------------------------------------------------|| */}
-      <Header />
+      <Header validator={false}/>
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                   RIZE BANNER                                  || */}
       {/* ||--------------------------------------------------------------------------------|| */}

@@ -1,4 +1,4 @@
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 
 import Footer from "../Component/footer";
 import WalletComponent from "../Component/walletComponent";
@@ -8,7 +8,7 @@ export default function Wallet() {
       {/*  ||--------------------------------------------------------------------------------|| */}
       {/*  || RIZE HEADER || */}
       {/*  ||--------------------------------------------------------------------------------|| */}
-      <Header />
+      <Header validator={false}/>
 
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                    SERVICES                                    || */}

@@ -1,4 +1,4 @@
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 import Discount from "../Component/discounts";
 import Banner from "../Component/escrowbanner";
 import Development from "../Component/development";
@@ -58,7 +58,7 @@ function Escrow() {
         {/*  ||--------------------------------------------------------------------------------|| */}
         {/*  || RIZE HEADER || */}
         {/*  ||--------------------------------------------------------------------------------|| */}
-        <Header />
+        <Header validator={false}/>
         {/* ||--------------------------------------------------------------------------------|| */}
         {/* ||                                   RIZE BANNER                                  || */}
         {/* ||--------------------------------------------------------------------------------|| */}

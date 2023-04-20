@@ -5,7 +5,7 @@ function Discount() {
       <div className="row w-100">
         <div className="col-lg-7 v-center">
           <div className="mb-5">
-            <p className="text-white rize-p mb-0 text-left" style={{ fontSize: 16 }}>
+            <p className="text-white rize-p mb-0 text-left">
               Special offer for Exclusive Users Only
             </p>
             <h1 className="rize-discount mb-0">50% Discount</h1>
@@ -18,7 +18,7 @@ function Discount() {
           <span className="discount-right-blur-container h-center">
             <img src={img} width="100%" />
             <div className="discount-right-blur-container-image">
-              <div style={{ padding: 13 }}>
+              <div style={{ padding: "8px 25px" }}>
                 <div className="row px-lg-3 px-2">
                   <div className="col-7 px-0 content-center justify-content-start">
                     <div className="discount-right-blur-container-top-heading-container">
@@ -39,7 +39,7 @@ function Discount() {
               </div>
               <div
                 style={{
-                  padding: 13,
+                  padding: "8px 25px",
                   backdropFilter: "blur(60px)",
                   borderRadius: "0px 0px 15px 15px"
                 }}

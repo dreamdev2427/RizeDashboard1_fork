@@ -2,11 +2,11 @@ import q1 from "../assets/images/img/q1.svg";
 import q2 from "../assets/images/img/q2.svg";
 import q3 from "../assets/images/img/q3.svg";
 import Footer from "../Component/footer";
-import Header from "../Component/header";
+import Header from "../Component/rizeheader";
 function RoadMap() {
   return (<>
     <section className="rize-main roadmap-bg">
-      <Header />
+      <Header validator={false}/>
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                     Road Map                                   || */}
       {/* ||--------------------------------------------------------------------------------|| */}

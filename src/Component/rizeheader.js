@@ -23,7 +23,7 @@ import Net11 from "../assets/images/img/Networks/net11.svg";
 
 import Filter from "./filter";
 
-function DashboardHeader() {
+function DashboardHeader(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [drawerWidth, setDrawerWidth] = useState(0);
   const handleClick = () => {
@@ -64,7 +64,7 @@ function DashboardHeader() {
             </div>
           </div>
           <div className="col-sm-3 v-center" style={{ color: "white" }}>
-            <div className="rize-header-right-section">
+            <div className={`rize-header-right-section ${props.validator?"":"d-none"}`}>
               <div>
                 <a className="rize-nav-item rize-imp-link">Airdrop</a>
                 <Link to="/escrow" className="rize-nav-item rize-imp-link">
