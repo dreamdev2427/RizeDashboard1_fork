@@ -15,9 +15,9 @@ function BlogPage() {
   return (
     <section className="rize-main BlogPageBg">
       <Header validator={false}/>
-      <section className="rizeblog-top pt-3" data-aos="fade-up" style={{ marginTop: 80 }}>
+      <section className="rizeblog-top pt-3" data-aos="fade-up" style={{ marginTop: 80, marginBottom:50 }}>
         <div>
-          <div className="container">
+          <div className="container" style={{textAlign:'justify'}} >
             {/* <div className="rize-blog-view">
               <img src={blog1} width="100%" className="mb-4" />
             </div> */}

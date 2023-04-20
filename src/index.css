@@ -58,11 +58,12 @@ body {
 @font-face {
   font-family: "rize";
   src: url("./assets/fonts/GRIFTER_BOLD_700.OTF");
+  /* src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf"); */
 }
 
 @font-face {
-  font-family: "button-ff";
   src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+  font-family: "button-ff";
   font-weight: 700;
   letter-spacing: 0px !important;
 }
@@ -1867,7 +1868,7 @@ button.btn.rize-btn-green.v-center.h-center {
 
 .footer_social_link {
   display: flex;
-  margin-left: -4px;
+  /* margin-left: -4px; */
 }
 
 .right-col-newslatter-text {
@@ -2045,7 +2046,7 @@ button.btn.rize-btn-green.v-center.h-center {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   margin-bottom: 30px;
 }
 
@@ -2160,7 +2161,7 @@ textarea#message::placeholder {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   margin-bottom: 30px;
 }
 
@@ -3264,6 +3265,7 @@ h2.rize-wallet-title {
   color: #000000 !important;
 }
 
+
 .rize-wallet-title-container {
   border-bottom: 1px dashed #a3a3a3;
   padding-bottom: 15px;
@@ -3671,6 +3673,7 @@ a {
   line-height: 39px;
   letter-spacing: 0.05em;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .rize-banner--container .rize-banner--heading.big-heading {
@@ -3682,8 +3685,9 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  margin-bottom: 30px;
+  margin-bottom: -3px !important;
   margin-top: 26px;
+  font-family: "button-ff" !important;
 }
 
 .rize-banner--container .rize-banner--heading.big-heading+.rize-banner--paragraph {
@@ -3696,6 +3700,7 @@ a {
   line-height: 21px;
   border-radius: 9px;
   padding: 5px 18px;
+  margin-top: 35px;
 }
 
 .rize--section-heading {
@@ -3758,7 +3763,7 @@ a {
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.05em;
-    margin-bottom: 33px;
+    margin-bottom: 0px !important;
     margin-top: 25px;
   }
 
@@ -3920,4 +3925,12 @@ td.bt-g {
 
 .pt-40-imp {
   padding-top: 40px !important;
+}
+
+.services_section .btn {
+  margin-top: 35px !important;
+}
+
+.rize-pb-60 {
+  padding-bottom: 60px !important;
 }

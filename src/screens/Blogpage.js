@@ -80,7 +80,7 @@ function BlogPage() {
                 </div>
               </div>
             </div>
-            <div className="row pb-5">
+            <div className="row pb-5" style={{marginBottom:50}}>
               <div className="col-sm-4 px-sm-3 p-0 rize-blog v-center">
                 <Link to="/blog-view/1">
                   <div>
