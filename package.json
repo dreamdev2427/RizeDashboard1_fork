@@ -11,7 +11,7 @@
     "react": "^18.2.0",
     "react-bootstrap-range-slider": "^3.0.8",
     "react-dom": "^18.2.0",
-    "react-dual-range-slider": "1.0.4",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
     "swiper": "^9.1.1",

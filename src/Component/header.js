@@ -7,6 +7,7 @@ import menuIcon from "../assets/images/icons/menu.svg";
 import Drawer from "./rizedrwaer";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineSearch } from 'react-icons/ai';
 
 import Net1 from "../assets/images/img/Networks/net1.svg";
 import Net2 from "../assets/images/img/Networks/net2.svg";
@@ -58,7 +59,7 @@ function Header() {
             />
             <div className="rize-header-search">
               <input />
-              <img className="rize-header-search-icon" src={searchIcon} />
+              <AiOutlineSearch color="#2fed00" />
             </div>
             <div className="rize-header-filter">
               <img src={filterIcon} onClick={handlefilter} />
@@ -76,12 +77,11 @@ function Header() {
                     {/*  add utility, add members, , add nft market, */}
                     Pages
                   </a>
-                  <ul class="dropdown-menu" style={{marginRight:15}}>
+                  <ul class="dropdown-menu" style={{ marginRight: 15 }}>
                     <li>
                       <Link
                         className="dropdown-item"
                         to="/escrow"
-                        style={{ marginTop: -4, padding:12 }}
                       >
                         Validator
                       </Link>
@@ -90,34 +90,33 @@ function Header() {
                       <Link
                         className="dropdown-item"
                         to="/rize-stake-and-learn"
-                        style={{padding:12 }}
                       >
                         Earnwise
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/" style={{padding:12}}> 
+                      <Link className="dropdown-item" to="/">
                         Utility
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
+                      <Link className="dropdown-item" to="/">
                         Members
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
+                      <Link className="dropdown-item" to="/">
                         NFT Market
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/roadmap"  style={{ padding:12 }}>
+                      <Link className="dropdown-item" to="/roadmap">
                         Roadmap
                       </Link>
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4, padding:12 }}>
+                      <Link className="dropdown-item" to="/blog">
                         Blog
                       </Link>
                     </li>
@@ -224,7 +223,7 @@ function Header() {
                 <Link to="/wallet">
                   <button
                     className="btn rize-btn-green v-center"
-                    style={{ padding: 11,color:"#212529" }}
+                    style={{ padding: 11, color: "#212529" }}
                   >
                     Wallet Connect
                   </button>

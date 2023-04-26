@@ -1,3 +1,4 @@
+import { AiOutlineSearch } from 'react-icons/ai';
 import rize1 from "../assets/images/logo/rize_w.svg";
 import searchIcon from "../assets/images/icons/search.svg";
 import filterIcon from "../assets/images/icons/filter.svg";
@@ -36,7 +37,9 @@ function Header() {
             />
             <div className="rize-header-search">
               <input />
-              <img className="rize-header-search-icon" src={searchIcon} />
+              <span className="rize-header-search-icon">
+                <AiOutlineSearch color="#2fed00" />
+              </span>
             </div>
             <div className="rize-header-filter">
               <img src={filterIcon} />
@@ -67,7 +70,7 @@ function Header() {
               <button className="btn rize-btn-green v-center">
                 <img
                   className="rize-icon-sm"
-                  style={{ marginRight: 10,color:"#212529" }}
+                  style={{ marginRight: 10, color: "#212529" }}
                   src={walletConnectIcon}
                 />{" "}
                 Wallet Connect

@@ -8,6 +8,8 @@ import menuIcon from "../assets/images/icons/menu.svg";
 import Drawer from "./rizedrwaer";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineSearch } from 'react-icons/ai';
+import { IoWalletOutline } from 'react-icons/io5';
 
 import Net1 from "../assets/images/img/Networks/net1.svg";
 import Net2 from "../assets/images/img/Networks/net2.svg";
@@ -43,7 +45,7 @@ function DashboardHeader(props) {
       {/* ||                                   WEB HEADER                                   || */}
       {/* ||--------------------------------------------------------------------------------|| */}
       <header className="container rize-container-fluid rize-header rize-web-header">
-        <div className="row h-100">
+        <div className="row h-100 position-relative">
           <div className="col">
             <Link to={"/"}>
               <img className="rize-header-logo" src={rize1} />
@@ -56,21 +58,30 @@ function DashboardHeader(props) {
               drawerWidth={parseInt(drawerWidth)}
             />
             <div className="rize-header-search">
-              <input />
-              <img className="rize-header-search-icon" src={searchIcon} />
+              <input placeholder="Type your keywords" />
+              <span className="rize-header-search-icon">
+                <AiOutlineSearch color="#2fed00" size={20} />
+              </span>
             </div>
             <div className="rize-header-filter">
               <img src={filterIcon} onClick={handlefilter} />
             </div>
           </div>
           <div className="col-sm-3 v-center" style={{ color: "white" }}>
-            <div className={`rize-header-right-section ${props.validator?"":"d-none"}`}>
+            <div className={`rize-header-right-section ${props.validator ? "" : "d-none"}`}>
               <div>
-                <a className="rize-nav-item rize-imp-link">Airdrop</a>
+                <a className="rize-nav-item rize-imp-link">
+                  Airdrop
+                  <div className='lines'></div>
+                </a>
                 <Link to="/escrow" className="rize-nav-item rize-imp-link">
                   Validator
+                  <div className='lines'></div>
                 </Link>
-                <a className="rize-nav-item rize-imp-link">Bridge</a>
+                <a className="rize-nav-item rize-imp-link">
+                  Bridge
+                  <div className='lines'></div>
+                </a>
               </div>
             </div>
           </div>
@@ -84,7 +95,7 @@ function DashboardHeader(props) {
                   >
                     Pages
                   </a>
-                  
+
                   {/* <ul class="dropdown-menu">
                     <li>
                       <Link className="dropdown-item" to="/escrow" style={{ marginTop: -4 }}>
@@ -132,18 +143,17 @@ function DashboardHeader(props) {
                       </Link>
                     </li> */}
 
-                    {/* <li>
+                  {/* <li>
                       <Link className="dropdown-item" to="/wallet">
                         Wallet
                       </Link>
                     </li> */}
                   {/* </ul>  */}
-                  <ul class="dropdown-menu" style={{marginRight:15}}>
+                  <ul class="dropdown-menu">
                     <li>
                       <Link
                         className="dropdown-item"
                         to="/escrow"
-                        style={{ marginTop: -4, padding:12 }}
                       >
                         Validator
                       </Link>
@@ -152,34 +162,33 @@ function DashboardHeader(props) {
                       <Link
                         className="dropdown-item"
                         to="/rize-stake-and-learn"
-                        style={{padding:12 }}
                       >
                         Earnwise
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/" style={{padding:12}}> 
+                      <Link className="dropdown-item" to="/">
                         Utility
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
+                      <Link className="dropdown-item" to="/">
                         Members
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/"  style={{padding:12 }}>
+                      <Link className="dropdown-item" to="/">
                         NFT Market
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/roadmap"  style={{ padding:12 }}>
+                      <Link className="dropdown-item" to="/roadmap">
                         Roadmap
                       </Link>
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to="/blog" style={{ marginBottom: -4, padding:12 }}>
+                      <Link className="dropdown-item" to="/blog">
                         Blog
                       </Link>
                     </li>
@@ -210,47 +219,47 @@ function DashboardHeader(props) {
                   <div className="rize-dropdown">
                     <div className="rize-dropdown-body" >
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net1} />
+                        <img src={Net1} width={24} height={24} />
                         <span>Coreum</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net7} />
+                        <img src={Net7} width={24} height={24} />
                         <span>XRPL</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net2} />
+                        <img src={Net2} width={24} height={24} />
                         <span>Ethereum</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net8} />
+                        <img src={Net8} width={24} height={24} />
                         <span>Cosmos</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net3} />
+                        <img src={Net3} width={24} height={24} />
                         <span>BSC</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net9} />
+                        <img src={Net9} width={24} height={24} />
                         <span>Solana</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net4} />
+                        <img src={Net4} width={24} height={24} />
                         <span>Polygon</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net10} />
+                        <img src={Net10} width={24} height={24} />
                         <span>Hedera</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net5} />
+                        <img src={Net5} width={24} height={24} />
                         <span>Avalanche</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net11} />
+                        <img src={Net11} width={24} height={24} />
                         <span>Tezos</span>
                       </div>
                       <div className="v-center rize-dropdown-padding">
-                        <img src={Net6} />
+                        <img src={Net6} width={24} height={24} />
                         <span>Near</span>
                       </div>
                     </div>
@@ -259,9 +268,9 @@ function DashboardHeader(props) {
                 <Link to="/wallet">
                   <button
                     className="btn rize-btn-green v-center"
-                    style={{ padding: 11, color: "#212529" }}
                   >
-                    Wallet Connect
+                    <IoWalletOutline size={20} />
+                    <span>Wallet Connect</span>
                   </button>
                 </Link>
                 <div className="rize-header-divider" />
@@ -271,7 +280,7 @@ function DashboardHeader(props) {
             </div>
           </div>
         </div>
-        {isclicked && <Filter />}
+        <Filter checked={isclicked} />
       </header>
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                  MOBILE HEADER                                  || */}

@@ -32,7 +32,7 @@ function Filter3() {
           <div className="range-slider-name w-100">
             <p
               className="pb-2 pt-2 d-flex pl-3 w-100 "
-              style={{ alignItems: "flex-start", marginLeft: 20 }}
+              style={{ alignItems: "flex-start", marginLeft: 10 }}
             >
               Range
             </p>
@@ -43,7 +43,7 @@ function Filter3() {
               style={{
                 color: "#33ff00",
                 alignItems: "flex-start",
-                marginLeft: 20,
+                marginLeft: 10,
               }}
             >
               {`${priceMin ? priceMin.toLocaleString() : 0}$ - ${priceMax ? priceMax.toLocaleString() : 0
