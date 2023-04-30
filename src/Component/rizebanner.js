@@ -1,5 +1,6 @@
 import illustrationsImg from "../assets/images/img/illustration.png";
 import { useEffect } from "react";
+import Arrow from "./arrow";
 
 function RizeBanner(props) {
   useEffect(() => {
@@ -10,7 +11,7 @@ function RizeBanner(props) {
 
   function initAnim() {
     //for debug messages
-    var Debugger = function () {};
+    var Debugger = function () { };
     Debugger.log = function (message) {
       try {
         console.log(message);
@@ -72,11 +73,12 @@ function RizeBanner(props) {
 
     // --------------------------------------------------
     var canvas = document.getElementById("canvasOne");
+    var banner = document.getElementById("rize-banner");
     var ctx = canvas.getContext("2d");
     var particals = [];
 
-    var H = 500;
-    var W = 1200;
+    var H = banner.offsetHeight;
+    var W = banner.offsetWidth;
 
     canvas.width = W;
     canvas.height = H;
@@ -286,7 +288,7 @@ function RizeBanner(props) {
           } else if (p.age < p.attack + p.hold + p.decay) {
             p.alpha =
               ((p.lastValue - p.holdValue) / p.decay) *
-                (p.age - p.attack - p.hold) +
+              (p.age - p.attack - p.hold) +
               p.holdValue;
           }
         } else {
@@ -315,8 +317,8 @@ function RizeBanner(props) {
             depthAlphaFactor > 1
               ? 1
               : depthAlphaFactor < 0
-              ? 0
-              : depthAlphaFactor;
+                ? 0
+                : depthAlphaFactor;
           context.fillStyle = rgbString + depthAlphaFactor * p.alpha + ")";
 
           //draw
@@ -411,41 +413,35 @@ function RizeBanner(props) {
   }
 
   return (
-    <section className="rize-banner" data-aos="fade-up">
+    <section className="rize-banner" id="rize-banner" data-aos="fade-up">
       <canvas id="canvasOne" width="900" height="520"></canvas>
       <div
         className="container rize-p-sm-0"
-        style={{ maxWidth: "100%", padding: "0px 116px", overflow: "hidden" }}
+        style={{ maxWidth: "100%", height: "100%", padding: "0px 116px", overflow: "hidden" }}
       >
-        <div className=" row">
-          <div className="col-md-6 rize-banner-left">
-            <div className="rize-banner--container">
-              <h1 className="rize-banner--heading big-heading">
-                Gather. Create. Evolve.
-              </h1>
-              <p className="text-white rize-banner--paragraph">
-                A ever advancing digital space to trade digital assets, where
-                individuals come together to learn, inspire, evolve towards
-                sustainability. Together we Rize!
-              </p>
-              <button
-                className="btn rize-btn-green rize-banner--button"
-                style={{ padding: "14px 45px" }}
-              >
-                <span className="explore-btn">Explore</span>
-              </button>
-            </div>
+        <div className="rize-banner--container">
+          <img
+            className="rize-banner--img"
+            width={400}
+            src={illustrationsImg}
+          />
+          <div className="rize-banner--content">
+            <h1 className="rize-banner--heading big-heading">
+              Gather. Create. Evolve.
+            </h1>
+            <p className="text-white rize-banner--paragraph">
+              A ever advancing digital space to trade digital assets, where
+              individuals come together to learn, inspire, evolve towards
+              sustainability. Together we Rize!
+            </p>
+            <button
+              className="btn rize-btn-green rize-banner--button"
+              style={{ padding: "14px 45px" }}
+            >
+              <span className="explore-btn">Explore</span>
+            </button>
           </div>
-
-          <div className="col-lg-4 offset-lg-2 col-md-6 rize-banner-right pr-sm-0 v-center">
-            <div className="p-md-0 p-3">
-              <img
-                // className="mt-md-5 mt-0 "
-                width={100}
-                src={illustrationsImg}
-              />
-            </div>
-          </div>
+          <Arrow />
         </div>
       </div>
     </section>

@@ -2,10 +2,7 @@ function Filter1() {
   return (
     <div
       className="rize-nav-item-network">
-      <a
-        className="rize-nav-item rize-imp-link "
-        style={{ padding: "0px 15px" }}
-      >
+      <a className="rize-nav-item rize-imp-link">
         File Types
       </a>
       <div className="rize-dropdown radio-menu d-flex ">

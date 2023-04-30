@@ -57,25 +57,28 @@ function DashboardHeader(props) {
               }}
               drawerWidth={parseInt(drawerWidth)}
             />
-            <div className="rize-header-search">
-              <input placeholder="Type your keywords" />
-              <span className="rize-header-search-icon">
-                <AiOutlineSearch color="#2fed00" size={20} />
-              </span>
-            </div>
-            <div className="rize-header-filter">
-              <img src={filterIcon} onClick={handlefilter} />
+            <div className="position-relative">
+              <div className="rize-header-search">
+                <input placeholder="Type your keywords" />
+                <span className="rize-header-search-icon">
+                  <AiOutlineSearch color="#2fed00" size={20} />
+                </span>
+              </div>
+              <div className="rize-header-filter">
+                <img src={filterIcon} onClick={handlefilter} />
+              </div>
+              <Filter checked={isclicked} />
             </div>
           </div>
-          <div className="col-sm-3 v-center" style={{ color: "white" }}>
+          {/* <div className="col-sm-3 v-center" style={{ color: "white" }}>
             <div className={`rize-header-right-section ${props.validator ? "" : "d-none"}`}>
               <div>
                 <a className="rize-nav-item rize-imp-link">
                   Airdrop
                   <div className='lines'></div>
                 </a>
-                <Link to="/escrow" className="rize-nav-item rize-imp-link">
-                  Validator
+                <Link to="/members" className="rize-nav-item rize-imp-link">
+                  Members
                   <div className='lines'></div>
                 </Link>
                 <a className="rize-nav-item rize-imp-link">
@@ -84,7 +87,7 @@ function DashboardHeader(props) {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col v-center" style={{ color: "white" }}>
             <div className="rize-header-right-section">
               <div className="v-center">
@@ -153,27 +156,9 @@ function DashboardHeader(props) {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/escrow"
+                        to="/stake-coreum"
                       >
-                        Validator
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        to="/rize-stake-and-learn"
-                      >
-                        Earnwise
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/">
-                        Utility
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/">
-                        Members
+                        Stake Coreum
                       </Link>
                     </li>
                     <li>
@@ -182,14 +167,39 @@ function DashboardHeader(props) {
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/roadmap">
-                        Roadmap
+                      <Link
+                        className="dropdown-item"
+                        to="/members"
+                      >
+                        Members
                       </Link>
                     </li>
-
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        Utility
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to="/validator"
+                      >
+                        Validator
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        Earnwise
+                      </Link>
+                    </li>
                     <li>
                       <Link className="dropdown-item" to="/blog">
                         Blog
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/roadmap">
+                        Roadmap
                       </Link>
                     </li>
                     {/* <li>
@@ -265,7 +275,7 @@ function DashboardHeader(props) {
                     </div>
                   </div>
                 </div>
-                <Link to="/wallet">
+                <Link to="/">
                   <button
                     className="btn rize-btn-green v-center"
                   >
@@ -280,7 +290,6 @@ function DashboardHeader(props) {
             </div>
           </div>
         </div>
-        <Filter checked={isclicked} />
       </header>
       {/* ||--------------------------------------------------------------------------------|| */}
       {/* ||                                  MOBILE HEADER                                  || */}

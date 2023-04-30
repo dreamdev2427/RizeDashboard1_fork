@@ -1,6 +1,6 @@
 export default function StakeBanner() {
   return (
-    <section data-aos="fade-up " className="stake--banner--background">
+    <section data-aos="fade-up ">
       <div className="container ">
         <div className=" row">
           <div className="col-sm-12 Stake-banner">

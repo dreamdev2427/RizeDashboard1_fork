@@ -59,8 +59,8 @@ export default function Drawer(props) {
         </div> */}
         <div className="side--drawer-option d-block">
           {/* <Link to="/"> Dashboard</Link> */}
-          <Link to="/escrow">Validator</Link>
-          <Link to="/rize-stake-and-learn">Earnwise</Link>
+          <Link to="/members">Members</Link>
+          <Link to="/validator">Validator</Link>
           <Link to="/">Utility</Link>
           <Link to="/">Members</Link>
           <Link to="/">NFT Market</Link>
@@ -74,10 +74,10 @@ export default function Drawer(props) {
           {/* <Link to="/contact-us">ContactUs</Link> */}
         </div>
         <a style={{ paddingLeft: 0 }}>
-          <Link to="/wallet">
+          <Link to="/">
             <button
               className="btn rize-btn-green v-center"
-              style={{ padding: 11, paddingBottom: 7,color:"#212529" }}
+              style={{ padding: 11, paddingBottom: 7, color: "#212529" }}
             >
               {/* <img
                     className="rize-icon-sm"

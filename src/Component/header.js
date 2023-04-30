@@ -81,7 +81,15 @@ function Header() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/escrow"
+                        to="/members"
+                      >
+                        Members
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        to="/validator"
                       >
                         Validator
                       </Link>
@@ -89,9 +97,9 @@ function Header() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="/rize-stake-and-learn"
+                        to="/stake-coreum"
                       >
-                        Earnwise
+                        Stake Coreum
                       </Link>
                     </li>
                     <li>
@@ -220,7 +228,7 @@ function Header() {
 
                   </div>
                 </div>
-                <Link to="/wallet">
+                <Link to="/">
                   <button
                     className="btn rize-btn-green v-center"
                     style={{ padding: 11, color: "#212529" }}

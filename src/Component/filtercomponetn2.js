@@ -1,8 +1,8 @@
 function Filter2() {
   return (
-    <div  className="rize-nav-item-network"
+    <div className="rize-nav-item-network"
     >
-      <a className="rize-nav-item rize-imp-link " style={{padding:'0px 15px'}}>Newest</a>
+      <a className="rize-nav-item rize-imp-link">Newest</a>
       <div className="rize-dropdown radio-menu-2nd d-flex ">
         <div className="form-group options-dropdown v-center">
           <div class="form-check">
@@ -80,9 +80,9 @@ function Filter2() {
           </div>
         </div>
         <div className="form-group options-dropdown v-center">
-          <div class="form-check"  style={{
-                borderBottom:'none'
-              }}>
+          <div class="form-check" style={{
+            borderBottom: 'none'
+          }}>
             <input
               class="form-check-input"
               type="radio"

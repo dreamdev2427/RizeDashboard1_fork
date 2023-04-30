@@ -21,10 +21,7 @@ function Filter3() {
 
   return (
     <div className="rize-nav-item-network">
-      <a
-        className="rize-nav-item rize-imp-link "
-        style={{ padding: "0px 15px" }}
-      >
+      <a className="rize-nav-item rize-imp-link">
         Price Range
       </a>
       <div className="rize-dropdown radio--slider--menu d-flex ">

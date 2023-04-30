@@ -27,13 +27,13 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="rize-stake-and-learn" element={<RizeStake />} />
-        <Route path="escrow" element={<Escrow />} />
+        <Route path="validator" element={<RizeStake />} />
+        <Route path="members" element={<Escrow />} />
         <Route path="blog" element={<Blogpage />} />
         <Route path="blog-view/1" element={<BlogView1 />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="roadmap" element={<RoadMap />} />
-        <Route path="wallet" element={<Wallet />} />
+        <Route path="stake-coreum" element={<Wallet />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
